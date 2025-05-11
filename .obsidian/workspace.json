@@ -4,33 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f8b9c66a0f07200a",
+        "id": "b8c0e4e1bc53f082",
         "type": "tabs",
         "children": [
           {
-            "id": "1a300aceb4149db4",
+            "id": "40a17bd03c7d1527",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEMESTR_4/TBK/priprava/TBK1 - úvod.md",
+                "file": "SEMESTR_4/TBK/priprava/TBK2 - teorie.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TBK1 - úvod"
-            }
-          },
-          {
-            "id": "a903fd00c8b51d94",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "SEMESTR_4/TBK/prednasky/TBK 1 úvod 25.ppt [režim kompatibility].pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "TBK 1 úvod 25.ppt [režim kompatibility]"
+              "title": "TBK2 - teorie"
             }
           }
         ]
@@ -180,30 +168,42 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1a300aceb4149db4",
+  "active": "40a17bd03c7d1527",
   "lastOpenFiles": [
-    "SEMESTR_4/TBK/prednasky/TBK 1 úvod 25.ppt [režim kompatibility].pdf",
+    "SEMESTR_4/TBK/priprava/TBK2 - teorie.md",
+    "SEMESTR_4/TBK/priprava/TBK1-uvod.pdf",
+    "SEMESTR_4/TBK/image/smith_admitance.png",
+    "SEMESTR_4/TBK/image/smith_admitance.svg",
+    "SEMESTR_4/TBK/image/smith_priprava3.png",
+    "Pasted image 20250511175703.png",
+    "SEMESTR_4/TBK/image/koeficient_prenosu.png",
+    "SEMESTR_4/TBK/image/polarni_diagram_koeficient_odrazu_gamma.png",
+    "SEMESTR_4/TBK/image",
+    "SEMESTR_4/TBK/priprava/TBK3 - parametry.md",
     "SEMESTR_4/TBK/priprava/TBK1 - úvod.md",
+    "SEMESTR_4/TBK/priprava/TBK-4.pdf",
+    "SEMESTR_4/TBK/priprava/TBK1-uvod.tex",
+    "SEMESTR_4/TBK/priprava/New Text Document.txt",
+    "SEMESTR_4/TBK/priprava/Untitled.md",
+    "SEMESTR_4/TBK/prednasky/TBK 2 teoretické základy 25.pdf",
+    "TBK.md",
+    "prednasky/TBK.md",
+    "prednasky",
+    "SEMESTR_4/SAS/Tahák na SAS.md",
+    "New Text Document.txt",
+    "gitignore",
+    "SEMESTR_4/TBK/priprava/TBK6 - systémy.md",
+    "SEMESTR_4/TBK/prednasky/TBK 1 úvod 25.ppt [režim kompatibility].pdf",
     "SEMESTR_4/SEE/priprava/11) Senzory chemických veličin.md",
-    "SEMESTR_4/SEE/prednasky/12-Klip_princip_vodivostni_senzor_chemicky.zc-V9E-O.zip.part",
-    "SEMESTR_4/SEE/prednasky/12-Klip_princip_vodivostni_senzor_chemicky.zip",
-    "SEMESTR_4/SEE/prednasky/11_Senzory chemickych velicin_SEE_2021_bez-CIA.pdf",
     "SEMESTR_4/SEE/priprava/09) Teplotní senzory.md",
     "SEMESTR_4/AVT/priprava/Audio.md",
     "SEMESTR_4/SEE/priprava/08) Senzory magnetického pole.md",
-    "SEMESTR_4/SEE/prednasky/09_Teplotni_senzory_SEE_2021.pdf",
-    "SEMESTR_4/SEE/prednasky/08_Senzory_magnetickeho_pole_SEE_2021.pdf",
     "SEMESTR_4/SEE/priprava/07) Senzory s indukčností.md",
-    "SEMESTR_4/SEE/prednasky/07_Senzory_s_indukcnosti_SEE_2021.pdf",
     "SEMESTR_4/SEE/priprava/06) Akcelerometry.md",
-    "SEMESTR_4/SEE/prednasky/06_Akcelerometry_2021.pdf",
     "SEMESTR_4/SEE/priprava/05c) Ultrazvukové senzory.md",
-    "SEMESTR_4/SEE/prednasky/05c_Ultrazvukové_senzory_SEE_2025.pdf",
     "SEMESTR_4/SEE/priprava/05b) Senzory SAW.md",
-    "SEMESTR_4/SEE/prednasky/05b_Senzory_SAW_SEE_2025.pdf",
     "SEMESTR_4/SEE/priprava/05a) Piezoelektrický jev.md",
     "SEMESTR_4/SEE/priprava/04b) Piezo odporové senzory tlaku.md",
-    "SEMESTR_4/SEE/prednasky/04b_Piezoodporove tlakové senzory_2025.pdf",
     "SEMESTR_4/SEE/priprava/04a) Piezoodporový jev.md",
     "SEMESTR_4/SEE/priprava/03b) Kapacitní tlakové senzory.md",
     "SEMESTR_4/SEE/priprava/03a) Kapacitní senzory.md",
