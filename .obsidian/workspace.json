@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b8c0e4e1bc53f082",
+        "id": "f8b9c66a0f07200a",
         "type": "tabs",
         "children": [
           {
-            "id": "40a17bd03c7d1527",
+            "id": "d7e1466330c13421",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,8 +20,71 @@
               "icon": "lucide-file",
               "title": "TBK2 - teorie"
             }
+          },
+          {
+            "id": "da3e5f421a92b8b0",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "SEMESTR_4/TBK/prednasky/TBK 2 teoretické základy 25.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "TBK 2 teoretické základy 25"
+            }
+          },
+          {
+            "id": "52672bd63b0fa243",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEMESTR_4/TBK/priprava/TBK3 - parametry.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TBK3 - parametry"
+            }
+          },
+          {
+            "id": "254bed60500a8aff",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "SEMESTR_4/TBK/prednasky/TBK 3 parametry 25.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "TBK 3 parametry 25"
+            }
+          },
+          {
+            "id": "1a56b695a14548b7",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "SEMESTR_4/TBK/prednasky/TBK 4 komponenty 25.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "TBK 4 komponenty 25"
+            }
+          },
+          {
+            "id": "98f4e95a48a9ac39",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "SEMESTR_4/SEE/prednasky/01b_Senzorove_site_2025.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "01b_Senzorove_site_2025"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEMESTR_4/TBK/priprava/TBK1 - úvod.md",
+                "file": "SEMESTR_4/SEE/priprava/11) Senzory chemických veličin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +167,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for TBK1 - úvod"
+              "title": "Backlinks for 11) Senzory chemických veličin"
             }
           },
           {
@@ -113,12 +176,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEMESTR_4/TBK/priprava/TBK1 - úvod.md",
+                "file": "SEMESTR_4/SEE/priprava/11) Senzory chemických veličin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from TBK1 - úvod"
+              "title": "Outgoing links from 11) Senzory chemických veličin"
             }
           },
           {
@@ -142,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEMESTR_4/TBK/priprava/TBK1 - úvod.md",
+                "file": "SEMESTR_4/SEE/priprava/11) Senzory chemických veličin.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TBK1 - úvod"
+              "title": "Outline of 11) Senzory chemických veličin"
             }
           }
         ]
@@ -168,33 +231,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "40a17bd03c7d1527",
+  "active": "52672bd63b0fa243",
   "lastOpenFiles": [
-    "SEMESTR_4/TBK/priprava/TBK2 - teorie.md",
-    "SEMESTR_4/TBK/priprava/TBK1-uvod.pdf",
-    "SEMESTR_4/TBK/image/smith_admitance.png",
-    "SEMESTR_4/TBK/image/smith_admitance.svg",
-    "SEMESTR_4/TBK/image/smith_priprava3.png",
-    "Pasted image 20250511175703.png",
-    "SEMESTR_4/TBK/image/koeficient_prenosu.png",
-    "SEMESTR_4/TBK/image/polarni_diagram_koeficient_odrazu_gamma.png",
-    "SEMESTR_4/TBK/image",
+    "SEMESTR_4/TBK/image/priklad_retezec.gif",
+    "SEMESTR_4/TBK/prednasky/TBK 3 parametry 25.pdf",
     "SEMESTR_4/TBK/priprava/TBK3 - parametry.md",
-    "SEMESTR_4/TBK/priprava/TBK1 - úvod.md",
-    "SEMESTR_4/TBK/priprava/TBK-4.pdf",
-    "SEMESTR_4/TBK/priprava/TBK1-uvod.tex",
-    "SEMESTR_4/TBK/priprava/New Text Document.txt",
-    "SEMESTR_4/TBK/priprava/Untitled.md",
+    "SEMESTR_4/TBK/image/IP3.png",
     "SEMESTR_4/TBK/prednasky/TBK 2 teoretické základy 25.pdf",
-    "TBK.md",
-    "prednasky/TBK.md",
-    "prednasky",
-    "SEMESTR_4/SAS/Tahák na SAS.md",
-    "New Text Document.txt",
-    "gitignore",
-    "SEMESTR_4/TBK/priprava/TBK6 - systémy.md",
-    "SEMESTR_4/TBK/prednasky/TBK 1 úvod 25.ppt [režim kompatibility].pdf",
+    "SEMESTR_4/TBK/image/IP2.png",
+    "SEMESTR_4/TBK/image/intermodulacni_produkty.png",
+    "SEMESTR_4/TBK/image/komprese_p1db.png",
+    "SEMESTR_4/TBK/image/šum_kaskáda.png",
+    "SEMESTR_4/TBK/image/šum_passive_component.png",
+    "SEMESTR_4/TBK/image/vykon_sum_f.png",
+    "SEMESTR_4/TBK/image/snr_šum.png",
+    "SEMESTR_4/TBK/prednasky/TBK 4 komponenty 25.pdf",
+    "SEMESTR_4/TBK/priprava/TBK2 - teorie.md",
+    "SEMESTR_4/SEE/priprava/02) Parametry senzorů.md",
+    "SEMESTR_4/TBK/priprava/TBK4 - komponenty.md",
+    "SEMESTR_4/SEE/prednasky/02_Parametry senzoru_2025.pdf",
+    "SEMESTR_4/TBK/priprava/TBK1-uvod.tex",
+    "SEMESTR_4/TBK/priprava/TBK1-uvod.pdf",
+    "SEMESTR_4/TBK/image/smith_priprava3.png",
+    "SEMESTR_4/TBK/image/smith_admitance.svg",
+    "SEMESTR_4/SEE/prednasky/01b_Senzorove_site_2025.pdf",
+    "SEMESTR_4/SEE/priprava/01b) Senzorové sítě.md",
     "SEMESTR_4/SEE/priprava/11) Senzory chemických veličin.md",
+    "SEMESTR_4/SEE/prednasky/12-Klip_princip_vodivostni_senzor_chemicky.zc-V9E-O.zip.part",
+    "SEMESTR_4/SEE/prednasky/12-Klip_princip_vodivostni_senzor_chemicky.zip",
+    "SEMESTR_4/SEE/prednasky/11_Senzory chemickych velicin_SEE_2021_bez-CIA.pdf",
     "SEMESTR_4/SEE/priprava/09) Teplotní senzory.md",
     "SEMESTR_4/AVT/priprava/Audio.md",
     "SEMESTR_4/SEE/priprava/08) Senzory magnetického pole.md",
@@ -207,8 +272,6 @@
     "SEMESTR_4/SEE/priprava/04a) Piezoodporový jev.md",
     "SEMESTR_4/SEE/priprava/03b) Kapacitní tlakové senzory.md",
     "SEMESTR_4/SEE/priprava/03a) Kapacitní senzory.md",
-    "SEMESTR_4/SEE/priprava/02) Parametry senzorů.md",
-    "SEMESTR_4/SEE/priprava/01b) Senzorové sítě.md",
     "SEMESTR_4/SEE/priprava/01a) Úvod, proč senzory.md",
     "SEMESTR_4/AVT/priprava/Video.md"
   ]

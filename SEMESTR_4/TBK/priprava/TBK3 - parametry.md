@@ -1,48 +1,184 @@
-1.               Co jsou to s-parametry a jaký je jejich význam ve VF a mikrovlnné technice? Porovnejte se z- a y-parametry.
+#### Co jsou to s-parametry a jaký je jejich význam ve VF a mikrovlnné technice? Porovnejte se z- a y-parametry.
+[[TBK3 - parametry#page=5|Přednáška str. 5]]
+- S parametry:
+	- Od slova scattering
+	- Jsou definovány přes dopadené $a$ a odražené $b$ vlny
+$$a_i=\frac{\widehat V^+}{\sqrt{2 Z_0}}$$
+$$b_i=\frac{\widehat V^-}{\sqrt{2 Z_0}}$$
+	- Vychází z matice pro daný n-bran (pro dvou portové zařízení matice 2x2)
+	- index označuje číslo portu daného n-branu = co je to za port
+	$$\begin{align*}
+\begin{bmatrix}
+b_1 \\
+b_2
+\end{bmatrix}
+&=
+\begin{bmatrix}
+S_{11} & S_{12} \\
+S_{21} & S_{22}
+\end{bmatrix}
+\begin{bmatrix}
+a_1 \\
+a_2
+\end{bmatrix}
+\end{align*}
+$$
+	- Druhá mocnina $a$ nebo $b$ má význam výkonu
+- Porovnání:
+	- S parametry se dají dobře měřit (= výkonové zesílení/útlum) - jsou definovaný pomocí $Z_0$
+	- Z a Y můžeme z s parametrů přepočítat, měřit neumíme -> museli bychom měřit napětí a proud což ve vf nelze
+#### Jaký je význam s-parametrů v dB?
+- Vyjadřuje poměr výkonů 
+- dB lépé zahrnují velký počet řádů
+#### Vyjádření VF výkonu v dBm. Jaké jsou výhody tohoto vyjádření?
+- Vyjadřuje výkon oproti referenční hodnotě 1 mW
+- Opět jsme pomocí dvouciferného čísla schopni zahrnout výkon od pW až po kW
+#### Jaká je definice vložného přenosu a útlumu lineárně a v dB?
+- [wiki-insertion loss](https://en.wikipedia.org/wiki/Insertion_loss)
+- [wiki-insertion gain](https://en.wikipedia.org/wiki/Insertion_gain)
+- [[TBK 4 komponenty 25.pdf#page=5|prednáška]]
+- Vložný útlum = insertion loss
+- Význam: výkonové zesílení, které má komponenta když ji vložíme do obvodu 
+$$IL=-|s_{21}|^2$$
+$$IL(dB)=-20\cdot \text{log}_{10}(|s_{21}|)$$
+- Vložný přenos = insertion gain (*nenašel jsem v přednášce*)
+- Význam: výkonový zisk, který získáme když do obvodu přidáme tento prvek
+$$IG=|s_{21}|^2$$
+$$IG(dB)=20\cdot \text{log}_{10}(|s_{21}|)$$
+#### Proč je šum jedním z parametrů omezujících radiové komunikace?
+- Šumový práh nám určuje jak nízký signál jsem ještě schopni rozlišit 
 
-2.               Jaký je význam s-parametrů v dB?
+#### Co to je fázový šum a jaký vliv má na přijímané signály?
+- šum v bezprostřední blízkosti nosné způsobený náhodnými změnami fáze
 
-3.               Vyjádření VF výkonu v dBm. Jaké jsou výhody tohoto vyjádření?
+#### Definice šumového čísla pomocí _SNR_. Jaká je definiční podmínka?
+##### SNR = signal to noise ratio definice
+- $\text{S}$ = signal výkon
+- $\text{N}$ = noise výkon
+$$\text{SNR}=\frac{\text{S}}{\text{N}}$$
+$$\text{SNR(dB)}=\text{S}_{dBm}-\text{N}_{dBm}$$
+- Vzorečky nahoře platí pro spektrální čáru - jednu nosnou bez modulaci
+- Pokud máme modulovaný signál, tak musíme zahrnout celý band - pásmo s šíčkou pásma $\text{B}$
+- PSD = Power signal density
+$$\text{S}=\int_{f_{nosná}-B/2}^{f_{nosná}+B/2}PSD_{sig}df$$
+##### Šumové číslo F pomocí SNR
+$$F=\frac{\frac{S_1}{N_1}}{\frac{S_2}{N_2}}$$
+- $S_1$ = úroveň signálu na vstupu
+- $N_1$ = šum na vstupu 
+- $S_2$ = úroveň signálu na vstupu
+- $N_2$ = šum na vstupu
+##### **Podmínka**:
+- Platí pouze pro $N_1=kT_0B$ - šumové vyzařování absolutně černého tělesa
+- $T_0=290 K \approxeq 20 °C$
+- B = Bandwith
+- k = Štefan - Boltzmanova konstanta
+![[snr_šum.png]]
+##### Použití SNR definice šumového čísla F
+- Systémové výpočty
+- Rozhodující pro **B**it **E**rror **R**ate=BER
+- Každá modulace potřebuje nějaký minimální SNR a BER, aby správně fungovala
+#### Výkonová definice šumového čísla. Co to je „noise added“ a jak se počítá?
+- signály $S_1$ a $S_2$ nahrazeny ziskem $G=S_2 / S_1$
+- Vyjadřuje celkový šumový výkon $N_2$ dělený zesíleným šumoem bezodrazové koncovky
+$$F=\frac{N_2}{GN_1}=\frac{GN_1+N_a}{GN_1}=1+\frac{N_a}{GkT_0B}$$
+$$F(dB)=10\cdot\text{log}(F)$$
+- $N_\alpha$ = Noise added - výkon, který přidává šumový dvoubran
+![[vykon_sum_f.png]]
 
-4.               Jaká je definice vložného přenosu a útlumu lineárně a v dB?
+#### Jak lze realizovat šumový výkon _N0=kT0B_?
+- Buďto bezodrazovou koncovkou (BK) - má teplotu $T_0$
+	- přesná impedance $Z_0=50\space\Omega$
+	- Velmi vysoké RL = return loss
+	- Frekvence = 10ky - 100ky GHz
+- nebo anténou namířenou na černou plochu o teplotě $T_0$
+#### Jak je definována ekvivalentní šumová teplota _Te_? Odvoďte přepočetní vztah na _F_.
+- Výhodné pro řešení šumu antén
+- z šumového dvojbranu jakoby vyjmeme všechno co šumí a nahradíme to jednou šumovou součástkou na vstupu a budeme se tvářit že je dvojbran bezšumový
+- tento vyjmutý šum spočtem jako $N_a=kT_eBG$
+- Pokud chceme vyjádřit $T_e$ potřebujeme celkové $F$ a z něj vyjádříme $N_a$
+$$F=1+\frac{N_A}{kT_0BG}$$
+$$N_A=(F-1)kT_0BG$$
+- Dosadíme za $N_a=kT_eBG$
+$$kT_eBG=(F-1)kT_0BG$$
+$$T_e=(F-1)T_0$$
+#### Jaké je šumové číslo dobře přizpůsobených pasivních ztrátových komponent a proč?
+- Atenuátory, filtry, kabely, VF přepínače
+- Z definice: šum na výstupu s připojenou bezodrazovou koncovkou na vstupu
+$$N_2=kT_0B$$
+- Pasivní ztrátové komponenty mají vždy nějaký útlum $L=1/G$
+- Šumové číslo F poté bude:
+$$F=\frac{N_2}{GN_1}=\frac{kT_0B}{kT_0B/L}=L$$
+- Šumové číslo F se rovná útlumu pasivního ztátového dvoubranu
+![[šum_passive_component.png]]
+#### Odvoďte vztah pro šumové číslo kaskády dvou 2-branů.
+![[šum_kaskáda.png]]
+- Na jedné straně bezodrazová koncovka co šumí $N_1=kT_0B$
+- Poté první dvojbran má vložený šum $N_{a1}=(F_1-1)kT_0BG_1$
+- Druhý dvojbran má vložený šum $N_{a2}=(F_2-1)kT_0BG_2$
+- Celkový šum bude $N_2 = k T_0 BG_1 G_2+G_2N_{a1}+N_{a2}$
+$$N_2=kT_0BG_1G_2+G_1(F_1-1)kT_0BG_2+(F_2-1)kT_0BG_2$$
+$$N_2=kT_0B[G_1G_2+G_1G_2(F-1)+G_2(F_2-1)]$$
+$$\frac{N_2}{GkT_0B}=G_1G_2+G_1G_2(F-1)+G_2(F_2-1)$$
+$$F_C=\frac{N_2}{GkT_0BG_1G_2}=\frac{G_1G_2+G_1G_2(F-1)+G_2(F_2-1)}{G_1G_2}$$
+$$F_C=F+\frac{F_2-1}{G_1}$$
+- výsledný vztah se nazývá Frisův vztah
+#### Co to je šumová teplota antény? Jak se uplatňuje při výpočtech radiových tras?
+- Šumová teplota je obecně teplota při které by ideální rezistor šuměl daným výkonem $kT_0B$
+- Šumová teplota antény je v podstatě teplota pozadí, které anténna vidí, na zemi se bere tato teplota jako 300 K
+- Ale pro satelitní komunikaci to prakticky může být 0K, ve vesmíru nic moc není -> není tam zdroj šumění -> mezi satelitama se dobře komunikuje asi, nemusíme mít tak vysoký vysílaný výkon, abychom u dalšího satelitu oproti šumovému prahu poznali
+#### Jaké typické nelineární obvody znáte?
+- Směšovač
+- Zesilovač
+- Limitery - omezovač 🫨
+#### Jaká se používá typická aproximace nelineárních charakteristik 2-branu?
+- Pomocí polynomu
+- $a+bx+cx^2+...$
 
-5.               Proč je šum jedním z parametrů omezujících radiové komunikace?
+#### Jaké jsou typické nelineární produkty při 1 vstupním sinovém signálu? Jaké VF obvody tyto produkty využívají?
+- Harmonické složky -> 2. a 3. harmonické
+- Násobič frekvence 2x, 3x
+- VF detektory - detekují stejnosměrnou složku
+- Zesilovače
+#### Jak vzniká komprese u nelineárních VF obvodů (např. zesilovačů) a jakým parametrem se obvykle popisuje?
+- Je to nelineární produkt 3. řádu, který vzniká omezeným napájecím napětím - aktivní součástka se saturuje
+- popisujeme ho parametrem $P_{-1dB}$ = výstupní výkon, kdy se liší realný výkon od ideálního lineárního o -1 dB
+![[komprese_p1db.png]]
+#### Jaké jsou typické nelineární produkty při 2 vstupních sinových signálech? Jaké VF obvody tyto produkty využívají?
+- Vznikají 2. a 3. harmonické vstupního signálu
+- Také vznikají intermodulační produkty, které mají frekvenci součtu a rozdílu vstupních kmitočtů
+	- IM produkty 2. řádu
+	- IM produkty 3. řádu
+- Tyto produkty využívají směšovače pro up-konverzi nebo down konverzi
+![[intermodulacni_produkty.png]]
+#### Co jsou to IM produkty 2.  a 3. řádu?
+- 2. řád
+	- Jsou to složky, které vznikají z ze součtu a rozdílu frekvencí základních signálů
+- 3. řád
+	- vznikají z rozdílu druhé harmonické a frekvence druhého signálu
+	- 2a-b & 2b-a -> viz obrázek nad
+#### Co je to IP2 a IP3 jak se tyto parametry využívají v praxi?
 
-6.               Co to je fázový šum a jaký vliv má na přijímané signály?
+![[IP3.png]]
+- IP2 = Second order intercept point
+	- Bod kde by se protkla tečna charakteristiky výkonu výstupní složky a výstupní IM2 složky
+	- používá se pro zjištění výkonu IM2 při daném výstupním výkonu
+	- Je to paramter nelineárního prvku (směšovač) => našli bychom ho v datasheetu
+	- $P_{IM2}=2\cdot P_{out}-IP2=IP2-P_{out}$
+	- $O_{IM2}=P_{out}-P_{IM_2}=IP2-P_{out}$ = offset/odstup výkonové charakteritiky základní složky a složky IM2
+- IP3 = Third order intercept point
+	- Bod kde by se protkla tečna charakteristiky výkonu výstupní složky a výstupní IM3 složky
+	- používá se pro zjištění výkonu IM3 při daném výstupním výkonu
+	- Je to paramter nelineárního prvku (směšovač) => našli bychom ho v datasheetu
+	- $P_{IM3}=3\cdot P_{out}-2\cdot IP3$
+	- $O_{IM3}=P_{out}-P_{IM_3}=2IP3-2P_{out}$ = offset/odstup výkonové charakteritiky základní složky a složky IM2
 
-7.               Definice šumového čísla pomocí _SNR_. Jaká je definiční podmínka?
+#### Jaký je vliv produktů IM3 na radiové komunikace?
+- Mají frekvence blízké budících frekvenci a tím rušit sousední kanály nebo budící kanál
+#### Proč je v případě standardních radiových komunikací vliv IM2 obvykle zanedbatelný?
+- Složka má dostatečný odstup od budící frekvence a můžeme jí odfiltrovat
 
-8.               Výkonová definice šumového čísla. Co to je „noise added“ a jak se počítá?
-
-9.               Jak lze realizovat šumový výkon _N0=kT0B_?
-
-10.            Jak je definována ekvivalentní šumová teplota _Te_? Odvoďte přepočetní vztah na _F_.
-
-11.            Jaké je šumové číslo dobře přizpůsobených pasivních ztrátových komponent a proč?
-
-12.            Odvoďte vztah pro šumové číslo kaskády dvou 2-branů.
-
-13.            Co to je šumová teplota antény? Jak se uplatňuje při výpočtech radiových tras?
-
-14.            Jaké typické nelineární obvody znáte?
-
-15.            Jaká se používá typická aproximace nelineárních charakteristik 2-branu?
-
-16.            Jaké jsou typické nelineární produkty při 1 vstupním sinovém signálu? Jaké VF obvody tyto produkty využívají?
-
-17.            Jak vzniká komprese u nelineárních VF obvodů (např. zesilovačů) a jakým parametrem se obvykle popisuje?
-
-18.            Jaké jsou typické nelineární produkty při 2 vstupních sinových signálech? Jaké VF obvody tyto produkty využívají?
-
-19.            Co jsou to IM produkty 2.  a 3. řádu?
-
-20.            Co je to IP2 a IP3 jak se tyto parametry využívají v praxi?
-
-21.            Jaký je vliv produktů IM3 na radiové komunikace?
-
-22.            Proč je v případě standardních radiových komunikací vliv IM2 obvykle zanedbatelný?
-
-23.            Jak lze jednoduše snížit výkon produktů IM2 a IM3 a proč?
+#### Jak lze jednoduše snížit výkon produktů IM2 a IM3 a proč?
+- Snížením výstupního výkonu nelineárního prvku, jelikož se dostáváme do lineárnější části charakteristiky, kde je výkonový odstup složek mnohem vyšší
 
 Příklady:
 
@@ -66,52 +202,38 @@ Příklady:
 
             (správné hodnoty jsou: 3,16.10-8W,  -45 dBm)         
 
-4.               Vztah pro výpočet šumového čísla kaskády přijímače je:
+4.   Vztah pro výpočet šumového čísla kaskády přijímače je:
+![[priklad_retezec.gif]]
+$$F_c=F_1+\frac{F_2-1}{G_1}+\frac{F_3-1}{G1G2}$$
 
-![](file:///C:/Users/ondra/AppData/Local/Packages/oice_16_974fa576_32c1d314_242c/AC/Temp/msohtmlclip1/01/clip_image004.gif)
+Všechny proměnné se dosazují v lineárním vyjádření. Vypočtěte celkové šumové číslo _Fc_  a zisk _Gc_ v \[-] i \[dB]. Hodnoty proměnných jsou následující:
+$G_1=-3,5 \space dB\space F_1=3,5 dB$
+$G_2=-13 \space dB\space F_2=1,9 dB$
+$G_3=15,5 \space dB\space F_3=5,5 dB$
+Správné hodnoty jsou: $G_C=+25 dB; F_C=5,74 dB;F_C=3,753$ 
 
-![](data:image/wmf;base64,R0lGODlh0ABAAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAAAAADQAEAAhQAAAAAAAB0dAAAAHR0AABwcHAAAMx0AMgAdMgAcSB0dSAAzWh1GbDIdADMAADIAMjMeRzMzWzVIWzNGbjVbbjNbgEgcAEczHlozAEg0AFozHUYzRltIHVtINUhIW1tISEhZf0ZGbl1/f0huf1lubmxGHW5GM25bNW5bSG5GRn9uSH9/XX9uWW6AbmaIiIBbM4iIZv8AAAECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwb/wJhwSCwaj8ikcslsOp/QqHRKrVqv2Kx2y+16v+CwGAwom8/otHrNbrvf8Lh8Tq/b38a7fs/v+/+AcXmBhIWGh4h1g4mMjY6Pd4uQk5SVjpKWmZqbkUWcn6Cha5iihxYBqKmoBoSsgKeqqa5+F7NnpKWHAWgcgCUCAbZ/u2e9f8DCZbi5hCUDjBjJfM6J0WrLzIEJ0NJ824nS2Nl+BI7deuXV4Z7jhiUBFWbxhda+8PKG60TthrCoz4bq/fEXACAhgbfY8QuUDoAKOrFUqUHYp+HDOBgipmKgRt+QhYQMAvCA6JwdkSTpeRQCMtC5YH8o8nk5YISflTFa/mm4BsM3/z4y0bkp4SeoOJ0Y77U54CeDAZt9Ms5jw7EPTqR7VP1U86CPqgV8tCb6imaZRpiFCKoyeWgCVgAEAlQ1hI2YGWPu5KIBO+nD2zIlthJa5gyqGRCIRDqU07UP0UmN/UBAtMyC4ESW9UTW8xhAiEeb2y3jyUgFgbkR6ISuk/EfpNV03tk9hOvdnbOz1djFUAc2SN+5zKZSnFZVTdV/AQAvhYunAkanzTx/01oj32zVI14PrtBMYTMpE/NZjru8+fMR2ZBHz769RDOkLLBtg5uNfDYY5qpPvlwUKdKJmLYdGrmt0d84B4KCSUaTFNgbfy1JItYaDtbxwntqdNZGgsxwyP/JUWg4UIZbj+iX3InwdffGgI1oiOKLIJrBWyUmvphcjGa4tQEkLj7SAQCulVLAPxIAsOMbQxZU5JFw4FgGAZchIhslBCBwhgYBsFhJlQRqeQaXZ2Qph5M2xuGgBZy8UyMAawKmVxptXqNimVl5yYmYaZhAn5Z6jjknnXY40E0Kmwhah6F9kAlohnjmUqEbj9Kh6KJpFOiALJlIFSKmaWh6xqWr+LkPpXdYQFwZjVZiKoV2ngqknXKOSupJalw4larHVWpfrgRK+ues1L15BkVxBuQgQjOWwWCntpxi0qTAwpWMiGFSYtq016lpxrVpOHBdnwBEqcyv0boBZhkXwrl5pZXVntHjuaiuwdQo5JbbxgVxoQJAke5qkm8ABaix5r8BG8gGtPa+UawmPf6BcMJsNBzKwp3ICvEfFFsicaL1XhxbOxmr28bDHrurLzOohGzGcAd3XPLLc5AM88wAyEzzyzbf7PEYPPfs889ABy300EQXbfTRSBsdBAA7)
+5. Na vstupu kaskády RX dle příkladu ad.4. je připojena anténa s šumovou teplotou _TA_=150K, šumová šířka pásma zařízení je _B_=10MHz. Vypočtěte celkovou ekvivalentní systémovou šumovou teplotu _Ts_ se započtením vlivu antény, celkový šumový výkon na vstupu _Pnin_ , celkový šumový výkon na výstupu _Pnout_ .
 
-Všechny proměnné se dosazují v lineárním vyjádření. Vypočtěte celkové šumové číslo _Fc_  a zisk _Gc_ v [-] i [dB]. Hodnoty proměnných jsou následující:
+Šumová teplota RX je: $T_{RX}=(F_C-1)T_0$ (správná hodnota je 798K)
 
-![](data:image/wmf;base64,R0lGODlh0gAcAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAIABgDLABMAhQAAAAAAABwcHAAAHR0AAB0AHQAdHR0dNAAAMwAdMgAcSB0dSAAzWh4zRx0zWh1IWx1GbDIdADMAADIAHTQ0NDMzWzMzSDVIWzNGbjVbbjNbgEgcAFozHVozAEczHlszM0YzRltIHVtINV1GXUhIW0ZGRltISEhZf0hbblluf11/f1lubkhuf113d2xGHW5bNW5GM25GRm5bSH9uSH9uWX9/XW5uWW5ugG6AbmaIiIBbM4BuboiIZgECAwECAwECAwb/QIBwSCwaj8ikcslMBgKMpnRKrVqNuqdV8Bxcv8dIYIBZPp+aJUG4OWvBw7b7jICHx2XnmUlIy88HR2srQxxQdlYzQyEBaUh/dUo6kUIBcQMsdi4BEEVRiEKKQoyOR3RMlDCcQ15ElkYboHAbn4gKQy6UAK92rbJLtEi1TB23Q7qHlUmZv1edSL5MEp5DWc9gsc1M10QbAw1SEtfZQ7wSukQx2lYOek/td0LRa0TRXwTXFetF8EVZe0jEgJtXqkOrTcOudJjjhluVAkts7FpFhMMAFABeEDAGIFc9ULw6TGEIMAlEJR7eFPFF79gQDwMyCFloRMKpfUtsqlRCQJdB/yLT4pwZ8ADUnzE4AejklaTnSqDjhhbxxqwI018LSVIsFAAdEl5ZSs0oULWlRo5fZuAbsiCpEENe/TUqV+QkALXXWsr7Wsqtkp/SHG1ACwBtNJq9/BoBrCQogMFEin0cghjAQodC0GGmrHXrF3tIJgzRC4A04atWNsS1bEZrE9BHmPWpRqAWOSGb8np1rEzxEcJMmFLQS7qNndpHcuMEbqTfVeLcjBMhkICQEGtFNq9rKUNAVV8ehsgo0rJMnUwGq4rp9wU1rl/cvbMacmGIhSF4AYzPVWK+kPHueUDAGQIY4YJvj3XBXhuUPGGAKQng1gpDAwQChxvMAaBdagp200cVAIwEYEB9FQUQ4V4TuVEhGBsi6OIvB74oYxExzlhEHjZ+0eIvOOYoxI6KYeTjFTW6JeSQHSGppI5LKraJe01GaZVnUjYRBAA7)
+Celková systémová teplota$T_S=T_A+T_RX$ (správná hodnoty je 948K)
 
-![](data:image/wmf;base64,R0lGODlhzwAcAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAIABgDJABMAhQAAAAAAABwcHAAAHR0AAB0dAB0AHQAAMx0dNAAdMh0AMgAcSB0dSAAzWh4zRx0zWh1IWx1GbDIdADMAADIAMjQ0NDMzWzVIWzNGbjVbbjNbgEgcAEczHlozHVozAEg0AFszM0YzRltIHVtINV1GXUhbSEhIW0ZGRltISEhZf0hbbkZGbl1/f1luf1lubkhuf113d2xGHW5bNW5GM25bSG5GRn9uSH9uWX9/XW5uWW5ugG6AbmaIiIBbM4BuboiIZgb/QIBwSCwaj8ikclnsBQLMqHRKrVqRTmhV8Bxcq5zDURLwRgnCzXON+FbV67jYjQwryQHHOR0PtI1oLkMdAQ10STEFAXNEF0NaS4wzARFDZodMMZRFhphEioyAQxtRkptCl0KQRKSeSaEAJKydSR4LRKGFrkupu0YesKNFE0u2uES6qkkvvkXASq1KE5VpRavNrNivRzYE1EPBRNPCyEMT4QA12kPPSQ9IZHqpaOy96/RCFusA7aJEMfbiAZhHxIMZTbToeOgT51tBdDIMqDhyCZ8QRhwGZNhXToiHKgzXbDsy4RaRXhWLYNTo8RqACWvQuQoH84lDg+K+wSnDschO/577+jkL8E6IBEY4zelc02vDAGZGXDYTGjVXEQNDun2zuE/rEAY9Zc4gAKVEyUdXs3obwtWeKg0cqTq7FM2jSVTWeuLV61Fm3jR3+QXuBWmhQ3DW/C4MecqZ3x5musEV0oMArboANB3GtgGdGr8AGEu9GIWYEMlDKl8uopltMNPOAmMCfXdVBYtrR432ZXmJbIWgAUhI0JEtkdx8ihBIIIhyYyIKdn04ABVANz1CBKitRCPzgROWhnTf7Yu89ei7GDnFoLyI1+4xvocXQoPMEQ5kn2hHQsFVnMtdFDVIAMTtxdAAf+yTxRO/EdGfJ/8B8BkfCRJBSIEDAbAgUxVewTEeXyD2ZENPIITIBAompqjiivvEwOKLmEymDYow/jPECjXmqOOO/DDF449RdQHkFEEAADs=)
+Celkový ekv. vstupní šumový výkon: $P_{nin}=kT_SB$ (správná hodnota je 1,31.10-13W resp. -98,8dBm)
 
-![](data:image/wmf;base64,R0lGODlh0gAeAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAIABgDMABMAhQAAAAAAABwcHAAAHR0AAB0dAB0AHQAdHQAAMx0dNAAdMgAcSB0dSAAzWh4zRx0zWh1IWx1GbDMAADIdADIAHTMeRzQ0NDMzWzMzSDVIWzVbbjNGbjNbgEgcAEczHlozHVozAEg0AFszM0YzRltIHVtINUhIW0ZGRltISEhZf0hbbl1/f1luf1lubkhuf113d2xGHW5bNW5GM25bSG5GRn9uSH9uWX9/XW5uWW6AbmaIiIBbM4iIZgECAwECAwECAwb/QIBwSCwaj8ikcsk87gKBpnRKrVqV0EZVAB1cqR4EEgrlYMlMgrlDhia+Q3abLIafofeAWUkQytFHfS1DHwFadkgFAXVFf4xjUI9IjDIBEUNedjCWRYeIRo5JoUo7j1F+Ay5Ep42fSSCSVZ5MIAtEprNXma5Lua62QjCmq0mqvEaxALtKHQMOUhKXfkWsXx3HTMtJ2koSnUNP0hLJADTYRbBGbQ9JT4BHEwHPy2pDINxVfUMX56tk7JCgADQSTwi9Ipk2+boyp02SZDgAQJGWxAMeI7v0DWHkYYAGRKxAVGn4DhJFIxEnFvkwQAWAGASAARBGZBeIakIk0OknJF0S/wLkigBFSCRaHDL4rPwJkLTf0CVPey7zdrQLBCLNjFHjeWsJTiRP9kgsYmBIDQIUNX45S5EB1yNf4YLTY9aAVo0wZSobI7afzyQS+gKOo7dWTSI3ETV9m7NJYD96AehdlrgnJ2TUUiUhefFIUCEUphirJ2QHAU/XiGw6WaXDZ6Z55jQJzYQ2ALW3i0SuFnUI1SIwjv1FNBCnWrRY4045nWTDzIWMxxCxcLyRcQWDSl8uwtqOJA9DZjQa4FxIhiEYzCIXL+wEpvBj7Sjn7gq8EPGHhdgHgH+IRudiqHKPVvEMNIQHBJAhAGPudCYEFAeAsogQJEB4HhGFKPCeRHMM8FHGFw0GEFkRJhwDoXWMnKiOhjNl0pCHcCTYXXREiEDjOTLeqGMTMIy444/H9EhjeUAmUUGRAKCAJC9HMubSklBG2c8OUu64yXxVZgmcg1paEQQAOw==)
+Celkový výstupní šumový výkon: $P_{nout}=kT_0BG_C$ (správná hodnota je 4,17.10-11W resp. -73,8dBm)
 
-Správné hodnoty jsou:  ![](data:image/wmf;base64,R0lGODlhQgEeAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAIABgA8ARMAhgAAAAAAABwcHAAAHR0AAB0AHR4AHh0dHQAdHR0dNAAAMwAdMh0AMgAcSB0dSAAdSAAzWh0zWh4zRx0yWh1IWx1GbDMdADMAADIdADIAHTMAHTIAMjQdNDMAMzQ0NDMzWzMzSDVIWzNGbDNZfzVbbjNGbjNbgEgcAEgdAEgdHUceM1ozHVozAFszAEczHkg0HlszHUgzM0g0NFszM0YzRltIHVtINV1dM11GXUhIW0ZGRltISEhZf0hbbkZZbFluf11/f0huf0Rqe1lubl13d1Vqe2xGHW5bNW5GM25bSG5GRn9uSH9uWX9/XW5uWWZ3d25ugG6AbmaIiIBbM4BuboiIZgECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwf/gACCg4SFhoeIiYqLjIcBARCNkpOUlZaXAI+RmJydnp+IAo8DoJ4EAQMRjo8BjASDrI8JnyexsQqlhFOxiaexpIavroK1sbOeKLasuLmCFqiKvqzAgrushc/Uha9DgyuQzZPWrA2FxQHMiVPpmYMn2phGARWFm+HLiPK2h7Umi+uEWhGDd0kePUL2SoWAlUhZwkyP2C0UJDAgv3CINhhKQehUvUksygkywg6cJ4IYATzk5HFRyEEkA660hDKlIBQzZRRq8XERTouIgthcxKNQRUE1D13oCWDXQU4nhhJ6J6GSRkM3AvhTtBThIKeeoko1hOISigFVFZUddIEdISVj/wVdVVSSlapDGAJIOKJNmCAWSSf5BfDBZqy7jWa2M5Qk796+hAB/Glw4rqSEsSY0kqe4EgtlrJ5iEg1rXqEVA3oAOEJAJICYgwJPqsiiEuhHiVzglrR1kKpdvQWhVs3aNWykoGjbvp3oSAEfjXgaerG70BED0P8eFXQB39i5iBj0YieZ7dRpFECdgxaXgNuMhTgwjKytKzH06n9J7f6I9KEO4xXCn2kAvCOUIds189ltD3GkSEXADbJEAQcC4FdxnixBwFMOWBahIlMUYsRXWpHY24QVXthahhsO0mFc6DDS2S4jOJJOTSXGBV4hSDBi3wmuAfDSSNp85l8lstlk3/8kiC02SJBDvlYkgZwkiVELskmXyJKFAGPkIe+5dBuVlIzISAaDDGZhIUE6ickJYc7G3Cc7gjaAUGqq2WaClcDZyZj/WHnJFAMIIYh7hnAp1Y6C9EiICowc5cFgatZiSmdSNYkIpkdJSqk5fFJCAKZDPbAIqZoSYmqaC3RTDZmWEaIPL4K4MEgS2wxSAgC4CAVYhXmlalusAEwEAAhdHhJcIR+uKciuvQp55yDBehJqOBqmBcABg5wlwk6HGIusINkOwm0hLkgjAF7XdrLjrLRSFAACjiwQm7z6dTJOAG1Sm6MnNTxCL6huMWqUUQuoBgAwygxwDCex9OtMu5Qkg0pfk8m4BWAhAc9L1ijC+kgCALsSa3I4S4V48sooN2XZDCwPQmrMNC9ixMzNlFwzKDfvHGttPgc9ybJSKSy0J0SntMPOLOh89NOFAA311IZITXUzU6x49dRqbg11114bEggAOw==)  
+6. VF zesilovač má při _P-1dB_=20dBm IM parametry  _IP2_=44dBm,  _IP3_=33dBm.  Vypočtěte výkony a odstupy IM produktů pro výstupní výkony _Pout_=20dBm a 0dBm.
 
-5.               Na vstupu kaskády RX dle příkladu ad.4. je připojena anténa s šumovou teplotou _TA_=150K, šumová šířka pásma zařízení je _B_=10MHz. Vypočtěte celkovou ekvivalentní systémovou šumovou teplotu _Ts_ se započtením vlivu antény, celkový šumový výkon na vstupu _Pnin_ , celkový šumový výkon na výstupu _Pnout_ .
+Výkon IM produktu 2. řádu pro nastavený výkon: $P_{IM2}=2\cdot P_{out}-IP2=IP2-P_{out}$
 
-Šumová teplota RX je:  ![](data:image/wmf;base64,R0lGODlhhAAeAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAMABgB+ABMAhQAAAAAAAB0AAAAAHR0dAB0AHQAdHQAAMx0dNAAdMh0AMh0dSAAcSB0zWgAzWh1IWx1GbDQdHTMAADIAHTIdADIAMjMeRzMzWzMzSDVbbjNGbjNbgEgcAEgdHUceM1ozHUczHlozAEg0AEgzM1s1SEYzRltIHUhIW1tISEZGbkhZf0hbbkhuf11/f1luf2xGHW5bNW5bSH9uSH9uWX9/XW5uRG5uWWaIiIBbM4iIZgECAwECAwECAwECAwECAwECAwb/QIBwSCwaj8ik8qNsOp8AGVQpCFiv1sF024wYOVjsgasEjYevYzWcLaaFuABkuCDbiZJkoGi6HwkBZ0M4ggBvAHFzQnVIIVp+kAAhDkgvj5FJIYVCIUmXTXmYdzIFLEkMokqbQgVHoU8CqXYhqEixskeaRxyURQKKTp+ibFe7SS8BG0PKuEKrkkfCSRy1zVASwEVgV9KiutHa1UoyAr3WsEm3UVzEVkfPlqZC5OZNe+dQv0eW+ETfRsLuOeHwTIKVBEOsKKuSrUg7gXiSPLMG7xNBNcLKIVEgBFi9VLzUfDz3r0ghjUU6CLFABGKRBob6CTnkL5nMIc84ODxibgMybG5GmACYQESltVYtr4gjQsGlHSxGkALA8ukQTSUBDGQo0jDVSCUStmro99UIsK5G6sAkMqJspFdP3Kaa6AaNk6tCUgBgie/Bk04yEUzp2cQo4JtDPjB7UuLcBTuM0gksJsQKWsRwBCzFbOtREAA7)             správná hodnota je 798K
+Odstup IM produktu 2. řádu pro nastavený výkon je: $O_{IM2}=P_{out}-P_{IM_2}=IP2-P_{out}$
 
-Celková systémová teplota ![](data:image/wmf;base64,R0lGODlhcAAeAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAMABwBpABIAhQAAAAAAAB0AAAAAHQAdHQAAMwAdMh0AMh0dSAAcSB0zWgAzWh1GbDMAADIAHTIAMjMeRzMzSDNGbjVbbjNbgEgcAEgdHUceM1ozAFozHUczHkgzM1s1SF1dM1tISEZGbkhZf0hbbkhuf11/f1luf2xGHW5bNW5GM25GRn9ZSG5bSH9uSH9/XX9uWW5uRG5uWWaIiIBbM4iIZgECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwb/QABAECgaiwOhcslsOoXEozH5rFqH0umVWVLGAgwlYkteKpSBsnrZFX7DwvFaiaHOyxy6/Q54qPd8Qg2Bdw0JhGuDiEoCi2qNiH5kAnCLgFsYWUaVTSWXjk+fdxWHoFeki5KnpYgrAgumV5BzmZoBsE2uuItpsVYBFKlkvYsVBXe1mpxMx1YeoMZPDUVe1FhLr75Vs5Fb2U8HABlOG0zE2kyZEldnjudMMUqVfs9CJUeXRKb4VrtVqk74NRkHwMESCxHUWEB3BQSAZegqBCDAhaGpWhbJ+CMTLKOSFEo6ZgxzgVA5j08woFwoZBnLLdMGiLT4BZZEUaCIHPpS5NA9A2JBAAA7)                        správná hodnoty je 948K
+Výkon IM produktu 3. řádu pro nastavený výkon:  $P_{IM3}=3\cdot P_{out}-2\cdot IP3$
+Odstup IM produktu 3. řádu pro nastavený výkon je: $O_{IM3}=P_{out}-P_{IM_3}=2IP3-2P_{out}$
 
-Celkový ekv. vstupní šumový výkon: ![](data:image/wmf;base64,R0lGODlhYQAeAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAMABgBZABMAhQAAAAAAAAAAHR0AABwcHAAdHR0dNAAAMwAdMh0AMgAcSB0dSB0zWgAzWh1IWx1GbDMAADIdADIAHTVIWzVbbjNGbjNbgEgcAEgdHVozAFozHUczHlszM0gzM1s1SF1GXUZGbll/WUhuf1luf11/f1lubmxGHW5GM25bNW5bSH9uSH9uWX9/XW5/WW5uRG5ugGaIiIBbM4iIZgECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwb/QIBwSCwaj8gkMhBQKJ9Q4oVJFTCi2OzlOKB6AwLk1Gs4ngKPYSDLfg4sRdMwhh4ukue0MGzkCy8HbYJGgUkZflCFQgENRRlFgIOSAFtKEFpFa0WXRIyTgwMAGVRORKFYp0KHfUMoAwifAF9eSYoTR4hPihsCFJACBEwFt7FtF41JF6VQY2BHKgN6xZIQt3BG0MhP0NKpRLnTbQEIEUmaUbnnf4rhsrNMR49Cy1LsSpVDJnVDA9pPCe2IQNBjT0g/VNIoqZMVcJCfUCkyZfGTIoI6L/SEQHASwUmGQBsBdCyWYdkFP/qqGOkihM4XAWXYOADgYsiVGAA+AADYMAuGNYYahjSSI+QKAH89kyqRIELUkKYShlxTGmVqMWQ87+AUwpOqkg4N5QGARRQAnK1eLYGx+iQIADs=)  
-
-                                                      správná hodnota je 1,31.10-13W resp. -98,8dBm
-
-Celkový výstupní šumový výkon: ![](data:image/wmf;base64,R0lGODlhegAeAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAMABgB0ABMAhgAAAAAAAAAAHR0AABwcHAAdHR0dNAAdMgAAMx0AMgAcSB0dSB0zWgAzWh4zRx1IWx1GbDMAADIdADIAHTIAMjMeRzVIWzVbbjNGbjNbgEgcAEgdHVozHVozAEczHlszM0gzM0YzRls1SFtIHVtINV1GXV1dRkZGbkhbbkhZf11uXVtuSEhuf1luf1lubl1/f1l/bmxGHW5GM25bNW5GRn9ZSG5bSH9ZWX9uSH9uWX9/XW5/WW5uRG5ugG6AbmaIiIBbM4iIZgECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwf/gACCg4SFhoeIiYqEAQEKi5CRkogajZYCDJOamxqHA5agAQKJlaAGiQSNo5EyARCDAZuykDgDGYUxg0CugwuLsYIaAiyFAwAugxwBDZCrwQiz0YjQis6QMdSCwLCHnYsdhRrZ0uTeiRGbzIK7r9qJxIrojOrk5LYAlo+EA+2RxoTOIowjRKPZoBkDDtQzFApUomwWDllbhA3goBjLoglLFaBAxIXlFmnQF6mUqAeEOmwbFMHSQEK1+oFcGCHiLUO16EH6BwAhSWHwCq1ENHEmuQAHJCQaqiiGNZX9imq7SemlUVgNGx0CJ4gkIXGavOIbBPWQ1X06r0aL0M7qgLSKqngGWzngpTxFTKWFAOnMmA2hkzoMGyQhQKZ9B5Ct44UIlFgAER5J0KdMIQAO+ihAlrqpw09roIp+6tdQwKlDHj41InCosCSUPAa9ynUDQAIAOAZRVRtpA29CES4AwACJwyBmJGere+X79yTizuEmmkAMHFcA5m5NwO18026j1yOpuz1ohD7yFQRJ714IhCBfvDtAh3Td8th1AFAAUBiePaKWAnw3ExAD6BMIADs=) 
-
-                                                      správná hodnota je 4,17.10-11W resp. -73,8dBm
-
-6.               VF zesilovač má při _P-1dB_=20dBm IM parametry  _IP2_=44dBm,  _IP3_=33dBm.  Vypočtěte výkony a odstupy IM produktů pro výstupní výkony _Pout_=20dBm a 0dBm.
-
-Výkon IM produktu 2. řádu pro nastavený výkon:   ![](data:image/wmf;base64,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)   
-
-Odstup IM produktu 2. řádu pro nastavený výkon je: ![](data:image/wmf;base64,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) 
-
-Výkon IM produktu 3. řádu pro nastavený výkon:   ![](data:image/wmf;base64,R0lGODlhQgEkAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAAAAABCASQAhgAAAAAAAAAAHR0AAB0AHR4AHhwcHAAdHR0dHR0dNAAAMwAdMh0AMx0AMgAdMwAcSB0dSAAdSB0zWgAzWh4zRx1IWx1GbDIdADQdHTMdADMAADIAHTIAMjMeRzMzWzVIWzNGbjVbbjNGbDNZfzNbgEgcAEgdAEkdHUgdHUceM1ozHVozAFszAFszHUgzM1szM0YzRltIHV1GXUZGRkhIW11dRkhZf0hbbkZZbEZGbl1uXVtuSFluf11/f0huf1l/bkRqe1V7al13d1Vqe2xGHW5IHW5bNW5GM25bSH9ZSG5GRn9ZWX9uSH9uWX9/XWZ3d25ugGaIiIBbM4BuboiIZv8AAAECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwf/gFWCg4SFhoeIiYqLjI2Oj5CRkpOUlZaXmJmam5ydnp+goaKjpKWmp6ipqquXAK6vsLGys7S1tre4ubq7vL2+v8DBwsPEvIbFyMnKy8zNzs/QwcfR1NXW19jZ2rPT297f4OHi2d3j5ufo6eqw5evu7/Dxye3y6ST1uh748fQAJQEAAQoIRyRgAFf/DAqQAOtCgIHCHAoAIQtDiFgFAyI0+JDhK4kUhSUMuNBXgmQSZ5ngWDLagI60DFoAsFJhrAwPZfUDcCTATFcHwUkZ8CBWUABGAkyIFSPAPV9MXjV96koDVVhDi8I6mnRpVFdTh/X8CeAoLwXFPrwy+2rs2mgc/2sNiOUW6Cu1dtkVqgURIVpwc2ER6evvL6wSxUosdbVi8azArwYfNvxKMTHCJSjvcpyY8yvMmpWdgPWSFuTPsEyENsF554pYmcERCa31VWgAZIWRJVBrtqzarm7n/vV6MlQCPpIhllW88u1iX19JCTBilmYWsVTLMhFrp4bcSsFZhqXBqGcAHoelXwEctufyW2elDwZ/7flcy6HVB3rf2W3usXy3VX96EUJLX0YMsEAyHBl0y2kASEEYhK7wRoyFrxAIoYTJuUIhABgKg6CCwbQHVIMA1WIEATfMMuKC1mAnCxMDXAXAi7EYUQAO3e0lSwkCGADQAXh949thQQ4pi/8GGtHXJAD7YaQZkEIGcMCSTwJD5ZBF+iLZMEwCNNyWVnZJDQO0aGZCkmUGGFBu9NA4nDjtfSiLCgFohmKKtOCJlpy11JmLn0btOQugyBA2TJ6wIDoMC3v6VEuH2cXiqC2MvtKPouJA+CUuK3DqS6geyoWRqLOQGgyqv3xajKKsfjPAcLHGQhg9sc2SU1mzFFUQq5H2xulzLr5a1X2DURrcLrXakmuiuhpqC4fOeTMnaqkRG4uEQGjqI2n9bQCLZxDEQmAvJQi6i4m/aDUebHWeGwu7ugwgLy8raOsLcPaKk0Jq8e4SQYGDyMIWLOUyFssF2zIYywpOmeoKEgAouwv/ZBRTyi5bENtI2itIGGAxLwcPc28tNFLwigFGbdOgYwUNV7IrKb+CQI8GrhUQvQi/4kIz0wX0l0H0JtSsswLJEmJZQp8IUNECzdcL0XcGACMAWnEApahL+1JTS04HYCKeV2e9dTAo6gzQ0DvT8rXUAOxEC6U7vKIEAAl7OPM+tjQHT34z1e0KQ0TMUrg2gAMgOHoAHF6P3LLk7YrWrjgOC8980xLlOlo5vlRxKFi3TecZAgD6PpALNosOr4ycuS8YxEPWPcttkJzkSH0zuz+u2I436t/6kh/urlz7ui0q1KNVA6504MrJ2Szf/PPA52wLjZmyBZBj2x/vPS0OpbegTxQA2ACAyubglJ4DEZZ/fvUFfy///PQ/k3r9+OevPzfB7+////67HwAHSMDH9a+ACEwgP1jBwAY68IEQjKAEJ0jBClrwghjMoAY3yMFLBAIAOw==)   
-
-Odstup IM produktu 3. řádu pro nastavený výkon je:
-
-![](data:image/wmf;base64,R0lGODlhswEkAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAAAAACzASQAhgAAAAAAAAAAHR0AAB0AHR4AHhwcHAAdHR0dHR0dNAAAMwAdMh0AMx0AMgAdMwAcSB0dSAAdSB0dSR4zRx0zWh0yWgAzWgAyWh0zWwAzWx1IWx1GbDQdHTIdADMdADMAADIAHTMAHTIAMjMAMzMeRzMzWzVIWzNIWTVbbjNGbjNGbDNZfzNbgEgcAEgdAEkdHUgdHUceM0geNFozHVozAFszAFszHUgzM1szM0YzRkgzSFtIHV1GXUZGRkhIW11dRkhbbkhZf0ZZbEZGbl1uXVlqWVtuSFVqe11/f113d0huf0Rqe1V7alluf1l/bm5IHWxGHW5bNW5GM25INW5bSHFbSH9ZSG5GRn9ZWX9uSG5uWX9uWX9/XWZ3d3d3ZmZmf25ugGaIiIBbM4BdM4BuboiIZv8AAAECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwf/gGaCg4SFhoeIiYqLjI2Oj5CRkpOUlZaXmJmam5ydnp+goaKjpKWmp6ipqqusra6vsLGyoQC1tre4ubq7vL2+v8DBwsPExcbHyMnKy8zNzs/KhtDT1NXW19jZ2tvc3cLS3uHi4+Tl5ufo0YXp7O3u7/Dx8gDg8/b3+Pn6+/X7/v8AAwp01m+gQX8zDirLohBdwVscAkickK6FxIsCKGizeDFAxnIcMXLjcKuDxxS6XHT0qBHbAJa7Om4AoLKjAFwePOZK4OylgAoxL9aqiRGorZwCVCjzaRQXUYk/iT2sddPWBwXsAtiKEsCCNikBZtbSWg6sWABksX2wxbDWjgAs/3SZtZW22kpeA3DNHWvLBF1cYrAqE7PygS4xAwzfSsv1AoC2AN6uQHY35tYAjr+tw/VB8WKv56BUrdVCcLbRAEqbQ636Gg1eLUDnYm162otbL3flxYXaRe2hsmvVCG7stq3cunbbetL7N03iwozXQo6L+S3fwwpe1bU2nedazqm9vtV63Hhb5allIaCE19lb50mHZwa5FuG4uX7Hp+ncha4CygSBS13LOfcdAOG9J0x9ABA2WS4HzrdLPzQQaJWE3XRHF3TUaDgWh9x8cBZhIDpz4C0t5eIhWiVOE55/nL3XVTAutFjMi8StaCEAGDgTno6ZBdPPAPMp98xKHfEiBv9qRmIzWhQDLOBMhUhKpOAtT0aJTQu8EMBLllJus18tWQyAny1g4hIFAULoUoMuVUoEzJUANLnkEsf958ybuSyJWzH1QBGWLoLauJEABkh0ADctIKqoXyA5GsABkF4joopC5dJoopNWqg0Du/zmgqSUcnYRnagpA2ouT4hKKqZyMrOqU68Cuhlflp3TZDJx7lgmneP86kyvuOxqywwB/CbsMjX0CiwA7eUCI1sDPLuYc8zhuYx0EBYLjA3JDhinL9p6qw4h6KX6FzrqbtNuOe9eY6wtNKgbLznV8iZMu/cKIwVe1fVrSw0CI1OwL/20+4G6OqGli2GCxktsqOKkR57/ToIqCAVdAkSLC5VV0mmxNivOhsvI2zybKnbA3ImLaOWONe4uT/CSLS4Y6pvMszkDE+ig5LULwi3EQYCLocDMm80AJQ5dy5hG27IxM0yHE1svB1ZtTgzXZY10LRHkUkPPvvx7iwxdF/s1AGEjg5JuzPTTKAq2dACtLlEDsJ/dt4jBTIVnDpODMjuSeXRJClorTOHADH7M1HnWQoUBHuPqDZKyZTwgL2VSVAsCKSkjaGXrDhzAg8nZQgUCMRODZJDNoj6MDrcUNMNLAfAUTN43kARNRyciG+YMiokAwMLHEHbRiXjb0vs0wMc0fPHHH7yLl7bU9NFiy+civC3UI39M/5V0XSRY9ClBlSIuACLzBPkyS3R+9+nDRBmS5UvEfABh2qDYCNWr3a2I4TEj2OIKAMhbnRjXjJlsDAsAaMBjbBE4aMDAFlZIoC0MiBugWcOBAICgBCFTwWKsbRdcqsVMOAgAjUAuHydsiC9mUjMIgoqEAkRXMRQIAOPV4oXgs4ZnHAiamVzQGjz0oQpfxjwT2YKISzxiMkpGDMVAzivjkSI+yCZDYLQNADQsIgC4RY8BBgOItSCCLSqHjfOkEABxGRqDpnEWARlvCADQoi1IYA03UhAAcnSGBpBxlrikEATt4eE8dNdFZfCJJraYTAgmiIupFOONigQjNnagGAkCgLePAIjhMKSIwNS0JJPYmMkObOFJUIpSiLVoZS1eKY4SNLKBkbHFqkCZgUqa0RdlCpfDuCcbidBycbbwGxAAIKUx9SRcFjEMDvQWKwCMThtpUSYz9YaOnKTIAQ0CgIA8d8ty5goAYwBAm8D5SFtY0pzwjKc854mwX9LznvjMZyPfqc9++vOf8+AnQAdK0IJ6Q6AGTahCF7qMWTj0oRCNqEQnStGKWvSiGM2oRjfK0Y569KMgDekmAgEAOw==)
-
-|   |   |   |
-|---|---|---|
-|_Pout_ [dBm]→|0|20|
-|_PIM2_ [dBm]|||
-|_OIM2_ [dB]|||
-|_PIM3_ [dBm]|||
-|_OIM3_ [dB]|||
+| _Pout_ [dBm]→ | 0   | 20  |
+| ------------- | --- | --- |
+| _PIM2_ [dBm]  |     |     |
+| _OIM2_ [dB]   |     |     |
+| _PIM3_ [dBm]  |     |     |
+| _OIM3_ [dB]   |     |     |
