@@ -4,21 +4,105 @@
     "type": "split",
     "children": [
       {
-        "id": "f8b9c66a0f07200a",
+        "id": "44e4925d8b0d3e5d",
         "type": "tabs",
         "children": [
           {
-            "id": "1a300aceb4149db4",
+            "id": "fb22b84ac5c62ae1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEMESTR_4/SEE/priprava/11) Senzory chemických veličin.md",
+                "file": "SEMESTR_4/AVT/priprava/Audio.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11) Senzory chemických veličin"
+              "title": "Audio"
+            }
+          },
+          {
+            "id": "ac372a8619e925a2",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "SEMESTR_4/AVT/prednasky/avt_zaznamazprac-1.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "avt_zaznamazprac-1"
+            }
+          },
+          {
+            "id": "2de3a48e13c81d0f",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "SEMESTR_4/AVT/prednasky/b2b37avt_lecture_video_intro_v0.60_250331.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "b2b37avt_lecture_video_intro_v0.60_250331"
+            }
+          },
+          {
+            "id": "79788915297e6c70",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "SEMESTR_4/AVT/prednasky/AVT - 1 - Fyziologie sluchu.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "AVT - 1 - Fyziologie sluchu"
+            }
+          },
+          {
+            "id": "61838891f3ed8501",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "SEMESTR_4/AVT/prednasky/AVT - 2 - sireni zvuku.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "AVT - 2 - sireni zvuku"
+            }
+          },
+          {
+            "id": "45d9b2b7349b5eaa",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "SEMESTR_4/AVT/prednasky/AVT - 3 - menice.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "AVT - 3 - menice"
+            }
+          },
+          {
+            "id": "c2ef861aeaa350f3",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "SEMESTR_4/AVT/prednasky/AVT - 4 - Prostorová akustika.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "AVT - 4 - Prostorová akustika"
+            }
+          },
+          {
+            "id": "a9ff7069f2579cff",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "SEMESTR_4/AVT/prednasky/MMT05-ozvucovani-2.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "MMT05-ozvucovani-2"
             }
           }
         ]
@@ -78,7 +162,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 421.5
   },
   "right": {
     "id": "0244f0f9345a9fa2",
@@ -168,30 +252,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1a300aceb4149db4",
+  "active": "fb22b84ac5c62ae1",
   "lastOpenFiles": [
-    "SEMESTR_4/SEE/prednasky/12-Klip_princip_vodivostni_senzor_chemicky.zc-V9E-O.zip.part",
-    "SEMESTR_4/SEE/prednasky/12-Klip_princip_vodivostni_senzor_chemicky.zip",
-    "SEMESTR_4/SEE/prednasky/11_Senzory chemickych velicin_SEE_2021_bez-CIA.pdf",
-    "SEMESTR_4/SEE/priprava/09) Teplotní senzory.md",
-    "SEMESTR_4/SEE/priprava/11) Senzory chemických veličin.md",
+    "SEMESTR_4/AVT/prednasky/avt_zaznamazprac-1.pdf",
     "SEMESTR_4/AVT/priprava/Audio.md",
+    "avt_zaznamazprac-1.pdf",
+    "SEMESTR_4/AVT/prednasky/MMT05-ozvucovani-2.pdf",
+    "SEMESTR_4/AVT/prednasky/AVT - 4 - Prostorová akustika.pdf",
+    "SEMESTR_4/AVT/prednasky/b2b37avt_lecture_video_intro_v0.60_250331.pdf",
+    "SEMESTR_4/AVT/image/zvukové pole vole dozvuk distance.png",
+    "SEMESTR_4/AVT/image/zvukové pole.png",
+    "SEMESTR_4/AVT/prednasky/AVT - 1 - Fyziologie sluchu.pdf",
+    "SEMESTR_4/AVT/prednasky/AVT - 3 - menice.pdf",
+    "SEMESTR_4/AVT/prednasky/AVT - 2 - sireni zvuku.pdf",
+    "SEMESTR_4/AVT/image/elektrostaticky menic.png",
+    "SEMESTR_4/AVT/image/menic_magneticke_pole.png",
+    "SEMESTR_4/AVT/image",
+    "SEMESTR_4/AVT/image/analogie_zvuk_elektro_mechanika.png",
+    "SEMESTR_4/SEE/priprava/11) Senzory chemických veličin.md",
+    "SEMESTR_4/SEE/prednasky/12-Klip_princip_vodivostni_senzor_chemicky.zc-V9E-O.zip.part",
+    "SEMESTR_4/SEE/priprava/09) Teplotní senzory.md",
     "SEMESTR_4/SEE/priprava/08) Senzory magnetického pole.md",
-    "SEMESTR_4/SEE/prednasky/09_Teplotni_senzory_SEE_2021.pdf",
-    "SEMESTR_4/SEE/prednasky/08_Senzory_magnetickeho_pole_SEE_2021.pdf",
     "SEMESTR_4/SEE/priprava/07) Senzory s indukčností.md",
-    "SEMESTR_4/SEE/prednasky/07_Senzory_s_indukcnosti_SEE_2021.pdf",
     "SEMESTR_4/SEE/priprava/06) Akcelerometry.md",
-    "SEMESTR_4/SEE/prednasky/06_Akcelerometry_2021.pdf",
     "SEMESTR_4/SEE/priprava/05c) Ultrazvukové senzory.md",
-    "SEMESTR_4/SEE/prednasky/05c_Ultrazvukové_senzory_SEE_2025.pdf",
     "SEMESTR_4/SEE/priprava/05b) Senzory SAW.md",
-    "SEMESTR_4/SEE/prednasky/05b_Senzory_SAW_SEE_2025.pdf",
     "SEMESTR_4/SEE/priprava/05a) Piezoelektrický jev.md",
     "SEMESTR_4/SEE/priprava/04b) Piezo odporové senzory tlaku.md",
-    "SEMESTR_4/SEE/prednasky/04b_Piezoodporove tlakové senzory_2025.pdf",
     "SEMESTR_4/SEE/priprava/04a) Piezoodporový jev.md",
-    "SEMESTR_4/SEE/prednasky/04a_Piezoodporovy jev - tenzometry_sila_2025.pdf",
     "SEMESTR_4/SEE/priprava/03b) Kapacitní tlakové senzory.md",
     "SEMESTR_4/SEE/priprava/03a) Kapacitní senzory.md",
     "SEMESTR_4/SEE/priprava/02) Parametry senzorů.md",
