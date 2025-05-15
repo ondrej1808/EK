@@ -12,6 +12,7 @@ $$R_S,\omega L_S<<\frac{1}{\omega C}<<R_d,R_k,\frac{1}{\omega C_k}$$
 ![[03a Kapacitni_ senzory_2025.pdf#page=5]]
 
 #### Nakreslete princip činnosti a převodní charakteristiku pro změnu kapacity vzájemným posuvem elektrod
+![[03a Kapacitni_ senzory_2025.pdf#page=8]]
 
 #### Nakreslete princip činnosti a převodní charakteristiku pro změnu kapacity zasouváním
 dielektrika
