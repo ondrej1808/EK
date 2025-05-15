@@ -4,11 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "44e4925d8b0d3e5d",
+        "id": "f8b9c66a0f07200a",
         "type": "tabs",
         "children": [
           {
-            "id": "fb22b84ac5c62ae1",
+            "id": "1a300aceb4149db4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEMESTR_4/AVT/priprava/Video.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Video"
+            }
+          },
+          {
+            "id": "5d054a3a401ecc98",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "0f7c9c48410a3081",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,19 +46,7 @@
             }
           },
           {
-            "id": "ac372a8619e925a2",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "SEMESTR_4/AVT/prednasky/avt_zaznamazprac-1.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "avt_zaznamazprac-1"
-            }
-          },
-          {
-            "id": "2de3a48e13c81d0f",
+            "id": "a4ef00993c9b7757",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -44,65 +56,23 @@
               "icon": "lucide-file-text",
               "title": "b2b37avt_lecture_video_intro_v0.60_250331"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "f488f94897012f4b",
+        "type": "tabs",
+        "children": [
           {
-            "id": "79788915297e6c70",
+            "id": "f401e87d438a044e",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "SEMESTR_4/AVT/prednasky/AVT - 1 - Fyziologie sluchu.pdf"
+                "file": "SEMESTR_4/AVT/prednasky/b2b37avt_lecture_colorimetry_v0.60_250407.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "AVT - 1 - Fyziologie sluchu"
-            }
-          },
-          {
-            "id": "61838891f3ed8501",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "SEMESTR_4/AVT/prednasky/AVT - 2 - sireni zvuku.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "AVT - 2 - sireni zvuku"
-            }
-          },
-          {
-            "id": "45d9b2b7349b5eaa",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "SEMESTR_4/AVT/prednasky/AVT - 3 - menice.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "AVT - 3 - menice"
-            }
-          },
-          {
-            "id": "c2ef861aeaa350f3",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "SEMESTR_4/AVT/prednasky/AVT - 4 - Prostorová akustika.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "AVT - 4 - Prostorová akustika"
-            }
-          },
-          {
-            "id": "a9ff7069f2579cff",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "SEMESTR_4/AVT/prednasky/MMT05-ozvucovani-2.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "MMT05-ozvucovani-2"
+              "title": "b2b37avt_lecture_colorimetry_v0.60_250407"
             }
           }
         ]
@@ -162,7 +132,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 421.5
+    "width": 433.5
   },
   "right": {
     "id": "0244f0f9345a9fa2",
@@ -252,39 +222,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fb22b84ac5c62ae1",
+  "active": "1a300aceb4149db4",
   "lastOpenFiles": [
-    "SEMESTR_4/AVT/prednasky/avt_zaznamazprac-1.pdf",
+    "SEMESTR_4/AVT/prednasky/b2b37avt_lecture_colorimetry_v0.60_250407.pdf",
+    "SEMESTR_4/AVT/priprava/Video.md",
+    "SEMESTR_4/AVT/prednasky/b2b37avt_lecture_hvs_v0.60_250331.pdf",
     "SEMESTR_4/AVT/priprava/Audio.md",
-    "avt_zaznamazprac-1.pdf",
-    "SEMESTR_4/AVT/prednasky/MMT05-ozvucovani-2.pdf",
-    "SEMESTR_4/AVT/prednasky/AVT - 4 - Prostorová akustika.pdf",
     "SEMESTR_4/AVT/prednasky/b2b37avt_lecture_video_intro_v0.60_250331.pdf",
-    "SEMESTR_4/AVT/image/zvukové pole vole dozvuk distance.png",
+    "Pasted image 20250515134523.png",
+    "SEMESTR_4/AVT/prednasky/b2b37avt_lecture_displays_v0.60_250512.pdf",
+    "SEMESTR_4/AVT/prednasky/avt_zaznamazprac-1.pdf",
+    "SEMESTR_4/AVT/prednasky/MMT05-ozvucovani-2.pdf",
     "SEMESTR_4/AVT/image/zvukové pole.png",
-    "SEMESTR_4/AVT/prednasky/AVT - 1 - Fyziologie sluchu.pdf",
-    "SEMESTR_4/AVT/prednasky/AVT - 3 - menice.pdf",
-    "SEMESTR_4/AVT/prednasky/AVT - 2 - sireni zvuku.pdf",
-    "SEMESTR_4/AVT/image/elektrostaticky menic.png",
+    "SEMESTR_4/AVT/image/zvukové pole vole dozvuk distance.png",
     "SEMESTR_4/AVT/image/menic_magneticke_pole.png",
-    "SEMESTR_4/AVT/image",
+    "SEMESTR_4/AVT/image/elektrostaticky menic.png",
     "SEMESTR_4/AVT/image/analogie_zvuk_elektro_mechanika.png",
+    "SEMESTR_4/AVT/image",
+    "SEMESTR_4/TBK/priprava/TBK6 - systémy.md",
+    "SEMESTR_4/STP/rozdělení.md",
+    "SEMESTR_4/SEE/priprava/05c) Ultrazvukové senzory.md",
+    "SEMESTR_4/SEE/priprava/05b) Senzory SAW.md",
+    "SEMESTR_4/SEE/priprava/05a) Piezoelektrický jev.md",
+    "SEMESTR_4/SEE/priprava/04a) Piezoodporový jev.md",
+    "SEMESTR_4/SEE/priprava/03a) Kapacitní senzory.md",
+    "SEMESTR_4/SEE/priprava/01b) Senzorové sítě.md",
+    "SEMESTR_4/SEE/priprava/01a) Úvod, proč senzory.md",
+    "SEMESTR_4/SEE/prednasky/01b_Senzorove_site_2025.pdf",
+    "SEMESTR_4/SEE/prednasky/01a_Uvod-proc_senzory_2025.pdf",
+    "SEMESTR_4/SAS/Tahák na SAS.md",
     "SEMESTR_4/SEE/priprava/11) Senzory chemických veličin.md",
     "SEMESTR_4/SEE/prednasky/12-Klip_princip_vodivostni_senzor_chemicky.zc-V9E-O.zip.part",
     "SEMESTR_4/SEE/priprava/09) Teplotní senzory.md",
     "SEMESTR_4/SEE/priprava/08) Senzory magnetického pole.md",
     "SEMESTR_4/SEE/priprava/07) Senzory s indukčností.md",
     "SEMESTR_4/SEE/priprava/06) Akcelerometry.md",
-    "SEMESTR_4/SEE/priprava/05c) Ultrazvukové senzory.md",
-    "SEMESTR_4/SEE/priprava/05b) Senzory SAW.md",
-    "SEMESTR_4/SEE/priprava/05a) Piezoelektrický jev.md",
     "SEMESTR_4/SEE/priprava/04b) Piezo odporové senzory tlaku.md",
-    "SEMESTR_4/SEE/priprava/04a) Piezoodporový jev.md",
     "SEMESTR_4/SEE/priprava/03b) Kapacitní tlakové senzory.md",
-    "SEMESTR_4/SEE/priprava/03a) Kapacitní senzory.md",
-    "SEMESTR_4/SEE/priprava/02) Parametry senzorů.md",
-    "SEMESTR_4/SEE/priprava/01b) Senzorové sítě.md",
-    "SEMESTR_4/SEE/priprava/01a) Úvod, proč senzory.md",
-    "SEMESTR_4/AVT/priprava/Video.md"
+    "SEMESTR_4/SEE/priprava/02) Parametry senzorů.md"
   ]
 }

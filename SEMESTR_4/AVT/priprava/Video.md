@@ -1,26 +1,70 @@
-### **Lidský zrakový systém HVS (Human Visual System) a jeho základní charakteristiky (19 otázek celkem, 7** otázek)****
+### **Lidský zrakový systém HVS (Human Visual System) a jeho základní charakteristiky (19 otázek celkem, 7* otázek)****
 1. Nakreslete základní blokové schéma sytému pro vizuální komunikace a popište jeho hlavní součásti.  
+	1. [[b2b37avt_lecture_video_intro_v0.60_250331.pdf#page=5]]
 2. **Nakreslete a popište základní anatomickou strukturu lidského oka s ohledem na jednotlivé části optické soustavy.
+	1.![[b2b37avt_lecture_hvs_v0.60_250331.pdf#page=3]]
+	1. čočka dokáže měnit svou optickou mohutnost, díky tomu můžeme zaostřovat na blízko/dálku
+	2. sítnice = obrazový snímač, víc v další otázce
 3. **Popište a vysvětlete funkci jednotlivých typů světloctitlivých buňek na sítnici.
+	1. Tyčinky – skotopické ČB
+		1.  BW vidění, rychlé, jeden typ
+	2. Čípky – fotopické barevné
+		1. RGB vidění, pomalé, typ L, M, S
+		Nebo podle chata
+		>**Tyčinky** – zajišťují **skotopické (noční) černobílé vidění**, jsou **citlivé na nízké intenzity světla**, ale **nereagují na barvy**. Fungují **rychle**, ale poskytují **nízké rozlišení** obrazu. Existuje **jeden typ tyčinek**.
+		>Čípky – zajišťují fotopické (denní) barevné vidění, potřebují více světla než tyčinky, ale umožňují vysoké rozlišení a barevné vnímání. Reagují pomaleji než tyčinky. Existují tři typy čípků:
+		    L-čípky (long) – citlivé na červené světlo
+		    M-čípky (medium) – citlivé na zelené světlo
+		    S-čípky (short) – citlivé na modré světlo
+
 4. Popište a vysvětlete významné oblasti sítnice s ohledem na hustotu rozložení jednotlivých typů fotoreceptorů.
+	 > Sítnice obsahuje foveu (centrální jamku), kde je nejvyšší hustota čípků, což umožňuje ostré a barevné vidění při dobrém osvětlení. 
+	 > Na periferii sítnice převažují tyčinky, které jsou citlivé na světlo a zajišťují vidění za šera a periferní vnímání.
 5. Popište vlastnosti receptivních polí gangliových buněk na sítnici s ohledem na jejich odezvu v elektrofyziologii, např. on-center, off-surround.
+>		Receptivní pole gangliových buněk mají typicky centrovanou organizaci typu **on-center/off-surround** nebo **off-center/on-surround**, což znamená, že stimulace centrální části a periferní části pole vyvolává opačné odpovědi.
+		Například **on-center** buňka zvyšuje svoji aktivitu při osvětlení středu a snižuje ji, pokud je osvětleno okolí, což zvyšuje citlivost na kontrast a hrany v obraze.
 6. Nakreslete základní model receptivního pole gangliové buňky DoG (Difference of Gaussians) a vysvětlete jaký je dopad tohoto receptivního pole na vnímanou podobu obrazců tzv. Machových proužků, Hermanovy mřížky, případně scintilační mřížky.
 7. **Vysvětlete význam prostorové a časově-prostorové funkce kontrastové citlivosti CSF (Contrast Sensitivity Function).
+	1.  Popisuje odezvu lineární soustavy na harmonické buzení
+		1. např odezva neuronů na harmonické buzení s proměnnou frekvencí
+	2. popisuje převrácenou hodnotu prahového kontrastu pro proměnný prostorový  kmitočet - > prostorová funkce
+	3. nejčatějí typu pásmová propust
+	4. také nám závisí jak rychle bliká -> časová funkce!
+	5. 3 rozměrný graf (prostorvý kmitočet, časový kmitočet, citlivost)
 8. Jak se projeví průběh funkce kontrastové citlivosti CSF (Contrast Sensitivity Function) na vjemu tzv. Cambell-Robsonova obrazce?
 9. Jaký bude vzájemný vztah (rozlišitelnost detailů) funkcí kontrastové citlivosti CSF (Contrast Sensitivity Function) pro vnímání jasové (monochromatické) složky a barevných signálů (červená-zelená a modrá-žlutá)?
 10. Jak vypadají přibližně spektrální citlivosti čípků typu L, M, S?
 11. Vysvětlete význam skotopického a fotopického vnímání s ohledem na tzv. Purkyňův jev.
 12. **Vysvětlete stručně význam trichromatické a oponentní barevné teorie.
-13. **Co to je metamerismus s ohledem na vnímání barev?
-14. Vyvětlete význam a základní princip chromatické adaptace.
-15. Vyvětlete význam binokulárního vidění pro vjem hloubky ve scéně. Co je to binokulární disparita?
-16. **Vysvětlete význam základních funkčních parametrů lidského zrakového systému v oblasti úrovňových charakteristik, zejména Weber-Fechnerův zákon a prahový kontrast.
+	1. Trichromatická - RGB
+		1. charakterizuje světelné záření pomocí 3 hodnot a zahazuje zbytek spektra
+		2. ztrácí se tak informace a dvě různá spektra můžou vést na stejné RGB hodnoty ->metamerismus
+	2. Oponentní teorie
+		1.  Tři oponentní kanály
+		2. Kanály bílá-černá (WS), červená-zelená (RG), žlutá-modrá (YB)
+13. **Co to je metamerismus s ohledem na vnímání barev?**
+> 	Metamerismus je jev, kdy dvě světla s odlišným spektrálním složením vyvolávají stejný barevný vjem, protože stimulují čípky v oku stejným způsobem. To znamená, že vizuálně vypadají stejně, i když fyzikálně jsou odlišná.
+14. Vysvětlete význam a základní princip chromatické adaptace.
+15. Vysvětlete význam binokulárního vidění pro vjem hloubky ve scéně. Co je to binokulární disparita?
+16. **Vysvětlete význam základních funkčních parametrů lidského zrakového systému v oblasti úrovňových charakteristik, zejména Weber-Fechnerův zákon a prahový kontrast.**
+	1. ![[b2b37avt_lecture_hvs_v0.60_250331.pdf#page=51]]
+	>	Weber-Fechnerův zákon popisuje, že rozdíl v podnětu (např. jasu), který je ještě postřehnutelný, je úměrný původní intenzitě podnětu – tedy čím silnější podnět, tím větší rozdíl musí být, aby byl vnímán. Prahový kontrast je minimální rozdíl jasu mezi dvěma oblastmi, který je lidské oko schopné rozlišit, a závisí na jasu pozadí i prostorových vlastnostech obrazu.
 17. Jaké jsou základní adaptační mechanizmy lidského zrakového systému na různé úrovně osvětlení?
 18. **Vysvětlete význam základních funkčních parametrů lidského zrakového systému v oblasti časových charakteristik, zejména Ferry-Porterův zákon a vysvětlete význam kritického kmitočtu blikání.
+	1.  Mizí vjem blikání nad kritickým kmitočtem - LEDka vypadá že svítí neustále s hodnotou jasu závislou na frekvenci blikání
+	2. Ferry - Porter
+		1. $f_k = K_1 + K_2logL$
+		 > čím jasnější světlo, tím vyšší frekvenci blikání musí mít, aby bylo vnímáno jako nepřerušované (spojité).
 19. Vysvětlete význam základních funkčních parametrů lidského zrakového systému v oblasti časových charakteristik, zejména Talbotův zákon.
 ### **Radiometrie, fotometrie a kolorimetrie (17 otázek celkem, 7\* otázek)**
-1. **Vysvětlete čím se zabývají obory radiometrie, fotometrie a kolorimetrie. Jak se od sebe liší a jak spolu souvisí?  
-	
+1. **Vysvětlete čím se zabývají obory radiometrie, fotometrie a kolorimetrie. Jak se od sebe liší a jak spolu souvisí?**
+	 Radiometrie
+		 Zabývá se optickým zářením jako formou energie 
+		 Používá objektivní energetické a výkonové veličiny
+	 Fotometrie - podobná fotometrie
+		 Omezuje se pouze na záření vyvolávající zrakový vjem
+	 Kolorimetrie
+		 Obor zabývající se měřením a popisem barev
 2. Jaké znáte základní radiometrické a fotometrické veličiny a jejich jednotky?
 3. **Co popisuje poměrná (relativní) spektrální světelná účinnost a jak se liší pro fotopické a skotopické vidění?
 4. Vysvětlete jaký je vztah radiometrických a fotometrických veličin, zejména s ohledem na vztah spetrální hustoty zářivého toku a světelný tok?

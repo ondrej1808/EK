@@ -3,22 +3,22 @@
 #### Jakými veličinami zvuk popisujeme
 chat
 
-| Veličina                   | Značka        | Jednotka | Význam / Vzorec                                                                       |
-| -------------------------- | ------------- | -------- | ------------------------------------------------------------------------------------- |
-| Frekvence                  | \( f \)       | Hz       | Počet kmitů za sekundu                                                                |
-| Vlnová délka               | \( \lambda \) | m        | Vzdálenost mezi dvěma vrcholy vlny                                                    |
-| Akustický tlak             | \( p \)       | Pa       | Okamžitý rozdíl tlaku způsobený zvukovou vlnou                                        |
-| Intenzita zvuku            | \( I \)       | W/m²     | Výkon přenášený zvukem na jednotku plochy                                             |
-| Hladina intenzity zvuku    | \( L_I \)     | dB       | $$L_I = 10 \log\left( \frac{I}{I_0} \right), \quad I_0 = 10^{-12} \,\text{W/m}^2$$    |
-| Hladina akustického výkonu | \( L_w \)     | dB       | $$L_w = 10 \log\left( \frac{W}{W_0} \right), \quad W_0 = 10^{-12} \,\text{W}$$        |
-| Hladina akustického tlaku  | \( L_p \)     | dB       | $$L_p = 20 \log\left( \frac{p}{p_0} \right), \quad p_0 = 2\cdot 10^{-5} \,\text{Pa}$$ |
+| Veličina                   | Značka       | Jednotka | Význam / Vzorec                                                                       |
+| -------------------------- | ------------ | -------- | ------------------------------------------------------------------------------------- |
+| Frekvence                  | \(f\)        | Hz       | Počet kmitů za sekundu                                                                |
+| Vlnová délka               | ($\lambda$\) | m        | Vzdálenost mezi dvěma vrcholy vlny                                                    |
+| Akustický tlak             | (p)          | Pa       | Okamžitý rozdíl tlaku způsobený zvukovou vlnou                                        |
+| Intenzita zvuku            | (I)          | W/m²     | Výkon přenášený zvukem na jednotku plochy                                             |
+| Hladina intenzity zvuku    | \($L_I$ \)   | dB       | $$L_I = 10 \log\left( \frac{I}{I_0} \right), \quad I_0 = 10^{-12} \,\text{W/m}^2$$    |
+| Hladina akustického výkonu | \($L_w$\)    | dB       | $$L_w = 10 \log\left( \frac{W}{W_0} \right), \quad W_0 = 10^{-12} \,\text{W}$$        |
+| Hladina akustického tlaku  | ($L_p$\)     | dB       | $$L_p = 20 \log\left( \frac{p}{p_0} \right), \quad p_0 = 2\cdot 10^{-5} \,\text{Pa}$$ |
 
 #### Co to je akustický tlak, co to je hladina akustického tlaku, jednotky
 -  Okamžitá změna tlaku v prostředí (např. ve vzduchu), způsobená průchodem **zvukové vlny**.
 	- Jednotka Pa
 	- $p_0=2\cdot 10^{-5}\text{ Pa}$ - minimální změna tlaku co lidské ucho zaznamená
 - Hladina akustického tlaku je logaritmicky vyjádřený poměr tlaku ku $p_0$
-	- Jednotka dB - člověk rozliší přibližne 1 dB
+	- Jednotka dB - člověk rozliší přibližně 1 dB
 	- $L_p=10\cdot\text{log}(\frac{p}{p_0})$
 #### Vlnová rovnice
 - pro nějakou veličinu u
