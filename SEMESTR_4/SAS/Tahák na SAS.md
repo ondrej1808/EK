@@ -52,18 +52,97 @@ $$c_{1,0}=s_{DC}$$
 
 #### Vlastnosti sudých a lichých fcí
 suda x suda = Suda, 
-licha x licha = licha, 
+licha x licha = suda, 
 suda x licha = licha, 
 licha(-x) = -licha(x), 
 Suda(-x)=suda(x)
 #### Sin a cos vzorečky
-![[Pasted image 20250404141305.png]]
-![[Pasted image 20250404141405.png]]
-![[Pasted image 20250404141433.png]]
-![[Pasted image 20250404141440.png]]
-![[Pasted image 20250404141513.png]]
-![[Pasted image 20250404141521.png]]
-![[Pasted image 20250404141622.png]]
-![[Pasted image 20250404141642.png]]
-![[Pasted image 20250404141706.png]]
-![[Pasted image 20250404141733.png]]
+##### Součtové vzorce
+
+$$
+\sin(a \pm b) = \sin a \cos b \pm \cos a \sin b
+$$
+
+$$
+\cos(a \pm b) = \cos a \cos b \mp \sin a \sin b
+$$
+
+$$
+\sinh(a \pm b) = \sinh a \cosh b \pm \cosh a \sinh b
+$$
+
+$$
+\cosh(a \pm b) = \cosh a \cosh b \pm \sinh a \sinh b
+$$
+
+---
+
+##### Redukce druhé mocniny (power reduction)
+
+$$
+\sin^2 x = \frac{1 - \cos(2x)}{2}
+$$
+
+$$
+\cos^2 x = \frac{1 + \cos(2x)}{2}
+$$
+
+$$
+\sinh^2 x = \frac{\cosh(2x) - 1}{2}
+$$
+
+$$
+\cosh^2 x = \frac{\cosh(2x) + 1}{2}
+$$
+
+---
+
+##### Pythagorova věta
+
+$$
+\sin^2 x + \cos^2 x = 1
+$$
+
+$$
+\cosh^2 x - \sinh^2 x = 1
+$$
+
+---
+
+##### Komplexní exponenciály
+
+$$
+\sin x = \frac{e^{ix} - e^{-ix}}{2i}
+$$
+
+$$
+\cos x = \frac{e^{ix} + e^{-ix}}{2}
+$$
+
+$$
+\sinh x = \frac{e^{x} - e^{-x}}{2}
+$$
+
+$$
+\cosh x = \frac{e^{x} + e^{-x}}{2}
+$$
+
+---
+
+##### Dvojnásobek argumentu
+
+$$
+\sin(2x) = 2 \sin x \cos x
+$$
+
+$$
+\cos(2x) = \cos^2 x - \sin^2 x = 2 \cos^2 x - 1 = 1 - 2 \sin^2 x
+$$
+
+$$
+\sinh(2x) = 2 \sinh x \cosh x
+$$
+
+$$
+\cosh(2x) = \cosh^2 x + \sinh^2 x
+$$
