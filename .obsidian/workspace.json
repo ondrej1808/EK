@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEMESTR_4/SEE/priprava/11) Senzory chemických veličin.md",
+                "file": "SEMESTR_4/SEE/priprava/07) Senzory s indukčností.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11) Senzory chemických veličin"
+              "title": "07) Senzory s indukčností"
             }
           }
         ]
@@ -168,21 +168,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "af03f97184368376",
+  "active": "1856695ce9ed6df9",
   "lastOpenFiles": [
-    "SEMESTR_4/SEE/image/gravmetr_saw.png",
-    "SEMESTR_4/SEE/image/gravimetr.png",
-    "SEMESTR_4/SEE/image/gasfet2.png",
-    "SEMESTR_4/SEE/image/gasfet.png",
-    "SEMESTR_4/SEE/image/chemdioda.png",
-    "SEMESTR_4/SEE/image/chemokap.png",
-    "SEMESTR_4/SEE/image/chem_senzor_zmen_vodiv.png",
-    "SEMESTR_4/SEE/image/chemoodpor.png",
-    "SEMESTR_4/SEE/priprava/09) Teplotní senzory.md",
-    "SEMESTR_4/SEE/image/saw_teplomer.png",
-    "SEMESTR_4/SEE/image/dalsi mems bolometr.png",
-    "SEMESTR_4/SEE/image/mems_bolometr.png",
+    "SEMESTR_4/SEE/image/magnetorezistivni_anizotropni_trpi.png",
     "SEMESTR_4/SEE/priprava/07) Senzory s indukčností.md",
+    "SEMESTR_4/SEE/image/magnetostrikcni senzo.png",
+    "SEMESTR_4/SEE/image/magnetoelasticky.png",
+    "SEMESTR_4/SEE/image/magnetoinduktivni.png",
+    "SEMESTR_4/SEE/image/lvdt2.png",
+    "SEMESTR_4/SEE/image/lvdt.png",
+    "SEMESTR_4/SEE/image/indukcnostni_trafo_nebo_co.png",
+    "SEMESTR_4/SEE/image/oscilacni_indukcni.png",
+    "SEMESTR_4/SEE/image/indukcni_vzajemny.png",
+    "SEMESTR_4/SEE/image/pasivni_s_potlacenim_inudodm.png",
+    "SEMESTR_4/SEE/priprava/06) Akcelerometry.md",
+    "SEMESTR_4/SEE/priprava/11) Senzory chemických veličin.md",
+    "SEMESTR_4/SEE/priprava/09) Teplotní senzory.md",
     "SEMESTR_4/SEE/priprava/08) Senzory magnetického pole.md",
     "SEMESTR_4/SEE/prednasky/08_Senzory_magnetickeho_pole_SEE_2021.pdf",
     "SEMESTR_4/SEE/prednasky/01a_Uvod-proc_senzory_2025.pdf",
@@ -195,7 +196,6 @@
     "SEMESTR_4/AVT/priprava/Video.md",
     "SEMESTR_4/AVT/priprava/AVT video - hvězdičky_3-6.pdf",
     "SEMESTR_4/AVT/priprava/Audio.pdf",
-    "SEMESTR_4/SEE/priprava/06) Akcelerometry.md",
     "SEMESTR_4/AVT/prednasky/avt_zaznamazprac-1.pdf",
     "SEMESTR_4/AVT/prednasky/MMT05-ozvucovani-2.pdf",
     "SEMESTR_4/SEE/priprava/05c) Ultrazvukové senzory.md",
@@ -203,7 +203,6 @@
     "SEMESTR_4/SEE/priprava/05b) Senzory SAW.md",
     "SEMESTR_4/AVT/priprava/Video_updated.md",
     "SEMESTR_4/SEE/priprava/03b) Kapacitní tlakové senzory.md",
-    "SEMESTR_4/SEE/priprava/11) Senzory chemických veličin.md",
     "SEMESTR_4/SEE/priprava/05a) Piezoelektrický jev.md",
     "SEMESTR_4/SEE/priprava/04b) Piezo odporové senzory tlaku.md",
     "SEMESTR_4/SEE/priprava/04a) Piezoodporový jev.md",
