@@ -24,8 +24,21 @@
             "id": "fba772f8ab04b0cc",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "SEMESTR_4/SEE/prednasky/06_Akcelerometry_2021.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "06_Akcelerometry_2021"
+            }
+          },
+          {
+            "id": "fba772f8ab04b0cc",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
+                "file": "SEMESTR_4/SEE/priprava/05b) Senzory SAW.md",
                 "file": "SEMESTR_4/SEE/priprava/05b) Senzory SAW.md",
                 "mode": "source",
                 "source": false
@@ -230,6 +243,7 @@
       "command-palette:Open command palette": false
     }
   },
+  "active": "e56157f11c09ae61",
   "active": "e56157f11c09ae61",
   "lastOpenFiles": [
     "SEMESTR_4/SEE/priprava/05a) Piezoelektrický jev.md",
