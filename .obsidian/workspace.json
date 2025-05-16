@@ -58,18 +58,6 @@
             }
           },
           {
-            "id": "6997a70f5c302f03",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "SEMESTR_4/SEE/prednasky/05a_Piezoelektricky_jev_senzory_SEE_2025.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "05a_Piezoelektricky_jev_senzory_SEE_2025"
-            }
-          },
-          {
             "id": "22ad41f5f66c282f",
             "type": "leaf",
             "state": {
@@ -243,6 +231,11 @@
   },
   "active": "e56157f11c09ae61",
   "lastOpenFiles": [
+    "SEMESTR_4/SEE/priprava/03b) Kapacitní tlakové senzory - mám schízu je to to samé jako 03a).md",
+    "SEMESTR_4/SEE/image/C_nahradni_obvod.png",
+    "SEMESTR_4/SEE/image",
+    "SEMESTR_4/SEE/priprava/03b) Kapacitní tlakové senzory.md",
+    "SEMESTR_4/SEE/prednasky/05a_Piezoelektricky_jev_senzory_SEE_2025.pdf",
     "SEMESTR_4/SEE/priprava/05b) Senzory SAW.md",
     "SEMESTR_4/SEE/prednasky/05b_Senzory_SAW_SEE_2025.pdf",
     "SEMESTR_4/SEE/priprava/05c) Ultrazvukové senzory.md",
@@ -257,17 +250,12 @@
     "SEMESTR_4/SEE/priprava/06) Akcelerometry.md",
     "SEMESTR_4/SEE/prednasky/05c_Ultrazvukové_senzory_SEE_2025.pdf",
     "SEMESTR_4/SEE/priprava/05a) Piezoelektrický jev.md",
-    "SEMESTR_4/SEE/prednasky/05a_Piezoelektricky_jev_senzory_SEE_2025.pdf",
     "SEMESTR_4/SEE/priprava/09) Teplotní senzory.md",
     "SEMESTR_4/SEE/priprava/04b) Piezo odporové senzory tlaku.md",
     "SEMESTR_4/SEE/prednasky/04b_Piezoodporove tlakové senzory_2025.pdf",
-    "SEMESTR_4/SEE/priprava/03b) Kapacitní tlakové senzory.md",
     "SEMESTR_4/SEE/priprava/04a) Piezoodporový jev.md",
-    "SEMESTR_4/SEE/prednasky/04a_Piezoodporovy jev - tenzometry_sila_2025.pdf",
-    "SEMESTR_4/SEE/priprava/03b) Kapacitní tlakové senzory - mám schízu je to to samé jako 03a).md",
     "SEMESTR_4/SEE/priprava/03a) Kapacitní senzory.md",
     "Pasted image 20250515103235.png",
-    "SEMESTR_4/SEE/image/C_nahradni_obvod.png",
     "SEMESTR_4/SEE/priprava/02) Parametry senzorů.md",
     "SEMESTR_4/SEE/priprava/01b) Senzorové sítě.md",
     "SEMESTR_4/AVT/priprava/Audio.md",
