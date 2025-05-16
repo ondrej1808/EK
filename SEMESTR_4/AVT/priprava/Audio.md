@@ -25,6 +25,10 @@ chat
 $$
 \Delta u - \frac{1}{c^2}\frac{\partial^2 u}{\partial t^2} = 0 
 $$
+
+<div style="page-break-after: always;"></div>
+
+
 #### Kulová, rovinná a válcová vlna (řešení vlnové rovnice)
 - Rovinná
 $$
@@ -57,6 +61,10 @@ $$
 	- basilární membrána je rozkmitávána třmínkem
 	- Na začátku hlemýždě se detekují vyšší kmitočty
 	- Na konci hlemýždě se detekují nižší kmitočty
+
+
+<div style="page-break-after: always;"></div>
+
 #### Funkce vnějšího ucha
 - Vnější ucho
 	- Ušní boltec - vertikální prostorovost zvuku
@@ -84,6 +92,10 @@ $$
 #### Maskování
 - Od Krasinskiho: https://youtu.be/f55ZrhtsHaE?si=03LMAYCqKScE2tOV&t=64
 - Nějakým zvukem - šum přestimulujeme náš sluch (sníží se citlivost) a poté neslyšíme nějaký přidaný tón - tón je zamaskovaný
+
+
+<div style="page-break-after: always;"></div>
+
 #### Weberův a Fechnerův zákon
 - Weberův zákon popisuje **nejmenší vnímatelný rozdíl** v intenzitě podnětu (tzv. rozdílový práh, ΔS). (k není uplně konstanta)
 $$\frac{\Delta S}{S}=k$$
@@ -100,6 +112,11 @@ $$\frac{\Delta S}{S}=k$$
 #### Princip lokalizace zdrojů zvuku v mediální rovině
 - Filtrace boltcem a zkušenost
 - Letadlo nahoře, 🔊linka 118 směr smíchovské nádraží, příští zastávka .. . -> na stanici pod oknem
+
+
+<div style="page-break-after: always;"></div>
+
+
 #### Vlnová rovnice pro akustický tlak
 $$\Delta p - \frac{1}{c^2} \frac{\partial^2 p}{\partial t^2} = 0
 $$
@@ -128,8 +145,11 @@ $$
 
    Kde $r$ je vzdálenost od zdroje, $A$ je amplituda, $k$ je vlnové číslo, $\omega$ je úhlová frekvence a $t$ je čas. Amplituda klesá s $1/r$.
 
+
+<div style="page-break-after: always;"></div>
+
 #### Systém elektroakustických analogií, analogické veličiny a prvky
-# Systém elektroakustických analogií
+##### Systém elektroakustických analogií
 
 nvm chat věc:
 
@@ -141,10 +161,16 @@ nvm chat věc:
 | Akustická impedanční veličina $Z_a = \frac{p}{\dot{m}}$ | Elektrická impedance $Z_e = \frac{V}{I}$ |                            |                             |
 | Akustická energie $E$                                   | Elektrická energie $W$                   | Akustický výkon $P_a$      | Elektrický výkon $P_e$      |
 
+<div style="page-break-after: always;"></div>
+
 
 ![[analogie_zvuk_elektro_mechanika.png]]
 #### Systém elektromechanických analogií, analogické veličiny a prvky
 - viz [[Audio#Systém elektroakustických analogií]]
+
+
+<div style="page-break-after: always;"></div>
+
 #### Vlnové číslo
 Vlnové číslo $k$ je veličina, která popisuje počet vlnových cyklů na jednotkovou délku ve směru šíření vlny. Je definováno jako:
 $$
@@ -167,6 +193,10 @@ Jednotka vlnového čísla je $\left[\frac{rad}{m}\right]$. Vlnové číslo je d
 - dynamická – závislost amplitudy na času 
 - melodická – závislost kmitočtu na času 
 - harmonická – závislost amplitudy na kmitočtu
+
+
+<div style="page-break-after: always;"></div>
+
 #### Co to je vibráto a tremolo
 - **Vibráto**: Technika, která způsobuje jemné kolísání **výšky tónu** (frekvence). Používá se k "oživení" tónu a přidání emocionálního výrazu. Může být prováděno například zpěvem nebo pohyby prstů na hudebním nástroji.
 
@@ -187,6 +217,9 @@ Jednotka vlnového čísla je $\left[\frac{rad}{m}\right]$. Vlnové číslo je d
 - V hudební teorii je to nejzákladnější interval mezi dvěma tóny.
 - Příkladem je interval mezi tónem C a dalším C v oktávě.
 
+
+<div style="page-break-after: always;"></div>
+
 #### Princip funkce elektrodynamického měniče jako mikrofon nebo jako reproduktor
 - **Mikrofon**: Zvukové vlny pohybují membránou na které je cívka, do které se indukuje elektrický napětí, je tam magnet, který se nehýbe.
 - **Reproduktor**: Elektrický signál prochází cívkou, ta je na membráně a přitahuje se k magnetu, který je statický.
@@ -201,6 +234,10 @@ Jednotka vlnového čísla je $\left[\frac{rad}{m}\right]$. Vlnové číslo je d
 #### Náhradní obvody měničů s elektrickým polem
 ![[elektrostaticky menic.png]]
 - TODO: Popis součástek [[AVT - 3 - menice.pdf#page=7]]
+
+
+
+<div style="page-break-after: always;"></div>
 
 #### Co to je jmenovitá impedance reproduktoru
 - Jmenovitá impedance reproduktoru je elektrická impedance, kterou vidí zesilovač na svém výstupu, kde je reproduktor připojený
@@ -234,13 +271,23 @@ Jednotka vlnového čísla je $\left[\frac{rad}{m}\right]$. Vlnové číslo je d
 	- úhly příchodu zvukové energie do daného bodu jsou všechny stejně pravděpodobné
 	- vyzařování a pohlcování je kontinuální
 
+
+<div style="page-break-after: always;"></div>
+
 #### Zvukové pole v uzavřené místnosti, dozvuková vzdálenost
 ![[zvukové pole.png]]
 ![[zvukové pole vole dozvuk distance.png]]
+
+
+<div style="page-break-after: always;"></div>
+
 #### Princip studia LE DE
 - Le-De (Live End Dead End) – jeden z používaných standardů pro návrh studií. Zpravidla poskytuje dobré výsledky. 
 - „Živý konec“ – místo poslechu. Mělo by simulovat průměrné domácí prostředí. 
 - „Mrtvý konec“ – místo reprodukce (pohltivé plochy okolo reproduktorů)
+
+
+<div style="page-break-after: always;"></div>
 
 ### zpracováno od chata - neharmonizováno s přednáškou:
 #### Digitální záznam – výhody, nevýhody, vlastnosti
