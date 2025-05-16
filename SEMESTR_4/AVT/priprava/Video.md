@@ -5,6 +5,7 @@
 	1.![[b2b37avt_lecture_hvs_v0.60_250331.pdf#page=3]]
 	1. čočka dokáže měnit svou optickou mohutnost, díky tomu můžeme zaostřovat na blízko/dálku
 	2. sítnice = obrazový snímač, víc v další otázce
+	3. ![[oko.png]]
 3. **Popište a vysvětlete funkci jednotlivých typů světloctitlivých buňek na sítnici.
 	1. Tyčinky – skotopické ČB
 		1.  BW vidění, rychlé, jeden typ
@@ -97,8 +98,12 @@
 9. Co to jsou smluvní standardizovaná světla, např. A, D50, D65?
 10. Vysvětlete význam indexu podání barev CRI (Color Rendering Index) a nejlépe také jaký je princip jeho určení.
 ### **Obrazové snímače a jejich charakteristiky (14 otázek celkem, 7\* otázek)
-1. **Vysvětlete princip akumulačního snímání obrazu.  
-	
+1. **Vysvětlete princip akumulačního snímání obrazu.  **
+	![[komutator.png]]
+		1) Komutátor připojí kondezátor k obvodu
+		2) Kondezátor se rychle nabije
+		3) Komutátor odpojí obvod a posune se k dalšímu kondezátoru (další prvek)
+		4) 
 2. **Vysvětlete základní princip funkce obrazového snímače CCD (Charge Coupled Device).
 3. Popište jak dochází k fotogeneraci náboje v buňce CCD a na jakých parametrech bude záviset velikost generovaného náboje.
 4. **Popište stručně mechanizmus posuvu náboje ve struktuře CCD s použitím diagramu.

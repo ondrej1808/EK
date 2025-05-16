@@ -1,5 +1,6 @@
 #### Co je to zvuk
 - Podélná tlaková vlna, které vznikají pohybem částic v látce - nejčastěji vzduch
+- Změna tlaku v prostoru a čase
 #### Jakými veličinami zvuk popisujeme
 chat
 
@@ -19,7 +20,7 @@ chat
 	- $p_0=2\cdot 10^{-5}\text{ Pa}$ - minimální změna tlaku co lidské ucho zaznamená
 - Hladina akustického tlaku je logaritmicky vyjádřený poměr tlaku ku $p_0$
 	- Jednotka dB - člověk rozliší přibližně 1 dB
-	- $L_p=10\cdot\text{log}(\frac{p}{p_0})$
+	- $L_p=20\cdot\text{log}(\frac{p}{p_0})$
 #### Vlnová rovnice
 - pro nějakou veličinu u
 $$
@@ -38,48 +39,40 @@ $$
 $$
 u(r,t) = \frac{A}{r} \cos(kr - \omega t + \varphi)
 $$
+Odvození pro fajnšmkery:
+$\Delta u - \frac{1}{c^2}\frac{\partial^2 u}{\partial t^2} = 0$
+$\Delta u = -ku^2$
+$\frac{\partial^2 }{\partial t^2} = \omega$
+Pak si stačí říct kterým směrem nám ta vlna letí
 #### Části lidského sluchu
+![[ucho.png]]
 - Vnější ucho
-	- Ušní boltec - vertikální prostorovost zvuku
-	- Zvukovod - čtvrtvlnný rezonátor
-	- Bubínek - přenáší zvuk ze zvukovodu do středního ucha
+	- slouží k ochranně středního ucha a jako akustický filtr
+		- Ušní boltec - vertikální prostorovost zvuku
+		- Zvukovod - čtvrtvlnný rezonátor
+		- Bubínek - přenáší zvuk ze zvukovodu do středního ucha
 - Střední ucho
-	- V podstatě zajištuje impedancni prizpusobeni a nastavení citlivosti - napínání kůstek svalama
-	- Kladívko - je rozvibrováno bubínkem
-	- Kovadlinka - přenáší zvuk na třmínek
-	- Třmínek - přenáší zvuk do vnitřního ucha 
-	- Eustachova trubice - vyrovnává tlak mezi středním a vnějším uchem
+	- V podstatě zajištuje impedanční přizpůsobení a nastavení citlivosti - napínání kůstek svalama
+		- Kladívko - je rozvibrováno bubínkem
+		- Kovadlinka - přenáší zvuk na třmínek
+		- Třmínek - přenáší zvuk do vnitřního ucha 
 - Vnitřní ucho
-	- Mechanicko-elektrochemický převodník
-	- Třmínek tlačí na trubici s kapalinou - šnek
-	- okénko aby se kapalina mohla hýbat
-	- basilární membrána -> Cortiho orgán -> vláskové buňky
-	- basilární membrána je rozkmitávána třmínkem
-	- Na začátku hlemýždě se detekují vyšší kmitočty
-	- Na konci hlemýždě se detekují nižší kmitočty
+	- v hlemýždi dochází ke kmitočtové analýze (přeměna mechanických vibrací na nervové vzruchy)
+		- Mechanicko-elektrochemický převodník
+		- Třmínek tlačí na trubici s kapalinou - šnek
+		- okénko aby se kapalina mohla hýbat
+		- basilární membrána -> Cortiho orgán -> vláskové buňky
+		- basilární membrána je rozkmitávána třmínkem
+		- Na začátku hlemýždě se detekují vyšší kmitočty
+		- Na konci hlemýždě se detekují nižší kmitočty
 #### Funkce vnějšího ucha
-- Vnější ucho
-	- Ušní boltec - vertikální prostorovost zvuku
-	- Zvukovod - čtvrtvlnný rezonátor
-	- Bubínek - přenáší zvuk ze zvukovodu do středního ucha
+- slouží k ochranně středního ucha a jako akustický filtr
 #### Funkce středního ucha
-- Střední ucho
-	- V podstatě zajištuje impedancni prizpusobeni a nastavení citlivosti - napínání kůstek svalama
-	- Kladívko - je rozvibrováno bubínkem
-	- Kovadlinka - přenáší zvuk na třmínek
-	- Třmínek - přenáší zvuk do vnitřního ucha 
-	- Eustachova trubice - vyrovnává tlak mezi středním a vnějším uchem
+- V podstatě zajištuje impedanční přizpůsobení a nastavení citlivosti - napínání kůstek svalama
 #### Funkce vnitřního ucha
-- Vnitřní ucho
-	- Mechanicko-elektrochemický převodník
-	- Třmínek tlačí na trubici s kapalinou - šnek
-	- okénko aby se kapalina mohla hýbat
-	- basilární membrána -> Cortiho orgán -> vláskové buňky
-	- basilární membrána je rozkmitávána třmínkem
-	- Na začátku hlemýždě se detekují vyšší kmitočty
-	- Na konci hlemýždě se detekují nižší kmitočty
+- v hlemýždi dochází ke kmitočtové analýze (přeměna mechanických vibrací na nervové vzruchy)
 #### Křivky stejné hlasitosti
-- Vyjadřuje jak hlasitě slyšíme jaké frekvence, vzhledem k tlaku a Phonům
+- Vyjadřuje jak hlasitě slyšíme jaké frekvence, vzhledem k tlaku a [[Phon]]
 - Převodní charakteristika mezi fyzikálníma veličinama (tlak, frekvence) a vjemovou veličinou Phon, která je určená oproti základnímu tónu 1 kHz při určitém tlaku - 2x hlasitější než referenční tón = 2 Phony
 #### Maskování
 - Od Krasinskiho: https://youtu.be/f55ZrhtsHaE?si=03LMAYCqKScE2tOV&t=64
@@ -129,7 +122,7 @@ $$
    Kde $r$ je vzdálenost od zdroje, $A$ je amplituda, $k$ je vlnové číslo, $\omega$ je úhlová frekvence a $t$ je čas. Amplituda klesá s $1/r$.
 
 #### Systém elektroakustických analogií, analogické veličiny a prvky
-# Systém elektroakustických analogií
+#### Systém elektroakustických analogií
 
 nvm chat věc:
 

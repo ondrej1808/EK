@@ -1,0 +1,3 @@
+**Fón (Ph)** je jednotkou hladiny [hlasitosti](https://cs.wikipedia.org/wiki/Hlasitost "Hlasitost"). Hladinou hlasitosti je nazývána subjektivní hlasitost, která je vnímána sluchem.
+
+Hladina hlasitosti je definována tak, že hladina hlasitosti 1 fón je při frekvenci 1 kHz stejně velká jako jednotka hladiny zvuku 1 dB. Pro zvuky ostatní frekvencí jsou hladiny hlasitosti definovány subjektivním porovnáváním s hladinou hlasitosti referenčního tónu.
