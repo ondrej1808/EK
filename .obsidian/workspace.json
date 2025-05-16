@@ -4,99 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "bc348716070960c6",
-        "id": "bc348716070960c6",
+        "id": "7b48b919855c17f7",
         "type": "tabs",
         "children": [
           {
-            "id": "965e9b7a3623eb7c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "SEMESTR_4/SEE/prednasky/06_Akcelerometry_2021.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "06_Akcelerometry_2021"
-            }
-          },
-          {
-            "id": "fba772f8ab04b0cc",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "SEMESTR_4/SEE/prednasky/06_Akcelerometry_2021.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "06_Akcelerometry_2021"
-            }
-          },
-          {
-            "id": "fba772f8ab04b0cc",
+            "id": "7754db283ba77f79",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEMESTR_4/SEE/priprava/05b) Senzory SAW.md",
-                "file": "SEMESTR_4/SEE/priprava/05b) Senzory SAW.md",
+                "file": "SEMESTR_4/SEE/priprava/08) Senzory magnetického pole.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05b) Senzory SAW"
+              "title": "08) Senzory magnetického pole"
             }
           },
           {
-            "id": "e56157f11c09ae61",
+            "id": "af03f97184368376",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "SEMESTR_4/SEE/prednasky/05b_Senzory_SAW_SEE_2025.pdf"
+                "file": "SEMESTR_4/SEE/prednasky/08_Senzory_magnetickeho_pole_SEE_2021.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "05b_Senzory_SAW_SEE_2025"
-            }
-          },
-          {
-            "id": "87dd1f290f814181",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "SEMESTR_4/SEE/prednasky/05c_Ultrazvukové_senzory_SEE_2025.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "05c_Ultrazvukové_senzory_SEE_2025"
-            }
-          },
-          {
-            "id": "22ad41f5f66c282f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "SEMESTR_4/SEE/prednasky/04b_Piezoodporove tlakové senzory_2025.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "04b_Piezoodporove tlakové senzory_2025"
-            }
-          },
-          {
-            "id": "c8b779b538cdfa8b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "SEMESTR_4/SEE/prednasky/04a_Piezoodporovy jev - tenzometry_sila_2025.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "04a_Piezoodporovy jev - tenzometry_sila_2025"
+              "title": "08_Senzory_magnetickeho_pole_SEE_2021"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -243,49 +180,47 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e56157f11c09ae61",
-  "active": "e56157f11c09ae61",
+  "active": "1856695ce9ed6df9",
   "lastOpenFiles": [
-    "SEMESTR_4/SEE/priprava/05a) Piezoelektrický jev.md",
-    "SEMESTR_4/SEE/prednasky/05a_Piezoelektricky_jev_senzory_SEE_2025.pdf",
-    "SEMESTR_4/SEE/priprava/03b) Kapacitní tlakové senzory - mám schízu je to to samé jako 03a).md",
-    "SEMESTR_4/SEE/image/C_nahradni_obvod.png",
-    "SEMESTR_4/SEE/image",
-    "SEMESTR_4/SEE/priprava/03b) Kapacitní tlakové senzory.md",
-    "SEMESTR_4/SEE/priprava/03b) Kapacitní tlakové senzory - mám schízu je to to samé jako 03a).md",
-    "SEMESTR_4/SEE/image/C_nahradni_obvod.png",
-    "SEMESTR_4/SEE/image",
-    "SEMESTR_4/SEE/priprava/03b) Kapacitní tlakové senzory.md",
-    "SEMESTR_4/SEE/prednasky/05a_Piezoelektricky_jev_senzory_SEE_2025.pdf",
-    "SEMESTR_4/SEE/priprava/05b) Senzory SAW.md",
-    "SEMESTR_4/SEE/prednasky/05b_Senzory_SAW_SEE_2025.pdf",
-    "SEMESTR_4/SEE/priprava/05c) Ultrazvukové senzory.md",
-    "SEMESTR_4/SEE/prednasky/06_Akcelerometry_2021.pdf",
-    "SEMESTR_4/SEE/prednasky/07_Senzory_s_indukcnosti_SEE_2021.pdf",
-    "SEMESTR_4/SEE/prednasky/09_Teplotni_senzory_SEE_2021.pdf",
-    "SEMESTR_4/SEE/prednasky/11_Senzory chemickych velicin_SEE_2021_bez-CIA.pdf",
+    "SEMESTR_4/SEE/image/saw_magnetosenzor.png",
     "SEMESTR_4/SEE/prednasky/08_Senzory_magnetickeho_pole_SEE_2021.pdf",
-    "SEMESTR_4/SEE/priprava/11) Senzory chemických veličin.md",
     "SEMESTR_4/SEE/priprava/08) Senzory magnetického pole.md",
-    "SEMESTR_4/SEE/priprava/07) Senzory s indukčností.md",
+    "SEMESTR_4/SEE/image/olihen.png",
+    "SEMESTR_4/SEE/image/magnetotranzistor.png",
+    "SEMESTR_4/SEE/image/magnetodioda.png",
+    "SEMESTR_4/SEE/image/chka_magnetoresistor.png",
+    "SEMESTR_4/SEE/image/prevodni_chka.png",
+    "SEMESTR_4/SEE/image/magnetoodpor.png",
+    "SEMESTR_4/SEE/image/halll_zpracovani.png",
+    "SEMESTR_4/SEE/prednasky/hall_detekce_vzdalenost_magnet.png",
+    "SEMESTR_4/SEE/image/hall_yeah.png",
+    "SEMESTR_4/SEE/prednasky/01a_Uvod-proc_senzory_2025.pdf",
+    "SEMESTR_4/SEE/prednasky/01b_Senzorove_site_2025.pdf",
+    "SEMESTR_4/SEE/priprava/01a) Úvod, proč senzory.md",
+    "SEMESTR_4/SEE/prednasky/11_Senzory chemickych velicin_SEE_2021_bez-CIA.pdf",
+    "SEMESTR_4/SEE/image/halluv_senzor.png",
+    "SEMESTR_4/SEE/priprava/03b) Kapacitní tlakové senzory - mám schízu je to to samé jako 03a).md",
+    "SEMESTR_4/SEE/prednasky/05a_Piezoelektricky_jev_senzory_SEE_2025.pdf",
+    "SEMESTR_4/SEE/image",
+    "SEMESTR_4/AVT/priprava/Video.md",
+    "SEMESTR_4/AVT/priprava/AVT video - hvězdičky_3-6.pdf",
+    "SEMESTR_4/AVT/priprava/Audio.pdf",
     "SEMESTR_4/SEE/priprava/06) Akcelerometry.md",
-    "SEMESTR_4/SEE/prednasky/05c_Ultrazvukové_senzory_SEE_2025.pdf",
+    "SEMESTR_4/AVT/prednasky/avt_zaznamazprac-1.pdf",
+    "SEMESTR_4/AVT/prednasky/MMT05-ozvucovani-2.pdf",
+    "SEMESTR_4/SEE/priprava/05c) Ultrazvukové senzory.md",
+    "SEMESTR_4/AVT/priprava/Audio.md",
+    "SEMESTR_4/SEE/priprava/05b) Senzory SAW.md",
+    "SEMESTR_4/AVT/priprava/Video_updated.md",
+    "SEMESTR_4/SEE/priprava/03b) Kapacitní tlakové senzory.md",
+    "SEMESTR_4/SEE/priprava/11) Senzory chemických veličin.md",
+    "SEMESTR_4/SEE/priprava/07) Senzory s indukčností.md",
     "SEMESTR_4/SEE/priprava/05a) Piezoelektrický jev.md",
     "SEMESTR_4/SEE/priprava/09) Teplotní senzory.md",
     "SEMESTR_4/SEE/priprava/04b) Piezo odporové senzory tlaku.md",
-    "SEMESTR_4/SEE/prednasky/04b_Piezoodporove tlakové senzory_2025.pdf",
     "SEMESTR_4/SEE/priprava/04a) Piezoodporový jev.md",
     "SEMESTR_4/SEE/priprava/03a) Kapacitní senzory.md",
-    "Pasted image 20250515103235.png",
     "SEMESTR_4/SEE/priprava/02) Parametry senzorů.md",
-    "SEMESTR_4/SEE/priprava/01b) Senzorové sítě.md",
-    "SEMESTR_4/AVT/priprava/Audio.md",
-    "SEMESTR_4/AVT/image/zvukové pole vole dozvuk distance.png",
-    "SEMESTR_4/AVT/image/zvukové pole.png",
-    "SEMESTR_4/AVT/image/elektrostaticky menic.png",
-    "SEMESTR_4/AVT/image/menic_magneticke_pole.png",
-    "SEMESTR_4/AVT/image/analogie_zvuk_elektro_mechanika.png",
-    "SEMESTR_4/SEE/priprava/01a) Úvod, proč senzory.md",
-    "SEMESTR_4/AVT/priprava/Video.md"
+    "SEMESTR_4/SEE/priprava/01b) Senzorové sítě.md"
   ]
 }
