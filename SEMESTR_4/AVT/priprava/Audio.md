@@ -271,10 +271,13 @@ Jednotka vlnového čísla je $\left[\frac{rad}{m}\right]$. Vlnové číslo je d
 <div style="page-break-after: always;"></div>
 
 #### Princip studia LE DE
-- Le-De (Live End Dead End) – jeden z používaných standardů pro návrh studií. Zpravidla poskytuje dobré výsledky. 
-- „Živý konec“ – místo poslechu. Mělo by simulovat průměrné domácí prostředí. 
-- „Mrtvý konec“ – místo reprodukce (pohltivé plochy okolo reproduktorů)
-
+https://hofa-akustik.de/en/blog-en/room-acoustics-live-end-dead-end-explained/
+https://www.soundassured.com/blogs/blog/what-is-a-lede-room-design-home-studio-acoustics-setup-guide
+- **Koncept rozložení odrazivosti místnosti**: "Live end" (živý konec) označuje část místnosti, kde jsou odrazy zvuku silnější (např. u reproduktorů), zatímco "dead end" (mrtvý konec) má silnější absorpci (např. u posluchače), což pomáhá kontrolovat ozvěny a dozvuk.
+    
+- **Zlepšení lokalizace a čistoty zvuku**: Absorpce v mrtvém konci snižuje rušivé odrazy, zatímco živý konec zachovává přirozený prostorový dojem, což zlepšuje čitelnost a směrovost zvuku.
+    
+- **Použití v nahrávacích a poslechových místnostech**: Tato akustická úprava se často používá v domácích studiích a poslechových místnostech pro dosažení vyvážené akustiky – ani příliš „mrtvé“, ani příliš „živé“.
 
 <div style="page-break-after: always;"></div>
 
