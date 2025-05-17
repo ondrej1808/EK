@@ -162,7 +162,7 @@ $$F_C=F+\frac{F_2-1}{G_1}$$
 	- Bod kde by se protkla tečna charakteristiky výkonu výstupní složky a výstupní IM2 složky
 	- používá se pro zjištění výkonu IM2 při daném výstupním výkonu
 	- Je to paramter nelineárního prvku (směšovač) => našli bychom ho v datasheetu
-	- $P_{IM2}=2\cdot P_{out}-IP2=IP2-P_{out}$
+	- $P_{IM2}=2\cdot P_{out}-IP2$
 	- $O_{IM2}=P_{out}-P_{IM_2}=IP2-P_{out}$ = offset/odstup výkonové charakteritiky základní složky a složky IM2
 - IP3 = Third order intercept point
 	- Bod kde by se protkla tečna charakteristiky výkonu výstupní složky a výstupní IM3 složky
