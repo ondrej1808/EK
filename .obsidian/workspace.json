@@ -34,42 +34,6 @@
               "icon": "lucide-file",
               "title": "TBK3 - parametry"
             }
-          },
-          {
-            "id": "15c456bedca722c4",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "SEMESTR_4/TBK/prednasky/Přednáška TBK - antény a šíření II.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Přednáška TBK - antény a šíření II"
-            }
-          },
-          {
-            "id": "ea65df7efbd26976",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "SEMESTR_4/TBK/prednasky/Přednáška TBK - antény a šíření III.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Přednáška TBK - antény a šíření III"
-            }
-          },
-          {
-            "id": "6c41689e4ee3f92c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "SEMESTR_4/TBK/prednasky/Přednáška TBK - antény a šíření IV.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Přednáška TBK - antény a šíření IV"
-            }
           }
         ]
       }
@@ -128,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 421.5
+    "width": 200
   },
   "right": {
     "id": "0244f0f9345a9fa2",
@@ -218,34 +182,121 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "523d798b70b5d2c4",
+  "floating": {
+    "id": "586e14e7906a02ac",
+    "type": "floating",
+    "children": [
+      {
+        "id": "3bb1226b02853b75",
+        "type": "window",
+        "children": [
+          {
+            "id": "d4277dd0f505141c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "63a33047c5fce11e",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "SEMESTR_4/TBK/prednasky/Přednáška TBK - antény a šíření I.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "Přednáška TBK - antény a šíření I"
+                }
+              },
+              {
+                "id": "15c456bedca722c4",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "SEMESTR_4/TBK/prednasky/Přednáška TBK - antény a šíření II.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "Přednáška TBK - antény a šíření II"
+                }
+              },
+              {
+                "id": "ea65df7efbd26976",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "SEMESTR_4/TBK/prednasky/Přednáška TBK - antény a šíření III.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "Přednáška TBK - antény a šíření III"
+                }
+              },
+              {
+                "id": "6c41689e4ee3f92c",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "SEMESTR_4/TBK/prednasky/Přednáška TBK - antény a šíření IV.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "Přednáška TBK - antény a šíření IV"
+                }
+              },
+              {
+                "id": "5b07fb6cb8ab863e",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "SEMESTR_4/TBK/prednasky/AntenySireni-UcebniTextTBK-v1.0.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "AntenySireni-UcebniTextTBK-v1.0"
+                }
+              }
+            ],
+            "currentTab": 4
+          }
+        ],
+        "direction": "vertical",
+        "x": 1024,
+        "y": 0,
+        "width": 1024,
+        "height": 1232,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "1856695ce9ed6df9",
   "lastOpenFiles": [
-    "SEMESTR_4/TBK/priprava/TBK7-Antény part Vikouš💘.md",
+    "SEMESTR_4/TBK/image/vlny_sireni.png",
+    "SEMESTR_4/TBK/prednasky/AntenySireni-UcebniTextTBK-v1.0.pdf",
     "SEMESTR_4/TBK/priprava/TBK7-Antény part 1 Ondřej.md",
-    "SEMESTR_4/TBK/priprava/Vzorce.md",
-    "SEMESTR_4/TBK/priprava/TBK3 - parametry.md",
     "SEMESTR_4/TBK/prednasky/Přednáška TBK - antény a šíření II.pdf",
     "SEMESTR_4/TBK/prednasky/Přednáška TBK - antény a šíření III.pdf",
+    "SEMESTR_4/TBK/image/vykon_bilance.png",
+    "SEMESTR_4/TBK/image/vykonova bilance.png",
+    "SEMESTR_4/TBK/prednasky/Přednáška TBK - antény a šíření IV.pdf",
+    "SEMESTR_4/TBK/prednasky/Přednáška TBK - antény a šíření I.pdf",
+    "SEMESTR_4/TBK/image/polarizace.png",
+    "SEMESTR_4/TBK/image/dipol.png",
+    "SEMESTR_4/TBK/image/pulvlny_dipol.png",
+    "SEMESTR_4/TBK/image/vyzarovak.png",
+    "SEMESTR_4/TBK/image/vyzar_polarne.png",
+    "SEMESTR_4/TBK/image/prizusob_antenu.png",
+    "SEMESTR_4/TBK/image/vatupni_impedance_anteny.png",
+    "SEMESTR_4/TBK/priprava/TBK3 - parametry.md",
+    "SEMESTR_4/TBK/priprava/TBK7-Antény part Vikouš💘.md",
+    "SEMESTR_4/TBK/priprava/Vzorce.md",
     "SEMESTR_4/TBK/priprava/TBK2 - teorie.md",
     "SEMESTR_4/TBK/priprava/TBK1-uvod.pdf",
-    "SEMESTR_4/TBK/prednasky/Přednáška TBK - antény a šíření I.pdf",
-    "SEMESTR_4/TBK/prednasky/Přednáška TBK - antény a šíření IV.pdf",
     "SEMESTR_4/TBK/prednasky/TBK výpočty FSL.pdf",
     "SEMESTR_4/TBK/priprava/TBK5 - signály.md",
     "SEMESTR_4/TBK/prednasky/TBK práce s dB v5.pdf",
     "SEMESTR_4/AVT/priprava/AVT video - hvězdičky_3-6.pdf",
     "SEMESTR_4/TBK/priprava/TBK1-uvod.tex",
     "SEMESTR_4/TBK/image/šum_passive_component.png",
-    "SEMESTR_4/TBK/image/šum_kaskáda.png",
-    "SEMESTR_4/TBK/image/vykon_sum_f.png",
-    "SEMESTR_4/TBK/image/TXprima.png",
-    "SEMESTR_4/TBK/image/TXfrekvence.png",
-    "SEMESTR_4/TBK/image/snr_šum.png",
-    "SEMESTR_4/TBK/image/smith_priprava3.png",
-    "SEMESTR_4/TBK/image/smith_admitance.svg",
-    "SEMESTR_4/TBK/image/smith_admitance.png",
-    "SEMESTR_4/TBK/image/rx_superčhet.png",
-    "SEMESTR_4/TBK/image",
     "SEMESTR_4/AVT/priprava/Audio.md",
     "SEMESTR_4/TBK/priprava/TBK1 - úvod.md",
     "SEMESTR_4/SEE/priprava/03b) Kapacitní tlakové senzory.md",
@@ -264,7 +315,6 @@
     "SEMESTR_4/SEE/priprava/05b) Senzory SAW.md",
     "SEMESTR_4/AVT/priprava/Video_updated.md",
     "SEMESTR_4/SEE/priprava/05a) Piezoelektrický jev.md",
-    "SEMESTR_4/SEE/priprava/04b) Piezo odporové senzory tlaku.md",
-    "SEMESTR_4/SEE/priprava/04a) Piezoodporový jev.md"
+    "SEMESTR_4/SEE/priprava/04b) Piezo odporové senzory tlaku.md"
   ]
 }
