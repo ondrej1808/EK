@@ -48,7 +48,7 @@ $$\widehat Z=\frac{\widehat{E}_x(z)}{\widehat{H}_y(z)}=\sqrt{\frac{j\omega\mu}{j
 	- Charakteristická impedance je uvařena z fázorů napětí a proudu, můžeme z ní spočítat proud $I=\frac{V}{Z_0}=\frac{V^++V^-}{Z_0}$
 	- Vlnová impedance je uvařena z fázorů intenzity el. proudu a intenzity magnetického pole, ve vzduchu je vlnová impedance $120\pi\approxeq377\space\Omega$
 #### Definice koeficientů odrazu a přenosu na vedení s impedancí **_Z**_0_. Jak se mění koeficient odrazu podél vedení (popište v polárním diagramu)?
-[[TBK 2 teoretické základy 25.pdf#page=17|Přednáška]]
+![[TBK 2 teoretické základy 25.pdf#page=17|Přednáška]]
 ##### Koeficient odrazu $\Gamma$
 - Koeficient odrazu je komplexní číslo, jehož velikost je menší nebo rovno jedné
 - Vyjadřuje jak velká část vlny se odrazila vzhledem k vlně dopadající
@@ -80,7 +80,7 @@ $$\widehat T=\frac{2\widehat Z_1}{\widehat Z_1 + Z_0}$$
 [[TBK 2 teoretické základy 25.pdf#page=22|Přednáška str. 22]]
 - Co je Smithův diagram? 
 	- Smithův diagram je reprezentace komplexního čísla v logaritmických osách
-	- Nekonečno na iImaginární ose je ohlé do nekonečna na reálné ose
+	- Nekonečno na imaginární ose je ohlé do nekonečna na reálné ose
 	- Zahrnuje jak nulu, tak nekonečno, což je jeho výhoda oproti klasické kartézské soustavě
 	- Výhodou je že pokud chceme přepočítat $\Gamma <-> Z <-> Y$, tak stačí jen změnit pozadí grafu a dostaneme daný parametr.
 	- Aby mohli být použity pro různé $Z_0$, tak se střed diagram k $Z_0$ normuje, tak že ve středu je diagram 1
@@ -135,10 +135,10 @@ $$
 	- S parametry se dají dobře měřit (= výkonové zesílení/útlum) - jsou definovaný pomocí $Z_0$
 	- Z a Y můžeme z s parametrů přepočítat, měřit neumíme -> museli bychom měřit napětí a proud což ve vf nelze
 #### Co to je parametr _RL_ a k čemu se používá? Jaký je jeho fyzikální význam?
-- RL = return loss = $20\cdot log_{10}(s_{11})$
+- RL = return loss = $-20\cdot log_{10}(|s_{11}|)$
 - Logaritmicky v dBm popisuje jak moc výkonu se odráží
 - Má význam, jak moc daný vstup tlumí odrazy
-	#### Jaký je vliv odrazů na přenesený výkon? Napište vztah.
+#### Jaký je vliv odrazů na přenesený výkon? Napište vztah.
 $$P_{out}=P_{in}-P_{odrazy}$$
 
 #### Co to je impedanční přizpůsobení? Proč je ve VF a mikrovlnné oblasti tento koncept nutný? Co nastává, pokud není dodržen?

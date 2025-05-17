@@ -152,7 +152,7 @@ u_{\mathrm{IF}}(t) &= k_2 V_{\mathrm{LO}} \cos(\omega_{\mathrm{LO}} t) \cdot V_{
 #### K čemu se používají VF a mikrovlnné oscilátory? Proč se nejčastěji používají VCO?
 - Místní oscilátory pro down-konverzi
 - Generace nosné frekvence pro vysílání
-- VCO = voltage controlled amplifier
+- VCO = voltage controlled oscillator
 	- Varikap - napěťově závislá kapacita
 	- Napětím měníme kapacitu -> změna frekvence LC oscilátoru
 #### K čemu se používají násobiče frekvence a jaké jsou jejich hlavní parametry? Na jakém fyzikálním principu fungují?

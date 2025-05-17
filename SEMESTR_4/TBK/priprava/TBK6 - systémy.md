@@ -94,7 +94,9 @@
 #### Jaké struktury se používají pro generování vysoce stabilních nosných? Nakreslete bloková schémata a popište funkci jednotlivých obvodů.
 	PLL nebo DDS
 	Phase Lock Loop
-	![[PLL.png]]
+![[SEMESTR_4/TBK/image/PLL.png]]
+
+
 [Nech si PLL vysvětlit od pana docenta](https://youtu.be/6VL0LILP1Wk?si=9izyjpdEHj1ZrV3G&t=2059)
 	Krystalový oscilátor generuje fixní stabilní frekvenci
 	VCO (Vnější oscilátor) generuje dost nestabilní frekvenci -> vnějším napětím můžu regulovat co za frekvenci.
@@ -143,10 +145,10 @@ $$s_{TX}=v_I(t)cos(\omega_0t)+v_Q(t)sin(\omega_0t)$$
 	- Vstupní signály jsou v base band -> malé nároky na DAY
 - Nevýhody
 	- Kvadraturní chyby na vyšších GHz frekvencích
-	- Složité potlačení LO=lokální oscilátor, parazitní vyzařování do antény
+	- Složité potlačení LO = lokální oscilátor, parazitní vyzařování do antény
 
 #### Nakreslete a popište blokové schéma TX s frekvenční konverzí. Jaké jsou výhody a nevýhody této struktury?
-	![[TXfrekvence.png]]
+![[TXfrekvence.png]]
 [Šéf ti řekne jak to je drahý](https://youtu.be/6VL0LILP1Wk?si=BTjNT8L6mVCKGYPS&t=3939)
 $$\omega_0=\omega_{IF}+\omega_{LO}$$
 	Výhody:
@@ -156,7 +158,7 @@ $$\omega_0=\omega_{IF}+\omega_{LO}$$
 	Nevýhody:
 		složitější
 		větší, vyšší příkon, cena
-		2x LO![[prima_frekvecni_konverze.png]]
+		2x LO
 - basically si modulaci vyřešíme na nižším kmitočtu a pak za stáleho směšování up-konvertujeme frekvenci na vyšší, kterou vysíláme
 - Výhody:
 	- Na nízkých frekvencíh jsou nižší kvadraturní chyby
@@ -169,16 +171,17 @@ $$\omega_0=\omega_{IF}+\omega_{LO}$$
 
 #### Jaké parametry TX ovlivňují koncové výkonové zesilovače? Jaké jsou základní požadavky na ně kladené?
 	Výkonové zesilovače PA zajišťují dostatečný výstupní výkon.
-	 linearita a účinnost TX. 	- Parametry
-	- Účinnost: Aby se IPhone nevybil
-	- Komprese $P_{-1dB}$
-	- IM produkty - interference, rozšiřování spektra
-	- Účinnost a linearita jdou většinou proti sobě
+	 linearita a účinnost TX. 	
+	 - Parametry
+		- Účinnost: Aby se IPhone nevybil
+		- Komprese $P_{-1dB}$
+		- IM produkty - interference, rozšiřování spektra
+		- Účinnost a linearita jdou většinou proti sobě
 - Linearita
 	- Ovlivňuje okrajové stavy x-QAM
 	- nelinearity způsobují vyšší bit-error-rate
 #### Nakreslete a popište blokové schéma výkonového zesilovače s linearizací typu „pre-distortion“ a „digital pre-distortion“.
-	![[PDDPD.png]]
+![[PDDPD.png]]
 [PDPDPDPDDPDDPDPDDPDDPDDP](https://youtu.be/6VL0LILP1Wk?si=7QnHJvA0mRn9_NbF&t=5306)
 	Vstupní signál je upraven tak, aby výstupní signál nebyl nelinearitou PA ovlivněn.
 	Ke vstupnímu signálu je nutné přičíst kubickou složku s vhodnou amplitudou a fází	
@@ -192,13 +195,11 @@ $$\omega_0=\omega_{IF}+\omega_{LO}$$
 	- Přesnější linearizace
 
 #### Nakreslete a popište blokové schéma výkonového zesilovače s linearizací typu „envelope tracking“.
-	![[enveleope tracking.png]]
+![[enveleope tracking.png]]
 	envelope == obálka signálu
 	 Detektor obálky měří okamžitou amplitudu signálu 
 	 Řízený spínaný regulátor nastavuje DC napájecí napětí na hodnotu těsně nad potřebnou saturační úrovní 
-	 PA tak pracuje stále poblíž saturace![[ET_nevola_domu_nechyta_GSM.png]]
-- Detektor obálky měří okamžitou hodnotu amlitudy signálu
-- Spínaný zdroj nastavuje napájení těsně nad výškou obálky, abychom nemuseli na výkonových tranzistorech mít takový úbytek
+	 PA tak pracuje stále poblíž saturace
 - Prakticky se velmi těžko realizuje - složitý obvod
 - Široce používaný v mobilních komunikacích
 
@@ -214,45 +215,46 @@ $$\omega_0=\omega_{IF}+\omega_{LO}$$
 - Selektivní příjem jednoho kanálu
 - Potlačení blízkých a vzdálených kanálů (Necheme slyšet blaník, impuls a wifi najednou)	musí zajistit vysokou selektivitu příjmu velmi slabých i velmi silných signálů.
 	Selektivní příjem 1 požadovaného kanálu
-12.            Nakreslete blokové schéma přímozesilujícího přijímače („RF tuned receiver“). Jaké jsou výhody a nevýhody této struktury?  
-	![[rftunerdreciever.png]]
+
+#### Nakreslete blokové schéma přímozesilujícího přijímače („RF tuned receiver“). Jaké jsou výhody a nevýhody této struktury?  
+![[rftunerdreciever.png]]
 	Výběr pracovního kanálu je prováděn pevným / přeladitelným filtrem.
 	Přímozesilující RX vykazují špatnou selektivitu i rozsah přeladění.
-13.            Nakreslete blokové schéma RX typu superhet s 1 směšováním. Jaké jsou základní principy činnosti? Jaké jsou výhody a nevýhody této struktury? 
-	![[rx_superčhet.png]]
+#### Nakreslete blokové schéma RX typu superhet s 1 směšováním. Jaké jsou základní principy činnosti? Jaké jsou výhody a nevýhody této struktury?
+![[rx_superčhet.png]]
 	Laditelný LO nastavíme přeladění na směšovači.
 	$$w_{IF}=w_{LO}-w_{RF}$$
 	RX typu superhet řeší většinu problémů příjmu i za velmi náročných podmínek. Na druhé straně přináší problémy se zrcadlovým příjmem.
-14.            Co to je zrcadlové pásmo a jaké způsoby jeho potlačení  se používají?
+#### Co to je zrcadlové pásmo a jaké způsoby jeho potlačení  se používají?
 	Postranní pásmo obsahující nazrcadlený signál od užitečného pásma na filtru IF.
 	Potlačení:
 		Preselektor
 		Vícenásobné směšování
 		Potlačení typ >60 dB
-15.            Nakreslete blokové schéma RX s 2-násobným směšováním a popište funkci.
-	![[rx2times.png]]
+#### Nakreslete blokové schéma RX s 2-násobným směšováním a popište funkci.
+![[rx2times.png]]
 	1. IF Filtr má vysokou frekvenci. Zrcadlové pásmo lze díky tomu dobře filtrovat (je dál).
 	2. IF filtr je na nižší frekvenci aby se signálem dalo pracovat lépe (ADC nemají rádi big RF)
 	[[TBK 6 systémy 20.pdf#page=33]]
 	červený text s frekvencema mu do testu nepište.
-16.            Nakreslete blokové schéma přijímače s přímou konverzí do základního pásma. Jaké jsou výhody a nevýhody této struktury
-	![[rxdirect.png]]
+#### Nakreslete blokové schéma přijímače s přímou konverzí do základního pásma. Jaké jsou výhody a nevýhody této struktury
+![[rxdirect.png]]
 	Výhody:
 		širokopásmový příjem
 		levné, jednoduché, nic to nežere
 	Nevýhody:
 		LO může proniknout do antény, nelze filtrovat
 		přináší problémy se zrcadlovým příjmem
-17.            K čemu se používají a jak fungují obvody AGC?
+#### K čemu se používají a jak fungují obvody AGC?
 	 přispívají k efektivnímu příjmu slabých i silných signálů
 	 automatic gain-control
 	 Řídí zisk zesilovačů tak, aby ani silná anténa blízko vysílači nepoškodila křechčí obvody z ním.
-18.            Co to je transceiver? Jaký je rozdíl mezi duplexerem a diplexerem? Jak je možné konstruovat diplexery?
+#### Co to je transceiver? Jaký je rozdíl mezi duplexerem a diplexerem? Jak je možné konstruovat diplexery?
 	V zařízeních pro přenosy poloduplex a plný duplex je nutné sloučit TX a RX do 1 antény
 	prostě transciever + reciever
 	konstruuje z duplexerů (VF přepínače)
 	dixplexer = speciální slučovací filtr
-19.            Vysvětlete techniky TDD a FDD.
+#### Vysvětlete techniky TDD a FDD.
 	TDD
 		Time division duplexing
 		duplexery

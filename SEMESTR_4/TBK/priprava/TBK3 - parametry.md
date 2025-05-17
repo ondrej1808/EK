@@ -47,7 +47,6 @@ $$IG=|s_{21}|^2$$
 $$IG(dB)=20\cdot \text{log}_{10}(|s_{21}|)$$
 #### Proč je šum jedním z parametrů omezujících radiové komunikace?
 - Šumový práh nám určuje jak nízký signál jsem ještě schopni rozlišit 
-
 #### Co to je fázový šum a jaký vliv má na přijímané signály?
 - šum v bezprostřední blízkosti nosné způsobený náhodnými změnami fáze
 
@@ -58,7 +57,7 @@ $$IG(dB)=20\cdot \text{log}_{10}(|s_{21}|)$$
 $$\text{SNR}=\frac{\text{S}}{\text{N}}$$
 $$\text{SNR(dB)}=\text{S}_{dBm}-\text{N}_{dBm}$$
 - Vzorečky nahoře platí pro spektrální čáru - jednu nosnou bez modulaci
-- Pokud máme modulovaný signál, tak musíme zahrnout celý band - pásmo s šíčkou pásma $\text{B}$
+- Pokud máme modulovaný signál, tak musíme zahrnout celý band - pásmo s šířkou pásma $\text{B}$
 - PSD = Power signal density
 $$\text{S}=\int_{f_{nosná}-B/2}^{f_{nosná}+B/2}PSD_{sig}df$$
 ##### Šumové číslo F pomocí SNR
@@ -184,13 +183,11 @@ Příklady:
 
 1.               Výkony ve W převeďte do dBm
 
-
 | _P_ [W]   | 7.10-15 | 4.10-6 | 0,00084 | 0,6 | 32  | 155 |
 | --------- | ------- | ------ | ------- | --- | --- | --- |
 | _P_ [dBm] |         |        |         |     |     |     |
 
 2.               Výkony v dBm převeďte do W
-
 
 | _P_ [dBm] | -164 | -25 | -6  | 9   | 24  | 38  |
 | --------- | ---- | --- | --- | --- | --- | --- |
@@ -214,15 +211,15 @@ Správné hodnoty jsou: $G_C=+25 dB; F_C=5,74 dB;F_C=3,753$ 
 
 5. Na vstupu kaskády RX dle příkladu ad.4. je připojena anténa s šumovou teplotou _TA_=150K, šumová šířka pásma zařízení je _B_=10MHz. Vypočtěte celkovou ekvivalentní systémovou šumovou teplotu _Ts_ se započtením vlivu antény, celkový šumový výkon na vstupu _Pnin_ , celkový šumový výkon na výstupu _Pnout_ .
 
-Šumová teplota RX je: $T_{RX}=(F_C-1)T_0$ (správná hodnota je 798K)
+Šumová teplota RX je: $T_{RX}=(F_C-1)T_0$ (správná hodnota je 798 K)
 
-Celková systémová teplota$T_S=T_A+T_RX$ (správná hodnoty je 948K)
+Celková systémová teplota$T_S=T_A+T_{RX}$ (správná hodnoty je 948 K)
 
-Celkový ekv. vstupní šumový výkon: $P_{nin}=kT_SB$ (správná hodnota je 1,31.10-13W resp. -98,8dBm)
+Celkový ekv. vstupní šumový výkon: $P_{nin}=kT_SB$ (správná hodnota je $1,31.10^{-13}W$ resp. -98,8 dBm)
 
-Celkový výstupní šumový výkon: $P_{nout}=kT_0BG_C$ (správná hodnota je 4,17.10-11W resp. -73,8dBm)
+Celkový výstupní šumový výkon: $P_{nout}=kT_0BG_C$ (správná hodnota je $4,17.10^{-11}W$ resp. -73,8 dBm)
 
-6. VF zesilovač má při _P-1dB_=20dBm IM parametry  _IP2_=44dBm,  _IP3_=33dBm.  Vypočtěte výkony a odstupy IM produktů pro výstupní výkony _Pout_=20dBm a 0dBm.
+6. VF zesilovač má při _P-1 dB_=20 dBm IM parametry  _IP2_ = 44 dBm,  _IP3_ = 33 dBm.  Vypočtěte výkony a odstupy IM produktů pro výstupní výkony _Pout_=20dBm a 0dBm.
 
 Výkon IM produktu 2. řádu pro nastavený výkon: $P_{IM2}=2\cdot P_{out}-IP2=IP2-P_{out}$
 
