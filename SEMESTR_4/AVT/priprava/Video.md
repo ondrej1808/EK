@@ -83,7 +83,7 @@
 	Experiment trichromatického vyvážení barev (v subjektivním kolorimetru) spočívá v tom, že pozorovatel nastavuje intenzity tří základních barevných světel (např. RGB) tak, aby jejich směs odpovídala testované barvě.
 	Ne všechny barvy lze takto vyvážit jen s kladnými intenzitami – pokud je potřeba negativní odezva, odečítá se jedna ze složek z testované barvy (např. přidáním základní barvy k ní), čímž se matematicky umožní záporné hodnoty.
 
-![[b2b37avt_lecture_colorimetry_v0.60_250407.pdf#page=19]]
+	![[b2b37avt_lecture_colorimetry_v0.60_250407.pdf#page=19]]
 1. Vysvětlete význam trichromatických (trojbarvých) členitelů CMF (color matching functions) pro trichromatický systém CIE RGB 1931 a systém CIE XYZ 1931.
 2. Jaké byly hlavní důvody a požadavky při zavedení trichromatického systému CIE XYZ 1931 a jak lze CIE RGB transformovat na CIE XYZ?
 3. **Jaký je principiální rozdíl mezi základními světly v systému CIE RGB 1931 a CIE XYZ 1931?
