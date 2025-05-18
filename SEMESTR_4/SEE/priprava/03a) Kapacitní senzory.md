@@ -21,8 +21,10 @@ $$R_S,\omega L_S<<\frac{1}{\omega C}<<R_d,R_k,\frac{1}{\omega C_k}$$
 ![[03a Kapacitni_ senzory_2025.pdf#page=16]]
 #### Nakreslete základní zapojení pro vyhodnocování kapacity s napěťovým kapacitním děličem a střídavým a stejnosměrným výstupním signálem, synchronním demodulátorem
 ![[03a Kapacitni_ senzory_2025.pdf#page=20]]
+![[03a Kapacitni_ senzory_2025.pdf#page=21]]
+![[03a Kapacitni_ senzory_2025.pdf#page=22]]
 #### Nakreslete základní zapojení pro vyhodnocování kapacity se zesilovačem se zpětnou vazbou
-![[03a Kapacitni_ senzory_2025.pdf#page=20]]
+![[03a Kapacitni_ senzory_2025.pdf#page=23]]
 #### Nakreslete základní zapojení pro vyhodnocování kapacity s kapacitním můstkem
 ![[03a Kapacitni_ senzory_2025.pdf#page=22]]
 ![[03a Kapacitni_ senzory_2025.pdf#page=23]]

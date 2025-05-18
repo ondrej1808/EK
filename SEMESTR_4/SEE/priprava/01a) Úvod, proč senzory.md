@@ -46,7 +46,7 @@
 
 - Aktivní senzor generuje napětí/proud na základě nějakého fyz. jevu - termočlánek
 - Pasivní senzor potřebuje napájení, aby byla nějaká změna měřitelná - termistor
-![[01a_Uvod-proc_senzory_2025.pdf#page=19|01a - str. 19]]
+![[01a_Uvod-proc_senzory_2025.pdf#page=29|01a - str. 29]]
 #### Napište alespoň 5 základních požadavků na výběr senzoru
 - Jednoznačná závislost výstupní veličiny na vstupní
 - Co nejlepší tvar přenosové charakteristiky - linearita

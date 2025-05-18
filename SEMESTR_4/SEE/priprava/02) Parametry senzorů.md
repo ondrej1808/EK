@@ -1,7 +1,7 @@
 #### Napište základní typy parametrů charakterizujících senzor (3 typy)
 - Statické
 - Dynamické
-- Prostředí
+- Reakce na prostředí
 #### Vyjmenujte alespoň 5 základních statických parametrů charakterizujících senzor
 - Přesnost
 - Rozlišovací schopnost
@@ -15,7 +15,7 @@
 - Práh citlivosti
 - Práh měření
 - Nestabilita a drift
-- Výstupbí impedance
+- Výstupní impedance
 - Reprodukovatelnost
 #### Nakreslete obecnou a ideální převodní charakteristiku senzoru, napište základní rovnice popisující charakteristiky
 ![[02_Parametry senzoru_2025.pdf#page=5|Vysvětleno v přednášce]]
@@ -26,6 +26,7 @@
 #### Napište matematický vztah pro definice přesnosti
 ![[02_Parametry senzoru_2025.pdf#page=8|Vysvětleno v přednášce]]
 #### Napište matematický vztah pro rozlišovací schopnost
+- nejmenší změna děleno rozsah, když více nejmenších změn tak zprůměrujeme
 ![[02_Parametry senzoru_2025.pdf#page=9|Vysvětleno v přednášce]]
 $$R_{max}=100\cdot\frac{\Delta X_{min}}{X_{max}-X_{min}} \text{[\%]}$$
 #### Napište matematický vztah pro průměrnou rozlišovací schopnost

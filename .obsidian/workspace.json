@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "7b48b919855c17f7",
+        "id": "860e33698f78a3a4",
         "type": "tabs",
         "children": [
           {
-            "id": "af03f97184368376",
+            "id": "ff2dc9e85430cf3c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEMESTR_4/SEE/priprava/07) Senzory s indukčností.md",
+                "file": "SEMESTR_4/SEE/priprava/03a) Kapacitní senzory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "07) Senzory s indukčností"
+              "title": "03a) Kapacitní senzory"
+            }
+          },
+          {
+            "id": "3bb32b610a3a9f70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEMESTR_4/SEE/priprava/04a) Piezoodporový jev.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "04a) Piezoodporový jev"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 421.5
+    "width": 431.5
   },
   "right": {
     "id": "0244f0f9345a9fa2",
@@ -168,46 +183,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1856695ce9ed6df9",
+  "active": "3bb32b610a3a9f70",
   "lastOpenFiles": [
-    "SEMESTR_4/SEE/image/magnetorezistivni_anizotropni_trpi.png",
-    "SEMESTR_4/SEE/priprava/07) Senzory s indukčností.md",
+    "SEMESTR_4/SEE/image/ntc.png",
+    "SEMESTR_4/SEE/image/nahradni_model_indukcnos.png",
+    "SEMESTR_4/SEE/image/mems_bolometr.png",
+    "SEMESTR_4/SEE/image/magnetotranzistor.png",
     "SEMESTR_4/SEE/image/magnetostrikcni senzo.png",
-    "SEMESTR_4/SEE/image/magnetoelasticky.png",
+    "SEMESTR_4/SEE/image/magnetorezistivni_anizotropni_trpi.png",
+    "SEMESTR_4/SEE/image/magnetoodpor.png",
     "SEMESTR_4/SEE/image/magnetoinduktivni.png",
-    "SEMESTR_4/SEE/image/lvdt2.png",
-    "SEMESTR_4/SEE/image/lvdt.png",
-    "SEMESTR_4/SEE/image/indukcnostni_trafo_nebo_co.png",
-    "SEMESTR_4/SEE/image/oscilacni_indukcni.png",
-    "SEMESTR_4/SEE/image/indukcni_vzajemny.png",
-    "SEMESTR_4/SEE/image/pasivni_s_potlacenim_inudodm.png",
+    "SEMESTR_4/SEE/image/magnetoelasticky.png",
+    "SEMESTR_4/SEE/image/magnetodioda.png",
+    "SEMESTR_4/SEE/priprava/03a) Kapacitní senzory.md",
+    "SEMESTR_4/SEE/priprava/02) Parametry senzorů.md",
+    "SEMESTR_4/SEE/priprava/01b) Senzorové sítě.md",
+    "SEMESTR_4/SEE/priprava/01a) Úvod, proč senzory.md",
+    "SEMESTR_4/AVT/priprava/Audio.md",
+    "SEMESTR_4/SEE/image/zpracovani_teplota_pn_prechod.png",
+    "SEMESTR_4/SEE/image",
+    "SEMESTR_4/AVT/prednasky/MMT05-ozvucovani-2.pdf",
+    "SEMESTR_4/TBK/prednasky/Přednáška TBK - antény a šíření II.pdf",
+    "SEMESTR_4/TBK/prednasky/Přednáška TBK - antény a šíření I.pdf",
+    "SEMESTR_4/TBK/prednasky/AntenySireni-UcebniTextTBK-v1.0.pdf",
+    "SEMESTR_4/TBK/priprava/TBK3 - parametry.md",
+    "SEMESTR_4/TBK/priprava/TBK7-Antény part 1 Ondřej.md",
+    "SEMESTR_4/AVT/priprava/AVT video - hvězdičky_3-6.pdf",
+    "SEMESTR_4/AVT/priprava/AVT video - hvězdičky.pdf",
+    "SEMESTR_4/AVT/prednasky/avt_zaznamazprac-1.pdf",
+    "SEMESTR_4/AVT/image",
+    "SEMESTR_4/TBK/priprava/TBK7-Antény part Vikouš💘.md",
+    "SEMESTR_4/TBK/prednasky/Přednáška TBK - antény a šíření III.pdf",
+    "SEMESTR_4/TBK/priprava/Vzorce.md",
+    "SEMESTR_4/TBK/priprava/TBK2 - teorie.md",
+    "SEMESTR_4/TBK/priprava/TBK5 - signály.md",
+    "SEMESTR_4/TBK/priprava/TBK1 - úvod.md",
+    "SEMESTR_4/SEE/priprava/03b) Kapacitní tlakové senzory.md",
+    "SEMESTR_4/AVT/priprava/Phon.md",
+    "SEMESTR_4/TBK/priprava/TBK6 - systémy.md",
+    "SEMESTR_4/SEE/priprava/03b) Kapacitní tlakové senzory - mám schízu je to to samé jako 03a).md",
+    "SEMESTR_4/AVT/priprava/Video.md",
+    "SEMESTR_4/TBK/priprava/TBK4 - komponenty.md",
+    "SEMESTR_4/SEE/priprava/07) Senzory s indukčností.md",
     "SEMESTR_4/SEE/priprava/06) Akcelerometry.md",
     "SEMESTR_4/SEE/priprava/11) Senzory chemických veličin.md",
     "SEMESTR_4/SEE/priprava/09) Teplotní senzory.md",
     "SEMESTR_4/SEE/priprava/08) Senzory magnetického pole.md",
-    "SEMESTR_4/SEE/prednasky/08_Senzory_magnetickeho_pole_SEE_2021.pdf",
-    "SEMESTR_4/SEE/prednasky/01a_Uvod-proc_senzory_2025.pdf",
-    "SEMESTR_4/SEE/prednasky/01b_Senzorove_site_2025.pdf",
-    "SEMESTR_4/SEE/priprava/01a) Úvod, proč senzory.md",
-    "SEMESTR_4/SEE/prednasky/11_Senzory chemickych velicin_SEE_2021_bez-CIA.pdf",
-    "SEMESTR_4/SEE/priprava/03b) Kapacitní tlakové senzory - mám schízu je to to samé jako 03a).md",
-    "SEMESTR_4/SEE/prednasky/05a_Piezoelektricky_jev_senzory_SEE_2025.pdf",
-    "SEMESTR_4/SEE/image",
-    "SEMESTR_4/AVT/priprava/Video.md",
-    "SEMESTR_4/AVT/priprava/AVT video - hvězdičky_3-6.pdf",
-    "SEMESTR_4/AVT/priprava/Audio.pdf",
-    "SEMESTR_4/AVT/prednasky/avt_zaznamazprac-1.pdf",
-    "SEMESTR_4/AVT/prednasky/MMT05-ozvucovani-2.pdf",
     "SEMESTR_4/SEE/priprava/05c) Ultrazvukové senzory.md",
-    "SEMESTR_4/AVT/priprava/Audio.md",
-    "SEMESTR_4/SEE/priprava/05b) Senzory SAW.md",
-    "SEMESTR_4/AVT/priprava/Video_updated.md",
-    "SEMESTR_4/SEE/priprava/03b) Kapacitní tlakové senzory.md",
-    "SEMESTR_4/SEE/priprava/05a) Piezoelektrický jev.md",
-    "SEMESTR_4/SEE/priprava/04b) Piezo odporové senzory tlaku.md",
-    "SEMESTR_4/SEE/priprava/04a) Piezoodporový jev.md",
-    "SEMESTR_4/SEE/priprava/03a) Kapacitní senzory.md",
-    "SEMESTR_4/SEE/priprava/02) Parametry senzorů.md",
-    "SEMESTR_4/SEE/priprava/01b) Senzorové sítě.md"
+    "SEMESTR_4/SEE/priprava/05b) Senzory SAW.md"
   ]
 }
