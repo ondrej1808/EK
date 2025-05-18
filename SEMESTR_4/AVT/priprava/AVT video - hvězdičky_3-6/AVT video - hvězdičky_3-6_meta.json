@@ -1,0 +1,1221 @@
+{
+  "table_of_contents": [
+    {
+      "title": "3. Obrazov\u00e9 sn\u00edma\u010de a jejich charakteristiky",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          124.85000610351562,
+          84.41372306644917
+        ],
+        [
+          434.8618562221527,
+          84.41372306644917
+        ],
+        [
+          433.6977937221527,
+          105.60484796762466
+        ],
+        [
+          124.36189675331116,
+          105.60484796762466
+        ]
+      ]
+    },
+    {
+      "title": "Vysv\u011btlete princip akumula\u010dn\u00edho sn\u00edm\u00e1n\u00ed obrazu.",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.0404839515686,
+          105.45337072014809
+        ],
+        [
+          325.89380502700806,
+          105.45337072014809
+        ],
+        [
+          324.72974252700806,
+          120.90209266543388
+        ],
+        [
+          68.8764214515686,
+          120.90209266543388
+        ]
+      ]
+    },
+    {
+      "title": "Popi\u0161te, jak doch\u00e1z\u00ed k fotogeneraci n\u00e1boje v bu\u0148ce CCD a na jak\u00fdch parametrech bude \nz\u00e1viset velikost generovan\u00e9ho n\u00e1boje.",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.54510760307312,
+          542.3619195222855
+        ],
+        [
+          520.2120640277863,
+          542.3619195222855
+        ],
+        [
+          519.0480015277863,
+          571.7187696695328
+        ],
+        [
+          69.38104510307312,
+          571.7187696695328
+        ]
+      ]
+    },
+    {
+      "title": "Popi\u0161te stru\u010dn\u011b mechanizmus posuvu n\u00e1boje ve struktu\u0159e CCD s pou\u017eit\u00edm diagramu.",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          70.33542501926422,
+          71.35578334331512
+        ],
+        [
+          505.1960201263428,
+          71.35578334331512
+        ],
+        [
+          505.1960201263428,
+          85.6600341796875
+        ],
+        [
+          70.33542501926422,
+          85.6600341796875
+        ]
+      ]
+    },
+    {
+      "title": "Vysv\u011btlete princip sn\u00edm\u00e1n\u00ed barevn\u00e9ho obrazu s vyu\u017eit\u00edm masky \nbarevn\u00fdch filtr\u016f CFA (Color Filter Array), zejm\u00e9na pak Bayerovu masku.",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          70.8239974975586,
+          228.32540786266327
+        ],
+        [
+          444.41936779022217,
+          226.68087661266327
+        ],
+        [
+          443.25530529022217,
+          256.3499755859375
+        ],
+        [
+          70.81306791305542,
+          257.8552529811859
+        ]
+      ]
+    },
+    {
+      "title": "Vysv\u011btlete v\u00fdznam a z\u00e1kladn\u00ed postup m\u011b\u0159en\u00ed modula\u010dn\u00ed p\u0159enosov\u00e9 funkce MTF \n(Modulation Transfer Function).",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          70.8005633354187,
+          376.5209954380989
+        ],
+        [
+          479.55421137809753,
+          374.8764641880989
+        ],
+        [
+          479.34100341796875,
+          405.02310889959335
+        ],
+        [
+          69.6365008354187,
+          406.66764014959335
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          475.966605424881,
+          201.56713339686394
+        ],
+        [
+          562.2784578800201,
+          199.92260214686394
+        ],
+        [
+          561.1143953800201,
+          218.7371352314949
+        ],
+        [
+          474.802542924881,
+          220.3816664814949
+        ]
+      ]
+    },
+    {
+      "title": "Jak se projev\u00ed nedostate\u010dn\u00e9 prostorov\u00e9 vzorkov\u00e1n\u00ed p\u0159i sn\u00edm\u00e1n\u00ed obrazu a jak lze tomuto\nne\u017e\u00e1douc\u00edmu jevu p\u0159edch\u00e1zet?",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          69.69307339191437,
+          71.16971462965012
+        ],
+        [
+          520.5129909515381,
+          71.16971462965012
+        ],
+        [
+          520.5129909515381,
+          100.53997802734375
+        ],
+        [
+          69.69307339191437,
+          100.53997802734375
+        ]
+      ]
+    },
+    {
+      "title": "4. P\u0159edzpracov\u00e1n\u00ed obrazu a videosign\u00e1lu",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          124.4887365102768,
+          73.58698937296867
+        ],
+        [
+          412.3035626411438,
+          73.58698937296867
+        ],
+        [
+          411.1395001411438,
+          92.74180361628532
+        ],
+        [
+          123.3246740102768,
+          92.74180361628532
+        ]
+      ]
+    },
+    {
+      "title": "Popi\u0161te co to je histogram \u0161edot\u00f3nov\u00e9ho digit\u00e1ln\u00edho obrazu.",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          70.2740033864975,
+          371.9689241051674
+        ],
+        [
+          384.623046875,
+          371.9689241051674
+        ],
+        [
+          384.623046875,
+          386.40825778245926
+        ],
+        [
+          69.1099408864975,
+          386.40825778245926
+        ]
+      ]
+    },
+    {
+      "title": "Popi\u0161te mechanizmus v\u00fdpo\u010dtu 2D diskr\u00e9tn\u00ed konvoluce nejl\u00e9pe graficky.",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          70.8239974975586,
+          411.21158117055893
+        ],
+        [
+          439.35352182388306,
+          411.21158117055893
+        ],
+        [
+          438.18945932388306,
+          425.6135505437851
+        ],
+        [
+          70.8239974975586,
+          425.6135505437851
+        ]
+      ]
+    },
+    {
+      "title": "Co to je korekce gamma a jak bude vypadat z\u00e1kladn\u00ed p\u0159evodn\u00ed charakteristika displeje a\nkamery v televizn\u00edm syst\u00e9mu?",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          69.2190717458725,
+          71.38408260047436
+        ],
+        [
+          526.7155456542969,
+          71.38408260047436
+        ],
+        [
+          526.7155456542969,
+          100.05826257169247
+        ],
+        [
+          69.2190717458725,
+          100.05826257169247
+        ]
+      ]
+    },
+    {
+      "title": "Jak\u00e9 p\u0159enosov\u00e9 sign\u00e1ly pro jas (luma) a barvu (chroma) se pou\u017e\u00edvaj\u00ed v televizn\u00edch \nsoustav\u00e1ch, nap\u0159\u00edklad PAL a pro\u010d?",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          70.54677724838257,
+          406.89067167043686
+        ],
+        [
+          490.8808364868164,
+          406.89067167043686
+        ],
+        [
+          490.8315734863281,
+          434.9586181640625
+        ],
+        [
+          69.38271474838257,
+          434.9586181640625
+        ]
+      ]
+    },
+    {
+      "title": "Vysv\u011btlete z\u00e1kladn\u00ed po\u017eadavky na digitalizaci slo\u017ekov\u00e9ho sign\u00e1lu televize ve \nstandardn\u00edm rozli\u0161en\u00ed podle ITU-R BT.601 ve smyslu vzorkovac\u00edho kmito\u010dtu, bitov\u00e9 \nhloubky a po\u017eadovan\u00e9ho bitov\u00e9ho toku.",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          70.8239974975586,
+          492.2698128223419
+        ],
+        [
+          504.6280210018158,
+          492.2698128223419
+        ],
+        [
+          503.4639585018158,
+          535.303554058075
+        ],
+        [
+          69.78207969665527,
+          535.303554058075
+        ]
+      ]
+    },
+    {
+      "title": "4. Komprese obrazu a videa",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          103.32847779989243,
+          73.87245365977287
+        ],
+        [
+          304.7169830799103,
+          73.87245365977287
+        ],
+        [
+          304.7169830799103,
+          93.15943565964699
+        ],
+        [
+          103.32847779989243,
+          93.15943565964699
+        ]
+      ]
+    },
+    {
+      "title": "*Vysv\u011btlete z\u00e1kladn\u00ed rozd\u00edl mezi mezi (matematicky) bezeztr\u00e1tovou a (matematicky) \nztr\u00e1tovou kompres\u00ed obrazu.",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          70.47295761108398,
+          94.0209099650383
+        ],
+        [
+          507.6884460449219,
+          94.0209099650383
+        ],
+        [
+          507.6884460449219,
+          123.41668021678925
+        ],
+        [
+          70.47295761108398,
+          123.41668021678925
+        ]
+      ]
+    },
+    {
+      "title": "*Vysv\u011btlete z\u00e1kladn\u00ed princip Huffmanova kod\u00e9ru s prom\u011bnnou d\u00e9lkou k\u00f3du VLC \n(Variable Length Coding), nejl\u00e9pe pomoc\u00ed bin\u00e1rn\u00edho stromu.",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          70.8239974975586,
+          195.46208465099335
+        ],
+        [
+          487.0072593688965,
+          195.46208465099335
+        ],
+        [
+          486.80743408203125,
+          225.66413593292236
+        ],
+        [
+          70.00194001197815,
+          225.66413593292236
+        ]
+      ]
+    },
+    {
+      "title": "*Vysv\u011btlete princip transforma\u010dn\u00edho 2D DCT k\u00f3dov\u00e1n\u00ed blok\u016f pro \nkompresi obrazu.",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          70.16584944725037,
+          71.09167367219925
+        ],
+        [
+          405.4332275390625,
+          71.09167367219925
+        ],
+        [
+          405.4332275390625,
+          100.67248380184174
+        ],
+        [
+          70.16584944725037,
+          100.67248380184174
+        ]
+      ]
+    },
+    {
+      "title": "*Jak\u00e1 transformace se nej\u010dast\u011bji pou\u017e\u00edv\u00e1 v transforma\u010dn\u00edm k\u00f3dov\u00e1n\u00ed blok\u016f obrazu a\nvysv\u011btlete pro\u010d?\n2D DCT",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          70.50219416618347,
+          259.0133205652237
+        ],
+        [
+          507.2151186466217,
+          259.0133205652237
+        ],
+        [
+          506.0510561466217,
+          301.97857666015625
+        ],
+        [
+          69.33813166618347,
+          301.97857666015625
+        ]
+      ]
+    },
+    {
+      "title": "*Jak\u00e1 je v\u00fdhoda vyu\u017eit\u00ed vlnkov\u00e9 transformace proti rozkladu do harmonick\u00fdch \nb\u00e1zov\u00fdch funkc\u00ed p\u0159i kompresi obrazu?",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          70.8239974975586,
+          336.20333045721054
+        ],
+        [
+          477.3935127258301,
+          336.20333045721054
+        ],
+        [
+          476.2294502258301,
+          365.905919611454
+        ],
+        [
+          69.79144036769867,
+          365.905919611454
+        ]
+      ]
+    },
+    {
+      "title": "*Jak se li\u0161\u00ed kompresn\u00ed artefakty, kter\u00e9 vznikaj\u00ed p\u0159i kompresi obrazu podle standard\u016f\nJPEG a JPEG2000?",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          70.29180109500885,
+          405.56076341867447
+        ],
+        [
+          506.0208959579468,
+          405.56076341867447
+        ],
+        [
+          506.0208959579468,
+          438.99564254283905
+        ],
+        [
+          70.29180109500885,
+          438.99564254283905
+        ]
+      ]
+    },
+    {
+      "title": "*Jak\u00e9 transformace jsou pou\u017eity ve standardech pro kompresi obrazu JPEG a \nJPEG2000?",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          70.77203726768494,
+          477.2965384721756
+        ],
+        [
+          470.5263681411743,
+          477.2965384721756
+        ],
+        [
+          469.3623056411743,
+          511.02940356731415
+        ],
+        [
+          69.60797476768494,
+          511.02940356731415
+        ]
+      ]
+    },
+    {
+      "title": "*Vysv\u011btlete z\u00e1kladn\u00ed princip blokov\u00e9ho odhadu pohybu ME (Motion Estimation) p\u0159i \nk\u00f3dov\u00e1n\u00ed videa s vyu \u25aa Rozd\u011blen\u00ed aktu\u00e1ln\u00edho sn\u00edmku na makrobloky. P\u0159edchoz\u00ed sn\u00edmek \nbude slou\u017eit jako reference.",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          70.8239974975586,
+          549.2765491008759
+        ],
+        [
+          519.1662976741791,
+          549.2765491008759
+        ],
+        [
+          518.5059814453125,
+          594.2029466629028
+        ],
+        [
+          69.75770998001099,
+          594.2029466629028
+        ]
+      ]
+    },
+    {
+      "title": "*Nakreslete a vysv\u011btlete z\u00e1kladn\u00ed principi\u00e1ln\u00ed sch\u00e9ma hybridn\u00edho DPCM/DCT kod\u00e9ru \npro k\u00f3dov\u00e1n\u00ed videa.",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          70.57480597496033,
+          71.2570151090622
+        ],
+        [
+          508.1860046386719,
+          71.2570151090622
+        ],
+        [
+          508.1860046386719,
+          103.65184164047241
+        ],
+        [
+          70.57480597496033,
+          103.65184164047241
+        ]
+      ]
+    },
+    {
+      "title": "Subjektivn\u00ed:",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          70.8239974975586,
+          242.6515445113182
+        ],
+        [
+          134.58987748622894,
+          242.6515445113182
+        ],
+        [
+          133.42581498622894,
+          257.38607877492905
+        ],
+        [
+          69.87915003299713,
+          257.38607877492905
+        ]
+      ]
+    },
+    {
+      "title": "6. Obrazov\u00e9 displeje",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          70.42972001433372,
+          370.16422069072723
+        ],
+        [
+          216.05434107780457,
+          370.16422069072723
+        ],
+        [
+          214.89027857780457,
+          390.75528967380524
+        ],
+        [
+          69.26565751433372,
+          390.75528967380524
+        ]
+      ]
+    },
+    {
+      "title": "*Vysv\u011btlete, \u010d\u00edm je ovlivn\u011bn rozsah reprodukovan\u00fdch barev na dan\u00e9m rozbrazova\u010di a jak\nsouvis\u00ed s definovan\u00fdm barevn\u00fdm prostorem, nap\u0159. ITU-R Rec. BT. 601, 709, 2020, sRGB,\nAdobe RGB.",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          70.62178695201874,
+          392.04953998327255
+        ],
+        [
+          528.2028799057007,
+          392.04953998327255
+        ],
+        [
+          527.0388174057007,
+          435.7832157611847
+        ],
+        [
+          69.45772445201874,
+          435.7832157611847
+        ]
+      ]
+    },
+    {
+      "title": "*Vysv\u011btlete principin\u00e1ln\u00ed rozd\u00edl zobrazova\u010d\u016f podle zp\u016fsobu vzniku obrazu (a) p\u0159\u00edmo\nvyza\u0159uj\u00edc\u00ed (sv\u011bteln\u00e9 zdroje) a (b) nep\u0159\u00edmo vyza\u0159uj\u00edc\u00ed (sv\u011bteln\u00e9 ventily, modul\u00e1tory). Jak\u00e9\ntypy displej\u016f podle technologie pat\u0159\u00ed do jednotliv\u00fdch skupin?",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          70.23570811748505,
+          476.070015668869
+        ],
+        [
+          523.4420461654663,
+          476.070015668869
+        ],
+        [
+          523.4420461654663,
+          520.2167062759399
+        ],
+        [
+          70.23570811748505,
+          520.2167062759399
+        ]
+      ]
+    },
+    {
+      "title": "V\u00fdhody:",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          70.00049239397049,
+          171.73051956295967
+        ],
+        [
+          116.09337800741196,
+          171.73051956295967
+        ],
+        [
+          116.09337800741196,
+          186.55210337042809
+        ],
+        [
+          70.00049239397049,
+          186.55210337042809
+        ]
+      ]
+    },
+    {
+      "title": "Nev\u00fdhody:",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          69.95899993181229,
+          219.58419328927994
+        ],
+        [
+          128.57626801729202,
+          219.58419328927994
+        ],
+        [
+          128.57626801729202,
+          234.55636352300644
+        ],
+        [
+          69.95899993181229,
+          234.55636352300644
+        ]
+      ]
+    },
+    {
+      "title": "*Vysv\u011btlete z\u00e1kladn\u00ed princip funkce obrazov\u00e9ho displeje zalo\u017een\u00e9ho na technologii \nOLED (Organic Light-Emitting Diode). Jak\u00e9 jsou v\u00fdhody a nev\u00fdhody t\u00e9to technologie?\nOLED = organic LED",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          70.56716823577881,
+          314.42746925354004
+        ],
+        [
+          516.0244514942169,
+          314.42746925354004
+        ],
+        [
+          514.8603889942169,
+          358.05301690101624
+        ],
+        [
+          69.40310573577881,
+          358.05301690101624
+        ]
+      ]
+    },
+    {
+      "title": "V\u00fdhody:",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          70.8239974975586,
+          390.93638986349106
+        ],
+        [
+          116.6319984793663,
+          390.93638986349106
+        ],
+        [
+          115.4679359793663,
+          406.2879746556282
+        ],
+        [
+          69.7616975903511,
+          406.2879746556282
+        ]
+      ]
+    },
+    {
+      "title": "Nev\u00fdhody:",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          70.74391973018646,
+          487.19614684581757
+        ],
+        [
+          128.9418226480484,
+          485.55161559581757
+        ],
+        [
+          127.7777601480484,
+          500.9527350664139
+        ],
+        [
+          69.57985723018646,
+          502.5972663164139
+        ]
+      ]
+    },
+    {
+      "title": "*Vysv\u011btlete z\u00e1kladn\u00ed princip funkce projek\u010dn\u00edho zobrazov\u00e1n\u00ed zalo\u017een\u00e9ho na technologii \nDLP (Digital Light Processing) respektive DMD (Digital Micromirror Device).",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          70.33832025527954,
+          566.3621989488602
+        ],
+        [
+          525.8886804580688,
+          564.7176676988602
+        ],
+        [
+          524.7246179580688,
+          594.3729304075241
+        ],
+        [
+          69.17425775527954,
+          596.0174616575241
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          94
+        ],
+        [
+          "Line",
+          23
+        ],
+        [
+          "ListItem",
+          13
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          167
+        ],
+        [
+          "Line",
+          25
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Figure",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListGroup",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          53
+        ],
+        [
+          "Line",
+          8
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          37
+        ],
+        [
+          "Line",
+          12
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          49
+        ],
+        [
+          "Line",
+          15
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "Figure",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          32
+        ],
+        [
+          "Line",
+          9
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          68
+        ],
+        [
+          "Line",
+          16
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Handwriting",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          156
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          70
+        ],
+        [
+          "Line",
+          16
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          132
+        ],
+        [
+          "Line",
+          28
+        ],
+        [
+          "ListItem",
+          11
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListGroup",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          116
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "ListItem",
+          17
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "ListGroup",
+          5
+        ],
+        [
+          "Text",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Figure",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\AVT video - hv\u011bzdi\u010dky_3-6"
+}

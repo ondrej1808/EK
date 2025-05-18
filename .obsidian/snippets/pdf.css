@@ -1,0 +1,9 @@
+/* Hide alt text of PDF embed */
+.internal-embed.pdf-embed::before {
+    display: none;
+}
+
+/* ![[filename.pdf|fix]] will block pointer events */
+.internal-embed.pdf-embed.pdf-container {
+    pointer-events: none;
+}
