@@ -33,15 +33,15 @@ $$
 #### Kulová, rovinná a válcová vlna (řešení vlnové rovnice)
 - Rovinná
 $$
-u(x,t) = A \cos(kx - \omega t + \varphi)
+u(x,t) = A\cdot e^{j(kx - \omega t + \varphi)}
 $$
 - Válcová
 $$
-u(r,t) = \frac{A}{\sqrt{r}} \cos(kr - \omega t + \varphi)
+u(r,t) = \frac{A}{\sqrt{r}} e^{j(kr - \omega t + \varphi)}
 $$
 - Kulová
 $$
-u(r,t) = \frac{A}{r} \cos(kr - \omega t + \varphi)
+u(r,t) = \frac{A}{r} e^{j(kr - \omega t + \varphi)}
 $$
 Odvození pro fajnšmkery:
 $\Delta u - \frac{1}{c^2}\frac{\partial^2 u}{\partial t^2} = 0$
