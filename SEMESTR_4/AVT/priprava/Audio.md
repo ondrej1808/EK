@@ -94,8 +94,7 @@ $$\frac{\Delta S}{S}=k$$
 #### Co to je JND
 - Just noticeble difference
 - Právě postřehnutelný rozdíl pro hladinu akustického tlaku
-- kmitočtově závislé, pro každý subjekt jiné, přibližně 1-2 dB pro kmitočet
-- v pásmu nejvyšší citlivosti přibližně 2-3 Hz
+- kmitočtově závislé, pro každý subjekt jiné, přibližně 1-2 dB pro kmitočet v pásmu nejvyšší citlivosti rozlišíme přibližně 2-3 Hz
 #### Princip lokalizace zdrojů zvuku v horizontální rovině
 - Zvuk vleze do jednoho ucha, ohýbá se kolem hlavy což ublíží nějakým kmitočtům a spektrálním rozdílům, pak vleze do druhého ucha -> z toho mozek vyhodnotí odkud zvuk přišel
 #### Princip lokalizace zdrojů zvuku v mediální rovině
@@ -113,7 +112,7 @@ $$
 - prostředí je spojité, stlačitelné, homogenní, izotropní, neviskózní (bez ztrát), v klidu 
 - výchylky všech veličin jsou malé (linearizace úlohy) 
 - akustické pole se předpokládá za nevírové (pole je gradientní) 
-- akustické děje jako adiabatický termodynamický děj
+- akustické děje jako adiabatický termodynamický děj - nemění se teplota změnami tlaku
 #### Řešení vlnové rovnice pro kulovou a rovinnou vlnu
 
 1. **Rovinná vlna**  
@@ -138,7 +137,7 @@ $$
 <div style="page-break-after: always;"></div>
 
 #### Systém elektroakustických analogií, analogické veličiny a prvky
-# Systém elektroakustických analogií
+#### Systém elektroakustických analogií
 
 nvm chat věc:
 
