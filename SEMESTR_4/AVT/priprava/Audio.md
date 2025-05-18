@@ -1,5 +1,5 @@
 #### Co je to zvuk
-- Podélná tlaková vlna, které vznikají pohybem částic v látce - nejčastěji vzduch
+- Podélná tlaková vlna, která vzniká pohybem částic v látce - nejčastěji vzduch
 - Změna tlaku v prostoru a čase
 #### Jakými veličinami zvuk popisujeme
 chat
