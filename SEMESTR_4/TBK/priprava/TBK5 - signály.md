@@ -48,7 +48,7 @@ $$
 ##### OFDM = Orthogonal Frequency Division Multiplexing
 - Modulační technika využívající mnoho ortogonálních podnosičů.
 - Používá se v systémech jako Wi-Fi, LTE, 5G, DVB-T, DAB.
-- Každý podnosič přenáší část dat paralelně.
+	- Každý podnosič přenáší část dat paralelně.
 ###### Výhody
 - Odolnost vůči únikům = změny amplitudy přijatých VF signálů vznikajících jako důsledek odrazů EM vln při šíření a atmosférickými vlivy - podrobnost dále v kurzu.
 - Vysoká spektrální účinnost (nosné se překrývají).

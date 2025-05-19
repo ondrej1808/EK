@@ -106,7 +106,7 @@ $$L=L_{Vost}+L_{Post}$$
 - Přízemní prostorová vlna
 	- desítky MHz
 	- šíří se přímo nebo odrazy (od krajiny atd.)
-- Vlnovodným kanálem
+	- Vlnovodným kanálem
 	- Využívá se refrakčních/ohybových vlastností jevů v troposféře
 	- Tento jev se vyskytuje na frekvencích nad cca 500 MHz
 - Troposférická vlna

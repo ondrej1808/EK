@@ -117,7 +117,7 @@ $$F=\frac{N_2}{GN_1}=\frac{kT_0B}{kT_0B/L}=L$$
 - Celkový šum bude $N_2 = k T_0 BG_1 G_2+G_2N_{a1}+N_{a2}$
 $$N_2=kT_0BG_1G_2+G_1(F_1-1)kT_0BG_2+(F_2-1)kT_0BG_2$$
 $$N_2=kT_0B[G_1G_2+G_1G_2(F-1)+G_2(F_2-1)]$$
-$$\frac{N_2}{GkT_0B}=G_1G_2+G_1G_2(F-1)+G_2(F_2-1)$$
+$$\frac{N_2}{kT_0B}=G_1G_2+G_1G_2(F-1)+G_2(F_2-1)$$
 $$F_C=\frac{N_2}{GkT_0BG_1G_2}=\frac{G_1G_2+G_1G_2(F-1)+G_2(F_2-1)}{G_1G_2}$$
 $$F_C=F+\frac{F_2-1}{G_1}$$
 - výsledný vztah se nazývá Frisův vztah

@@ -255,12 +255,12 @@ $$\omega_0=\omega_{IF}+\omega_{LO}$$
 	konstruuje z duplexerů (VF přepínače)
 	dixplexer = speciální slučovací filtr
 #### Vysvětlete techniky TDD a FDD.
-	TDD
-		Time division duplexing
-		duplexery
-		jeddoduché
-		omezená přenosvá rychlost
-	FDD 
-		Frequency division duplexing
-		dipluxery
-		jdou s tím dělat brikule
+TDD
+	Time division duplexing
+	duplexery
+	jeddoduché
+	omezená přenosvá rychlost
+FDD 
+	Frequency division duplexing
+	dipluxery
+	jdou s tím dělat brikule

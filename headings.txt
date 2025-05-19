@@ -1,0 +1,83 @@
+Napište 6 základních energetických (signálových) domén obklopujících náš reálný svět
+Vysvětlete pojmy: Transducer, Senzor, Aktuátor, Procesor. Nakreslete obrázek, jak souvisí senzor, aktuátor a procesor
+Nakreslete, jak vzniká doména MEMS, MOES, co vyjadřuje zkratka
+Nakreslete příklad průniku 4 energetických domén
+Uveďte 3 hlavní funkce měřicího (regulačního) řetězce
+Definujte první, druhé a třetí generace senzorů
+Aktivní a pasivní senzory. Definujte aktivní a pasivní senzor. Uveďte konkrétní příklady senzorů pro obě skupiny. Principiální blokové zapojení pro měření fyzikální veličiny (pasivní a aktivní senzor).
+Napište alespoň 5 základních požadavků na výběr senzoru
+Nakreslete princip vytváření senzorových sítí pro IoT
+Nakreslete princip činnosti senzorového uzlu a jeho a zapojení do senzorové sítě
+Napište základní typy parametrů charakterizujících senzor (3 typy)
+Vyjmenujte alespoň 5 základních statických parametrů charakterizujících senzor
+Nakreslete obecnou a ideální převodní charakteristiku senzoru, napište základní rovnice popisující charakteristiky
+Nakreslete princip vzniku aditivní a multiplikativní chyby
+Nakreslete princip kalibrace nelineárních senzorů
+Napište matematický vztah pro definice přesnosti
+Napište matematický vztah pro rozlišovací schopnost
+Napište matematický vztah pro průměrnou rozlišovací schopnost
+Napište matematické vztahy pro citlivost, selektivitu, citlivost multisenzorového systému
+Napište vztah pro minimální detekovatelný signál
+Nakreslete křivky vyjadřující hysterezi a reprodukovatelnost
+Nakreslete elektrický model senzoru s napěťovým výstupem a připojením zátěže, napište podmínky mezi výstupní impedancí senzoru s napěťovým výstupem a vstupní impedancí zátěže
+Nakreslete elektrický model senzoru s proudovým výstupem a připojením zátěže, napište podmínky mezi výstupní impedancí senzoru s proudovým výstupem a vstupní impedancí zátěže
+Nakreslete a popište charakteristiky včetně os: pracovní rozsah senzoru, práh měření
+Nakreslete model senzoru jako black-box s příkladem vstupního a výstupního zpětného působení
+Nakreslete model senzoru s působením chybových veličin: uveďte příklady chybových veličin, hlavních a vedlejších vstupních veličin
+Nakreslete princip kompenzační metody ke zmenšení chyb (např. vyloučení vlivu teploty na měření)
+Nakreslete princip diferenciální metody ke zmenšení chyb (např. vyloučení vlivu posunutí na měření)
+Nakreslete blokově princip zpětnovazební metody pro zmenšování chyb
+Nakreslete blokově princip linearizace sériovým členem pro zmenšování chyb
+Nakreslete blokově princip korekce dynamické charakteristiky senzoru
+Kapacitní senzor: Napište základní rovnici pro výpočet kapacity deskového kondenzátoru a k ní napište diferenciální rovnici popisující změnu kapacity, Nakreslete náhradní zapojení pro připojení kapacitního senzoru k měřicímu obvodu, K náhradnímu obvodu napište nerovnici pro určení frekvence napájecího signálu
+Nakreslete princip činnosti a převodní charakteristiku pro změnu kapacity změnou vzdálenosti elektrod
+Nakreslete princip činnosti a převodní charakteristiku pro změnu kapacity vzájemným posuvem elektrod
+Nakreslete princip činnosti a převodní charakteristiku pro změnu kapacity zasouváním dielektrika
+Nakreslete princip činnosti a převodní charakteristiku pro změnu kapacity změnou vlastností dielektrika
+Nakreslete základní zapojení pro vyhodnocování kapacity s napěťovým kapacitním děličem a střídavým a stejnosměrným výstupním signálem, synchronním demodulátorem
+Nakreslete základní zapojení pro vyhodnocování kapacity se zesilovačem se zpětnou vazbou
+Nakreslete základní zapojení pro vyhodnocování kapacity s kapacitním můstkem
+Nakreslete základní zapojení pro vyhodnocování kapacity s oscilátorem
+Kapacitní senzor: Napište základní rovnici pro výpočet kapacity deskového kondenzátoru a k ní napište diferenciální rovnici popisující změnu kapacity
+Nakreslete náhradní zapojení pro připojení kapacitního senzoru k měřicímu obvodu, K náhradnímu obvodu napište nerovnici pro určení frekvence napájecího signálu
+Nakreslete princip činnosti a převodní charakteristiku pro změnu kapacity změnou vzdálenosti elektrod
+Nakreslete princip činnosti a převodní charakteristiku pro změnu kapacity vzájemným posuvem elektrod
+Nakreslete princip činnosti a převodní charakteristiku pro změnu kapacity zasouváním dielektrika
+Nakreslete princip činnosti a převodní charakteristiku pro změnu kapacity změnou vlastností dielektrika
+Nakreslete základní zapojení pro vyhodnocování kapacity s napěťovým kapacitním děličem a střídavým a stejnosměrným výstupním signálem, synchronním demodulátorem
+Nakreslete základní zapojení pro vyhodnocování kapacity se zesilovačem se zpětnou
+Nakreslete základní zapojení pro vyhodnocování kapacity s kapacitním můstkem
+Nakreslete základní zapojení pro vyhodnocování kapacity s oscilátorem
+Piezoodporový jev: definujte deformaci elastickou a deformaci plastickou
+Hookův zákon: Napište matematický vztah, co vyjadřují jednotlivé jeho členy
+Napište vztah pro výpočet elektrického odporu odporového materiálu (kov, polovodič) v závislosti na jeho délce, průřezu a měrném odporu.
+ Objemová deformace: Nakreslete princip činnosti senzoru pro objemovou deformaci piezoodporového materiálu mechanické namáhání a napište rovnici pro výpočet závislosti změny odporu na působícím tlaku, tj. ∆R=f(p)
+ Podélná deformace: Nakreslete princip činnosti senzoru pro podélnou deformaci piezoodporového materiálu mechanickým namáháním a napište rovnici pro výpočet závislosti změny odporu na jeho relativní změně délky, tj. ∆R=f(Δl)
+Kovové tenzometry s volným drátkem: Nakreslete základní konstrukční uspořádání, Používané materiály, typická citlivost K, rozměry
+Lepené kovové drátkové tenzometry: Nakreslete základní konstrukční uspořádání, Používané materiály, typická citlivost K, rozměry
+Fóliové kovové tenzometry: Nakreslete 2 příklady uspořádání tenzometrů
+Piezoodporový jev v polovodičích: typické používané polovodičové materiály
+Polovodičové lepené tenzometry: Nakreslete konstrukční uspořádání lepeného polovodičového tenzometru, typické rozměry
+Polovodičové difúzní tenzometry: Nakreslete konstrukční uspořádání polovodičového difúzního tenzometru, typické rozměry
+Polovodičové tenzometry: napište definici teplotního součinitele odporu polovodičového tenzometru
+Tenzometry – vyhodnocování signálu: Nakreslete zapojení tenzometrů do tenzometrického můstku, napište podmínku vyvážení můstku
+Tenzometry – vyhodnocování signálu: Nakreslete princip kompenzace teploty v můstku
+Tenzometry – vyhodnocování signálu: Nakreslete princip zvýšení citlivosti 2x v můstku
+Tenzometry – vyhodnocování signálu: Nakreslete princip zvýšení citlivosti 4x v můstku
+Nakreslete princip činnosti tlakového senzoru pro měření absolutního tlaku a senzoru pro měření diferenciálního tlaku.
+Napište alespoň 3 základní typy polovodičových tlakových senzorů
+Nakreslete základní uspořádání piezoelektrického tlakového senzoru se 4 piezoodporovými tenzometry na membráně Nakreslete obvodové zapojení s můstkem pro vyhodnocování signálu ze 4 piezoodporů tlakového senzoru
+Nakreslete zjednodušené elektronické obvodové zapojení s můstkem pro vyhodnocování signálu z piezoodporů tlakového senzoru. Do zapojení nakreslete princip jednoduché teplotní kompenzace s termistorem.
+Podélný piezoelektrický jev: Nakreslete princip činnosti piezoelektrického senzoru, Napište základní rovnice pro výpočet náboje a napětí.
+Příčný piezoelektrický jev: Nakreslete princip činnosti piezoelektrického senzoru, Napište základní rovnice pro výpočet náboje a napětí se zahrnutím vektoru polarizace, význam jednotlivých členů v rovnicích.
+Piezoelektrické materiály: Napište alespoň 3 základní typy piezoelektrických materiálů, vysvětlete pojem polarizace piezoelektrického materiálu.
+Piezoelektrické materiály: Napište názvy 3 typických piezoelektrických materiálů, nakreslete příklad teplotní závislosti s Curie teplotou, jaký význam má tato teplota.
+Piezoelektrický senzor: nakreslete základní typy mechanického zatěžování piezoelektrické struktury
+Piezoelektrický aktuátor: nakreslete alespoň 3 základní struktury piezoelektrických aktuátorů (nosník, torze, dilatace), porovnejte sílu a posun u těchto struktur.
+Vyhodnocování signálů z piezoelektrických senzorů: Nakreslete náhradní elektrický model piezoelektrického senzoru, nakreslete připojení vyhodnocovacího obvodu, Definujte podmínku pro vstupní impedanci připojeného elektrického vyhodnocovacího obvodu.
+Vyhodnocování signálů z piezoelektrických senzorů: Nakreslete zjednodušeně příklady dvou impedančních oddělovačů připojovaných na výstup piezoelektrického senzoru a převádějících vysokou impedanci na nízkou.
+SAW senzory: Nakreslete základní princip činnosti senzorů s povrchově akustickou vlnou, význam budící a snímací interdigitální struktury.
+Vyhodnocování signálu ze SAW senzorů: Nakreslete senzor se základním elektronickým vyhodnocovacím obvodem, nakreslete výstup signálu, v jaké formě je výstupní signál.
+SAW senzory: Nakreslete základní princip činnosti senzoru SAW pro měření teploty
+SAW senzory: Nakreslete základní princip činnosti senzoru SAW pro měření vlhkosti
+SAW senzory: Nakreslete základní princip činnosti senzoru SAW pro měření chemických látek
