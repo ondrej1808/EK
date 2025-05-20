@@ -11,7 +11,7 @@ $$R_d,R_s,\omega L_s<<\omega L<<\frac{1}{\omega C},\frac{1}{omegaC_k},R_k$$
 - Indukčnost závisí na průřezu jádra (S), délce cívky (L), počtu závitů (N) a permeabilitě (μ). Změnou indukčnosti dochází ke změně impedance cívky, což lze využít pro detekci fyzikálních veličin.
 #### Indukčnostní (induktanční) senzor (pasivní) s malou vzduchovou mezerou: Nakreslete princip činnosti a převodní charakteristiku pro změnu indukčnosti se změnou vzduchové mezery
 ![[airgap_induction_vole.png]]
-#### Indukčnostní (induktanční) senzor (pasivní) s posunutím jádra: Nakreslete princip činnosti a převodní charakteristiku Ljako funkci posunutí třmene
+#### Indukčnostní (induktanční) senzor (pasivní) s posunutím jádra: Nakreslete princip činnosti a převodní charakteristiku L jako funkci posunutí třmene
 ![[induktrmen.png]]
 #### Indukčnostní (induktanční) senzor (pasivní) s potlačeným magnetickým polem : Nakreslete a vysvětlete princip činnosti
 ![[pasivni_s_potlacenim_inudodm.png]]
@@ -35,7 +35,7 @@ $$u=-N\frac{d\varPhi}{dt}$$
 #### Indukční (magnetoinduktivní) senzor elektrodynamický (aktivní) : Nakreslete princip činnosti senzoru, napište magnetoinduktivní rovnici pro výstupní napětí, nakreslete zjednodušený obvod pro vyhodnocování výstupního signálu
 ![[magnetoinduktivni.png]]
 - magnetoinduktivní rovnice
-$$u=Bve$$
+$$u=Bvl$$
 #### Magnetoelastický senzor: Nakreslete a vysvětlete princip činnosti. Nakreslete příklad závislosti permeability, resp. indukčnosti na působící síle (mechanickém namáhání). Nakreslete příklad konstrukce magnetoelastických (lístkových) tenzometrů
 ![[magnetoelasticky.png]]
 #### Magnetosktriční senzor: Nakreslete a vysvětlete princip činnosti
