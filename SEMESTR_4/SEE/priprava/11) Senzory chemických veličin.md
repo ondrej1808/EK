@@ -5,7 +5,7 @@
 
 #### Chemické senzory se změnou vodivosti – tenkovrstvové: Nakreslete a vysvětlete princip a konstrukční uspořádání současně i jako teplotní senzor citlivé vrstvy.
 ![[chem_senzor_zmen_vodiv.png]]
-- Součástí tohoto uspořádání je ve většině případů vyhřívací element, převážně z platiny (Pt), který díky své vysoké závislosti rezistivity na teplotě často slouží
+- Součástí tohoto uspořádání je ve většině případů vyhřívací element, převážně z platiny (Pt), který díky své vysoké závislosti rezistivity na teplotě často slouží současně i jako kontrolní senzor teploty citlivé vrstvy
 
 #### Chemokapacitory (Senzory se změnou kapacity): nakreslete a vysvětlete princip činnosti
 ![[chemokap.png]]

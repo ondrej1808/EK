@@ -90,7 +90,7 @@ $$A_{ef}=\Big(\frac{\lambda^2}{4\pi}\Big)G$$
 - Nesmí nastávat odrazy od okolního prostředí, resp. musí být ve volném prostředí
 #### Popište základní výkonovou bilanci rádiového spoje.
 - Tu popisuje friisův vztah
-$$P_R=P_{p0}=P_T+G_{Tx}+G_{Rx}-FSL-L$$
+$$P_R+P_{p0}=P_T+G_{Tx}+G_{Rx}-FSL-L$$
 $$L=L_{Vost}+L_{Post}$$
 ![[vykon_bilance.png]]
 
