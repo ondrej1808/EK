@@ -51,4 +51,4 @@ $$u=Bvl$$
 - Bez zatížení:
 	- Magnetický tok z primárního vinutí neindukuje napětí ve vinutí sekundárním
 - Při deformaci:
-	- vznikne magnetická aizotropie, zbýší se magnetická vazba -> na výstupu vzniká napětí úměrné mechanickému namáhání
+	- vznikne magnetická anizotropie, zvýší se magnetická vazba -> na výstupu vzniká napětí úměrné mechanickému namáhání
