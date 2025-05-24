@@ -131,8 +131,54 @@ $$\beta A=\frac{U_o(s)}{U_1(s)}\cdot\frac{U_{\beta}(s)}{U_o(s)}=\frac{U_{\beta}}
 - $R_Z$ určíme tak aby byla zpětná vazba zatížena stejně jako při nerozpojeném ZV systému
 ![[nyquist.png]]
 - Kmitočtová charakteristika v ReIm rovinně nesmí obkroužit jedničku na reálné ose jinak je soustava nestabilní
-![[real_imaginery.png]]
+![[cary_carky.png]]
+- Fázová jistota
+	- je to doporučená minimální hodnota fáze, kde je velikost frekvenční charakteristiky jendotková, viz obrázek
+	- Doplňkový zisk je pro stejnou frekvenční charakteristiku, bod kde frekvenční charakteristika protínná reálnou osu
+$$\varphi_a>30°$$
+$$\omega_{0\varphi}<1/GM$$
+- Kmitočtová kompenzace
+	- Pro vysoké frekvence klesá zesilení a posouvá se fáze
+	- Při posunu fáze na 180° se ze záporné zpětné vazby stane kladná a soustava začne být nestabilní
+	- Kompenzace je buďto přímo v součástce nebo ji přidáváme z externích součástek
+
+#### Nakreslete invertující/neinvertující zesilovač s OZ a odvoďte vztah pro napěťové zesílení v případě ideálního OZ. Jaký je vstupní odpor zapojení?
+![[invertujici_zesilovac_OZ.png]]
+
+![[neinvertujici_OZ.png]]
+
+#### Nakreslete zapojení invertujícího sumátoru s OZ a odvoďte vztah pro výstupní napětí v případě ideálního OZ.
+![[invertující_sumator.png]]
+
+#### Nakreslete rozdílový zesilovač s OZ a odvoďte vztah pro výstupní napětí v případě ideálního OZ. Definujte rozdílovou a souhlasnou složku vstupního signálu a odvoďte podmínku, pro kterou je souhlasná složka zesílení nulová. Co udává parametr CMRR?
+![[rozdilovy_zesik 1.png]]
+$$CMRR=\Big|\frac{A_d}{A_s}\Big|$$
+- Pokud se chceme zbavit souhlasného rušení/složky, tak na vstupy přivedeme signál jednou ve fázi a druhý o 180° posunutý, jelikož se bude na oba signály bude vytvářet stejné souhlasné rušení, tak se ve výsledném signálu vyruší
+![[rušenicko.png]]
+![[odvozeni_souhlasne_a_dif.png]]
+
+#### Nakreslete zapojení převodníku proud-napětí s OZ a odvoďte převodní vztah pro případ ideálního OZ. Jaké jsou hlavní výhody a nevýhody uvedené implementace.
+
+- Odvození: Apply Ohmův zákon na ten odpor 
+![[proud-napeti.png]]
+- Výhoda: vstupní odpor je téměř nulový
+- Nevýhoda: 
+	- Pro malé proudy (uA, nA) musíme dávat bacha na vstupní proud OZ
+	- Pro velké proudy (10x mA - A), potřebujeme nahradit odpor tranzistorem, abychom zvýšili proudový výstup operáku
+
+#### Nakreslete zapojení ideálního a ztrátového invertujícího integrátoru s OZ. Odvoďte jejich přenos a nakreslete modulové charakteristiky s popisem významných hodnot uvedených v odvození.
+
+![[ztratovy_integrator.png]]
+
+#### Nakreslete zapojení neinvertujícího/invertujícího komparátoru s hysterezí, uveďte jeho převodní charakteristiku a odvoďte vztahy pro překlápěcí úrovně.
+![[invertujici_komparator.png]]
+![[neinvertujici_komparator.png]]
+#### Nakreslete principiální zapojení obvodu S&H (Sample and Hold) s OZ
+![[sample_hold.png]]
+
+#### Nakreslete model ideálního a reálného operačního zesilovače zahrnujícího napěťovou nesymetrii a vstupní proudy a odvoďte vliv těchto parametrů na výstupní napětí invertujícího/neinvertujícího zapojení zesilovače.
 
 
 
 
+#### Nakreslete typické modulové charakteristiky invertujícího zesilovače s OZ pro zesílení Au = 1, 10 a 100, pokud je tranzitní kmitočet OZ ft = 1 MHz. Napište vztah pro základní kmitočtovou závislost vlastního zesílení OZ a vztah pro šířku pásma neinvertujícího i invertujícího zesilovače
