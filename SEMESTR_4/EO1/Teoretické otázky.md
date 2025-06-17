@@ -1,11 +1,14 @@
 #### Napište jaké jsou možnosti určení časové odezvy lineárního systému na obecný vstupní signál a uveďte postup výpočtu. Jaké znáte standardizované odezvy a k čemu je lze použít
 
-- Časová odezva $h(t)$ nám říká, jaký signál se objeví na výstupu $y(t)$ s ohledem na daný vstup $u(t)$
+- Časová odezva $y(t)$ nám říká, jaký signál se objeví na výstupu s ohledem na daný vstup $u(t)$
+
 - Lze určit:
-	- Vyřešením diferinciálních rovnic, které popisují soustavu
-	- Zpětnou Laplacovou transformací přenosové funkce $H(s)$
-	- Zpětnou Fourierovou transformací kmitočtové charakteristiky $H(j\omega)$
-	- Nebo derivací přechodové charakteristiky 
+	- Vyřešením diferenciálních rovnic, které popisují soustavu
+	- Konvolucí vstupního signálu a impulsní odezvy
+	$$y(t)=h(t)*x(t)=\int_{-\infty}^{\infty}h(\tau)x(t-\tau)d\tau$$
+	- Zpětnou Laplace transformací obrazu vstupního signálu krát přenosová funkce
+	$$y(t)=\mathcal{L}^{-1}\{Y(s)\}=\mathcal{L}^{-1}\{H(s)\cdot Y(s)\}$$
+ 
 - Využití:
 	- Vyřešení diferenciálních rovnic systému, nejdříve je ztransforumjeme, vyřešíme jako algebraickou rovnici, poté zpětně transformuje
 	- Dokážeme zjistit odezvu systému na jakýkoliv signál pomocí konvoluce vstupního signálu $u(t)$ a impulsní=časové odezvy $h(t)$, případně součinemem přenosové charakteristiky $H(s)$ a obrazu vstupního signálu $U(S)$
@@ -32,11 +35,11 @@ $$H(s)=\frac{Y(s)}{U(s)}$$
 		- $\mathcal{L}^{-1}\{W(s)\}=\mathcal{L}^{-1}\{sH(s)\}=w(t)$
 		- $\frac{d}{dt}\mathcal{L}^{-1}\{H(s)\}=\frac{dh(t)}{dt}=w(t)$
 - Přenosová funkce stabilního systému:
-	- Má ve tvaru racionáln lomené funkce, kořeny čitatele a jmenovatele (nuly a póly) v levé polorovině imaginární plochy, buďto reálné záporné, nebo komplexně sdružené z s reálnou složkou záporné
+	- Má ve tvaru racionáln lomené funkce, kořeny čitatele a jmenovatele (nuly a póly) v levé polorovině real-imaginární plochy, buďto reálné záporné, nebo komplexně sdružené s reálnou složkou záporné
 	- Pro tyto kořeny vychází časová odezva v nekonečném čase konečná
 	- Pro komplexní kořeny je kmitavá, ale stále konečná
 
-Napište přenosovou funkci kmitočtového filtru 2. řádu typu dolní/horní/pásmová propust, případně pásmová zádrž. Definujte jednotlivé parametry a vysvětlete, co určují - ilustrujte graficky v kmitočtové i časové oblasti
+#### Napište přenosovou funkci kmitočtového filtru 2. řádu typu dolní/horní/pásmová propust, případně pásmová zádrž. Definujte jednotlivé parametry a vysvětlete, co určují - ilustrujte graficky v kmitočtové i časové oblasti
 
 - Dolní propust
 	$$H_{LP2}(s)=\frac{H_0\omega_0^2}{s^2+\frac{\omega_0}{Q}s+\omega_0^2}$$
@@ -118,14 +121,14 @@ $$A'=\frac{u_o}{u_i}=\frac{A}{1-\beta A}=\frac{A}{F}$$
 		![[seriova_proudova.png]]
 	- paralelní:
 		- napěťová
-		- vstupní odpor: $R_{in}=\frac{R_i}{1-\beta A}$
-		- výstupní odpor: $R_{out}=R_o(1-\beta A)$
+		- vstupní odpor: $R_{in}=\frac{R_i}{1+\beta A}$
+		- výstupní odpor: $R_{out}=R_o(1+\beta A)$
 		![[paralelni_napetova_zv7.png]]
 		- proudová
 		![[paralelni_proudova_zv.png]]
 
 #### Jak se zjišťuje stabilita ZV soustav a co musí platit pro stabilní systém? Vysvětlete pojem fázová jistota a doplňkový zisk. Co je to kmitočtová kompenzace zesilovače a proč se používá.
-
+[Experiment od šéfa](https://www.youtube.com/watch?v=fPfV-11Bh4Y&ab_channel=HospodkaJi%C5%99%C3%AD)
 - Vyšetřuje se pomocí Nyquistova kritéria, odpojíme vstupy zesilovacího členu, zpětnou vazbu zatížíme tak aby platilo:
 $$\beta A=\frac{U_o(s)}{U_1(s)}\cdot\frac{U_{\beta}(s)}{U_o(s)}=\frac{U_{\beta}}{U_1(s)}$$
 - $R_Z$ určíme tak aby byla zpětná vazba zatížena stejně jako při nerozpojeném ZV systému
@@ -136,7 +139,7 @@ $$\beta A=\frac{U_o(s)}{U_1(s)}\cdot\frac{U_{\beta}(s)}{U_o(s)}=\frac{U_{\beta}}
 	- je to doporučená minimální hodnota fáze, kde je velikost frekvenční charakteristiky jendotková, viz obrázek
 	- Doplňkový zisk je pro stejnou frekvenční charakteristiku, bod kde frekvenční charakteristika protínná reálnou osu
 $$\varphi_a>30°$$
-$$\omega_{0\varphi}<1/GM$$
+$$M_a=20log(GM)=-20log(\frac{1}{\beta A(j\omega_{0_{\varphi}})} > 10 dB$$
 - Kmitočtová kompenzace
 	- Pro vysoké frekvence klesá zesilení a posouvá se fáze
 	- Při posunu fáze na 180° se ze záporné zpětné vazby stane kladná a soustava začne být nestabilní
@@ -169,15 +172,15 @@ $$CMRR=\Big|\frac{A_d}{A_s}\Big|$$
 #### Nakreslete zapojení ideálního a ztrátového invertujícího integrátoru s OZ. Odvoďte jejich přenos a nakreslete modulové charakteristiky s popisem významných hodnot uvedených v odvození.
 
 ![[ztratovy_integrator.png]]
-
+![[ideal_integr.png]]
 #### Nakreslete zapojení neinvertujícího/invertujícího komparátoru s hysterezí, uveďte jeho převodní charakteristiku a odvoďte vztahy pro překlápěcí úrovně.
 ![[invertujici_komparator.png]]
 ![[neinvertujici_komparator.png]]
-#### Nakreslete principiální zapojení obvodu S&H (Sample and Hold) s OZ
+#### Nakreslete principiální zapojení obvodu S&H (Sample and Hold) s OZ, popište jejich funkci, vlastnosti (výhody a nevýhody daných zapojení) a využití.
 ![[sample_hold.png]]
 
 #### Nakreslete model ideálního a reálného operačního zesilovače zahrnujícího napěťovou nesymetrii a vstupní proudy a odvoďte vliv těchto parametrů na výstupní napětí invertujícího/neinvertujícího zapojení zesilovače.
-
+![[oz_real_ideal.png]]
 
 
 
